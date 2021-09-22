@@ -30,4 +30,5 @@ The file SubList.scala (in this directory) defines a relation on lists, which ho
 - Even though simplest cases may work automatically, in general you may need to prove additional lemmas
 - Prove lemmas in order; earlier lemmas (and their structure) will help you with subsequent lemmas
 
-
+## Submission
+Once you've completed all proofs, you can submite your solution SubList.scala file on Moodle.
