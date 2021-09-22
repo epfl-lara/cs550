@@ -20,7 +20,7 @@ This  repository will be the homepage of the course Formal Verification (fall 20
     - 15% Presentation of results 
     - 15% Final report
 
-##Content
+#### Content
 
 In this course we introduce formal verification as a principled approach for developing systems that do what they should do.
 
