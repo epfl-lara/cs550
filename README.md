@@ -23,8 +23,8 @@ In this course we introduce formal verification as a principled approach for dev
 
 The course has two aspects:
 
-    learning the practice of formal verification - how to use tools to construct verified software
-    understanding the principles behind formal verification and the ways in which verification tools work
+    - learning the practice of formal verification - how to use tools to construct verified software
+    - understanding the principles behind formal verification and the ways in which verification tools work
 
 The course will have material related to 2019 edition but the grading will be based only on project work. Project can be a case study in developing a verified piece of software, an implementation of verification tool functionality, or a theoretical result about verification, constraint solving or theorem proving. Students present their projects with a written report as well as by recording a presentation of the background material and project results and answering our questions.
 
