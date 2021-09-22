@@ -2,10 +2,6 @@
 
 This  repository will be the homepage of the course Formal Verification (fall 2021) and host all the material necesary for the labs. **Construct 100% correct software!** The course is project based. The first 4 weeks will consists in small labs, and student will then do a larger project in groups of 4 the rest of the semester. Theory will be given in parallel.
 
-### Early Tasks
-
-Join the discord server (If we use one?)
-
 ### Staff:
 
 - Professor: [Viktor Kunčak](https://people.epfl.ch/viktor.kuncak)
@@ -14,7 +10,7 @@ Join the discord server (If we use one?)
 
 ### Grading
 
-How will the course be graded exactly?
+The first 4 small laboratories and the larger project will be graded. The final exam is the oral defense of your project.
 
 ## Week 01: Introduction and Stainless
 
