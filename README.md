@@ -10,12 +10,12 @@ This  repository will be the homepage of the course Formal Verification (fall 20
 
 ### Grading
 
-    40% Four labs to be done in groups, each group working independently on same projects
-    60% Final project to be done in groups : you will choose a topic with our agreement
-        15% Presentation of a background paper 
-        15% Results accomplished (how hard it was, how far you got)
-        15% Presentation of results 
-        15% Final report
+- 40% Four labs to be done in groups, each group working independently on same projects
+- 60% Final project to be done in groups : you will choose a topic with our agreement
+    - 15% Presentation of a background paper 
+    - 15% Results accomplished (how hard it was, how far you got)
+    - 15% Presentation of results 
+    - 15% Final report
 
 ##Content
 
