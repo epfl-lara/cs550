@@ -11,6 +11,10 @@ This  repository will be the homepage of the course Formal Verification (fall 20
 - Professor: [Viktor Kunčak](https://people.epfl.ch/viktor.kuncak)
 - Teaching Assistant: [Simon Guilloud](https://people.epfl.ch/simon.guilloud)
 
+### Early Task
+
+The projects will consist in 4 small labs and one larger project. Students should form groups of 2 to 3 by October 1st and send their group to [Simon Guilloud](https://people.epfl.ch/simon.guilloud)
+
 ### Grading
 
 - 40% Four labs to be done in groups, each group working independently on same projects
@@ -20,7 +24,7 @@ This  repository will be the homepage of the course Formal Verification (fall 20
     - 15% Presentation of results 
     - 15% Final report
 
-#### Content
+### Content
 
 In this course we introduce formal verification as a principled approach for developing systems that do what they should do.
 
