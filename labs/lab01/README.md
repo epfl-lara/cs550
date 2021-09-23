@@ -33,4 +33,4 @@ The file SubList.scala (in this directory) defines a relation on lists, which ho
 Once you've completed all proofs, you can submite your SubList.scala file [on Moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1092878).
 
 ## Project Session
-Project session can be followed in classroom or in [zoom](The course can also be followed on [zoom](https://epfl.zoom.us/j/69030789600)).
+Project session can be followed in classroom or in [zoom](https://epfl.zoom.us/j/69030789600).
