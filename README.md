@@ -34,7 +34,8 @@ The course has two aspects:
 
 The course will follow a similar structure to the [2020 edition](https://lara.epfl.ch/w/fv20/top). The grading will be based only on project work. Project can be a case study in developing a verified piece of software, an implementation of verification tool functionality, or a theoretical result about verification, constraint solving or theorem proving. Students present their projects with a written report as well as by a live presentation of the background material and project results, answering our questions.
 
-Note that slides can be found **underneath each lecture video** on switch tube linkes below.
+Note that slides can be found **underneath each lecture video** on switch tube linkes below. The course can also be followed on [zoom](https://epfl.zoom.us/meeting/69030789600)
+
 
 | Week | Day | Date       | Time  | Room   | Topic                           | Videos & Slides              |
 | :--  | :-- | :--        | :--   | :--    | :--                             | :--                          |
