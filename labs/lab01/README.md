@@ -20,7 +20,7 @@ You can follow this tutorial in 4 videos to discover stainless:
 - [Part 4/4](https://tube.switch.ch/videos/2a9fd35c)
 
 ## Laboratory
-The file SubList.scala (in this directory) defines a relation on lists, which holds when the first list can be embedded in the second list. The goal is to prove basic properties on this relation, such as reflexivity, transitivity, and antisymmetry. More precisely, you should make Stainless accept the seven lemmas defined in the code. To do so, use **stainless –timeout=10 SubList.scala** (you can also add **-watch** if you want to actively edit your file)
+The file SubList.scala (in this directory) defines a relation on lists, which holds when the first list can be embedded in the second list. The goal is to prove basic properties on this relation, such as reflexivity, transitivity, and antisymmetry. More precisely, you should make Stainless accept the seven lemmas defined in the code. To do so, use **stainless --timeout=10 SubList.scala** (you can also add **-watch** if you want to actively edit your file)
 
  Some advice:
 
