@@ -4,7 +4,7 @@
 
 This search function operates on a sorted array, and is supposed to return true when there exists an index **i** between **lo** and **hi** such that **arr(i) = x**. The function is left a bit unspecified, as we don't specify that arr should be sorted, and we could return as an option the index i instead of a boolean, but we will not worry about these aspects in this exercise.
 
-Run Stainless on the example (with the option "**--strict-arithmetic=false**"), and observe how it complains about the array index **i** in **arr(i)** being out of bounds, and see that it isn't able to prove that the function is terminating.
+Run Stainless on the example (with the options "**--functions=search --strict-arithmetic=false**"), and observe how it complains about the array index **i** in **arr(i)** being out of bounds, and see that it isn't able to prove that the function is terminating.
 1. First, the line starting with **val i** is incorrect. Fix it to have a correct implementation of dichotomic search. 
 1. Second, write the most general **require(...)** preconditions that are necessary for the algorithm to be correct and bug-free. 
 1. Third, prove that the function terminates. To do so you can give a mesure using **decreases(...)** right after the require line. The argument of the decreases function should be a positive numerical expression that is guarantee to decreases at every recursive call. Find the correct mesure. If you found the correct mesure but stainless complains that he is not able to show that it is positive or decreasing, you may need to adequatly adapt your preconditions.
