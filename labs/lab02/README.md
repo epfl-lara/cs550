@@ -21,7 +21,7 @@ In **orderedAfterInsert**, our goal is to prove that if we insert an element in 
 
 For the first assertion, if we unroll the definition of insert once, we get that **insert(t , x)** equals N**ode(root, insert(left, x), right)**. Then, observe that four conditions need to be verified so that isOrdered returns true on that tree. For each condition, write an assertion (above the **assert(isOrdered(insert(t, x)))** of the first branch) stating that the condition is true.
 
-Run Stainless (again with a timeout of 10 seconds) and by reading the line numbers in the report, see for which of the four conditions (which of the four new assertions) Stainless times out. In order to have Stainless verify this code, you need to use the previous lemma (**forallAfterInsert**) by calling it with the right arguments on the line above the assertion that times out.
+Run Stainless (again with a timeout of 10 seconds) and by reading the line numbers in the report, see for which of the four conditions (which of the four new assertions) Stainless times out. In order to have Stainless verify this code, you need to use recursve calls to **orderedAfterInsert** and the previous lemma **forallAfterInsert** by calling them with the right arguments.
 
 Do the same thing for the second branch. 
 
