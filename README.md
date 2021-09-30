@@ -43,7 +43,7 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 |      |     |            | 17:15 | GRA330 | [Lab01 (Stainless)](https://gitlab.epfl.ch/lara/cs550/-/tree/main/labs/lab01) | [Tutorial 1](https://tube.switch.ch/videos/03edee61) (installation), [Tutorial 2](https://tube.switch.ch/videos/c22ea3e8), [Tutorial 3](https://tube.switch.ch/videos/7f57f7a9), [Tutorial 4](https://tube.switch.ch/videos/2a9fd35c) |
 |      | Fri | 24.09.2021 | 13:15 | CE1103 | Labs                  |                               |
 | 2    | Thu | 30.09.2021 | 15:15 | GRA330 | Lecture 2                       | [Dispenser Example](https://tube.switch.ch/videos/ded227dd), [Finite Systems Expressed with Formulas](https://tube.switch.ch/videos/088d2823) |
-|      |     |            | 17:15 | GRA330 | Labs |
+|      |     |            | 17:15 | GRA330 | [Lab02 (More Stainless)](https://gitlab.epfl.ch/lara/cs550/-/tree/main/labs/lab02) |
 |      | Fri | 31.09.2021 | 13:15 | CE1103 | Lecture 3                       | [What is a Formal Proof?](https://tube.switch.ch/videos/4a211e7a) |
 
 ## Future
