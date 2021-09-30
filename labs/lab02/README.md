@@ -19,17 +19,15 @@ In **forallAfterInsert**, we already proved (by induction on the tree) that if a
 
 In **orderedAfterInsert**, our goal is to prove that if we insert an element in an ordered tree, the resulting tree is still ordered. Run Stainless (with a timeout of 10 seconds) on this code and observe that it times out on the two assertions **assert(isOrdered(insert(t, x)))**.
 
-For the first assertion, if we unroll the definition of insert once, we get that insert(t , x) equals Node(root, insert(left, x), right). Then, observe that four conditions need to be verified so that isOrdered returns true on that tree. For each condition, write an assertion (above the assert(isOrdered(insert(t, x))) of the first branch) stating that the condition is true.
+For the first assertion, if we unroll the definition of insert once, we get that **insert(t , x)** equals N**ode(root, insert(left, x), right)**. Then, observe that four conditions need to be verified so that isOrdered returns true on that tree. For each condition, write an assertion (above the a**ssert(isOrdered(insert(t, x)))** of the first branch) stating that the condition is true.
 
-Run Stainless (again with a timeout of 10 seconds) and by reading the line numbers in the report, see for which of the four conditions (which of the four new assertions) Stainless times out. In order to have Stainless verify this code, you need to use the previous lemma (forallAfterInsert) by calling it with the right arguments on the line above the assertion that times out.
+Run Stainless (again with a timeout of 10 seconds) and by reading the line numbers in the report, see for which of the four conditions (which of the four new assertions) Stainless times out. In order to have Stainless verify this code, you need to use the previous lemma (**forallAfterInsert**) by calling it with the right arguments on the line above the assertion that times out.
 
 Do the same thing for the second branch. 
 
 
-
-
 ## Submission
-Once you've completed all proofs, you can submite your SubList.scala file [on Moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1092878).
+Once you've completed all proofs, you can submite your Lab02.scala file [on Moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1095380) by Saturday, 9 October 2021, 23:59. For this assignment, we'll take into account the validity of your proofs as well as the minimality of the condition you wrote for the first part.
 
 ## Project Session
 Project session can be followed in classroom or in [zoom](https://epfl.zoom.us/j/69030789600).
