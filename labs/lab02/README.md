@@ -27,7 +27,7 @@ Do the same thing for the second branch.
 
 
 ## Submission
-Once you've completed all proofs, you can submite your Lab02.scala file [on Moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1095380) by Saturday, 9 October 2021, 23:59. For this assignment, we'll take into account the validity of your proofs as well as the minimality of the condition you wrote for the first part.
+Once you've completed all proofs, you can submite your Lab02.scala file [on Moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1169500) by Saturday, 9 October 2021, 23:59. For this assignment, we'll take into account the validity of your proofs as well as the minimality of the condition you wrote for the first part.
 
 ## Project Session
 Project session can be followed in classroom or in [zoom](https://epfl.zoom.us/j/69030789600).
