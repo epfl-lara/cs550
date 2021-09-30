@@ -1,8 +1,4 @@
-# Week 1: Course Introduction and Stainless
-
-In this first lab, you will ???
-
-
+# Week 2: More Stainless
 
 ## Part 1: Dichotomic Search
 
