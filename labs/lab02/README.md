@@ -20,9 +20,9 @@ In the second part of the file, we define the basic structure of a binary tree. 
 
 In **forallAfterInsert**, we already proved (by induction on the tree) that if a function **p** returns true on all elements of a tree **t**, and it returns true on an element **x**, then **p** returns true on all elements of the tree **insert(t, x)**.
 
-In **balancedAfterInsert**, our goal is to prove that if we insert an element in an ordered tree, the resulting tree is still ordered. Run Stainless (with a timeout of 10 seconds) on this code and observe that it times out on the two assertions **assert(isBalanced(insert(t, x)))**.
+In **orderedAfterInsert**, our goal is to prove that if we insert an element in an ordered tree, the resulting tree is still ordered. Run Stainless (with a timeout of 10 seconds) on this code and observe that it times out on the two assertions **assert(isOrdered(insert(t, x)))**.
 
-For the first assertion, if we unroll the definition of insert once, we get that insert(t , x) equals Node(root, insert(left, x), right). Then, observe that four conditions need to be verified so that isBalanced returns true on that tree. For each condition, write an assertion (above the assert(isBalanced(insert(t, x))) of the first branch) stating that the condition is true.
+For the first assertion, if we unroll the definition of insert once, we get that insert(t , x) equals Node(root, insert(left, x), right). Then, observe that four conditions need to be verified so that isOrdered returns true on that tree. For each condition, write an assertion (above the assert(isOrdered(insert(t, x))) of the first branch) stating that the condition is true.
 
 Run Stainless (again with a timeout of 10 seconds) and by reading the line numbers in the report, see for which of the four conditions (which of the four new assertions) Stainless times out. In order to have Stainless verify this code, you need to use the previous lemma (forallAfterInsert) by calling it with the right arguments on the line above the assertion that times out.
 
