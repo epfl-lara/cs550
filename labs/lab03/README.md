@@ -13,7 +13,7 @@ We ask you to prove the three lemmas
 - **instantiateStillDefinedLemma**
 - **caseAnalysisSoundness**
 
-The difficulty of those lemmas vary and you may need to prove a few auxilliary lemmas to help you. 
+The difficulty of those lemmas vary and you may need to prove a few auxilliary lemmas to help you. You may also need to use the lemma **addIrrelevantElementLemma** about environment.
 
 Don't modify **require** or **ensuring** closes and make sure stainless accepts your solution. You may want to run stainless with option **--vc-cache=false** before submitting for safety.
 
