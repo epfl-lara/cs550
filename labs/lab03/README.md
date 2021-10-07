@@ -1,11 +1,11 @@
-# Week 2: Boolean Algebra (with stainless)
+# Week 2: Boolean Algebra (with Stainless)
 
-In Today's lab you will prove some lemmas about boolean algebra.
+In today's lab you will prove some lemmas about boolean algebra.
 The provided scala file defines the syntax of boolean formulas as an algebraice data type **Formula**. The function **evaluate(env: Environment, f: Formula)** computes the truth value of **f** as explained in the course. 
 
 The function **instantiation(f:Formula, id:Identifier, value:Boolean)** replaces instances of the Variable **id** by a Literal **value** as expected.
 
-An **Environment** is a ListMap, which is a map implemented as a list of pairs. You can find the implementation, as part of the stainless library, at https://github.com/epfl-lara/stainless/blob/master/frontends/library/stainless/collection/ListMap.scala.
+An **Environment** is a ListMap, which is a map implemented as a list of pairs. You can find the implementation, as part of the Stainless library, at https://github.com/epfl-lara/stainless/blob/master/frontends/library/stainless/collection/ListMap.scala.
 
 ## Lemmas
 We ask you to prove the three lemmas 
