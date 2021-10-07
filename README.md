@@ -44,7 +44,7 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 |      | Fri | 24.09.2021 | 13:15 | CE1103 | Labs                  |                               |
 | 2    | Thu | 30.09.2021 | 15:15 | GRA330 | Lecture 2                       | [Dispenser Example](https://tube.switch.ch/videos/ded227dd) ([Live1](https://tube.switch.ch/videos/oK3WSD3M5Y)), [Finite Systems Expressed with Formulas](https://tube.switch.ch/videos/088d2823) ([Live2](https://tube.switch.ch/videos/tA79fK2yKh)) |
 |      |     |            | 17:15 | GRA330 | [Lab02 (More Stainless)](https://gitlab.epfl.ch/lara/cs550/-/tree/main/labs/lab02) |
-|      | Fri | 01.10.2021 | 13:15 | CE1103 | Lecture 3                       | [What is a Formal Proof?](https://tube.switch.ch/videos/4a211e7a) ([Live1](https://tube.switch.ch/videos/hFl8GLRF7L)), [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c) up to completeness: [Live2](https://tube.switch.ch/videos/L5v3jWtYQd) |
-| 3    | Thu | 07.10.2021 | 15:15 | GRA330 | Lecture 4                       | [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c) continued, [Presburger Arithmetic](https://tube.switch.ch/videos/535e9dea) part 1
+|      | Fri | 01.10.2021 | 13:15 | CE1103 | Lecture 3                       | [What is a Formal Proof?](https://tube.switch.ch/videos/4a211e7a) and [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c) - without resolution: ([Live1](https://tube.switch.ch/videos/hFl8GLRF7L), [Live2](https://tube.switch.ch/videos/L5v3jWtYQd)) |
+| 3    | Thu | 07.10.2021 | 15:15 | GRA330 | Lecture 4                       | [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c) ([Live1](https://tube.switch.ch/videos/X2kSoTE4Y4), [Live2](https://tube.switch.ch/videos/y1b1zdEleN)) |
 |      |     |            | 17:15 | GRA330 | [Lab03 (Propositional Logic (with Stainless))](https://gitlab.epfl.ch/lara/cs550/-/tree/main/labs/lab03) |   |
-
+|      | Fri | 08.10.2021 | 13:15 | CE1103 | Lecture 5                       | [Presburger Arithmetic 1](https://tube.switch.ch/videos/535e9dea), [Presburger Arithmetic 2](https://tube.switch.ch/videos/ceecf2f6) | 
