@@ -1,6 +1,6 @@
-# Week 2: Boolean Algebra (with Stainless)
+# Week 2: Propositional Logic (with Stainless)
 
-In today's lab you will prove some lemmas about boolean algebra.
+In today's lab you will prove some lemmas about propositional logic.
 The provided scala file defines the syntax of boolean formulas as an algebraice data type **Formula**. The function **evaluate(env: Environment, f: Formula)** computes the truth value of **f** as explained in the course. 
 
 The function **instantiation(f:Formula, id:Identifier, value:Boolean)** replaces instances of the Variable **id** by a Literal **value** as expected.
