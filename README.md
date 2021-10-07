@@ -46,5 +46,5 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 |      |     |            | 17:15 | GRA330 | [Lab02 (More Stainless)](https://gitlab.epfl.ch/lara/cs550/-/tree/main/labs/lab02) |
 |      | Fri | 01.10.2021 | 13:15 | CE1103 | Lecture 3                       | [What is a Formal Proof?](https://tube.switch.ch/videos/4a211e7a) ([Live1](https://tube.switch.ch/videos/hFl8GLRF7L)), [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c) up to completeness: [Live2](https://tube.switch.ch/videos/L5v3jWtYQd) |
 | 3    | Thu | 07.10.2021 | 15:15 | GRA330 | Lecture 4                       | [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c) continued, [Presburger Arithmetic](https://tube.switch.ch/videos/535e9dea) part 1
-|      |     |            | 17:15 | GRA330 | [Lab03 (Boolean Algebra (with Stainless))](https://gitlab.epfl.ch/lara/cs550/-/tree/main/labs/lab03) |   |
+|      |     |            | 17:15 | GRA330 | [Lab03 (Propositional Logic (with Stainless))](https://gitlab.epfl.ch/lara/cs550/-/tree/main/labs/lab03) |   |
 
