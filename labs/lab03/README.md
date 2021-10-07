@@ -20,7 +20,7 @@ Don't modify **require** or **ensuring** closes and make sure stainless accepts 
 
 
 ## Submission
-Once you've completed all proofs, you can submite your Lab03.scala file [on Moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1099233) by Saturday, 16 October 2021, 23:59.
+Once you've completed all proofs, you can submite your Lab03.scala file [on Moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1099233) by Saturday, 16 October 2021, 23:59. Only one member of the group needs to submit.
 
 ## Project Session
 Project session can be followed in classroom or in [zoom](https://epfl.zoom.us/j/69030789600).
