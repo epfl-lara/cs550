@@ -5,7 +5,7 @@ The provided scala file defines the syntax of boolean formulas as an algebraice 
 
 The function **instantiation(f:Formula, id:Identifier, value:Boolean)** replaces instances of the Variable **id** by a Literal **value** as expected.
 
-An **Environment** is simply a ListMap, which is a map implemented as a list of pair. You can find the implementation, as part of the stainless library, at https://github.com/epfl-lara/stainless/blob/master/frontends/library/stainless/collection/ListMap.scala.
+An **Environment** is a ListMap, which is a map implemented as a list of pair. You can find the implementation, as part of the stainless library, at https://github.com/epfl-lara/stainless/blob/master/frontends/library/stainless/collection/ListMap.scala.
 
 ## Lemmas
 We ask you to prove the three lemmas 
