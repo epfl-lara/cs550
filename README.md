@@ -48,3 +48,7 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 | 3    | Thu | 07.10.2021 | 15:15 | GRA330 | Lecture 4                       | [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c) ([Live1](https://tube.switch.ch/videos/X2kSoTE4Y4), [Live2](https://tube.switch.ch/videos/y1b1zdEleN)) |
 |      |     |            | 17:15 | GRA330 | [Lab03 (Propositional Logic (with Stainless))](https://gitlab.epfl.ch/lara/cs550/-/tree/main/labs/lab03) |   |
 |      | Fri | 08.10.2021 | 13:15 | CE1103 | Lecture 5                       | [Presburger Arithmetic 1](https://tube.switch.ch/videos/535e9dea), [Presburger Arithmetic 2](https://tube.switch.ch/videos/ceecf2f6) ([Live1 until technical glitch](https://tube.switch.ch/videos/xk6qhRv3hV), [Live2](https://tube.switch.ch/videos/LMdUDApcOU)) | 
+| 4    | Thu | 14.10.2021 | 15:15 | GRA330 | Lecture 6                       | [Automating First-Order Logic Proofs Using Resolution](https://tube.switch.ch/videos/60fb9217) |
+|      |     |             | 17:15 | GRA330 | Continue Lab03 |      
+|      | Fri | 15.10.2021  | 13:15 | CE1103 | Continue Lab03 |
+|      |     |             | 14:15 | BC 410 | Talk on Flix                 | Attend the talk by Magnus Madsen if interested |
