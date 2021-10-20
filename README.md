@@ -55,4 +55,4 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 |      |     |             | 14:15 | BC 410 | Talk on Flix                 | Attend the talk by Magnus Madsen if interested |
 |      | Thu | 21.10.2021  | 15:15 | GRA330 | Lecture 7                    | [Converting Imperative Programs to Formulas](https://tube.switch.ch/videos/79219264), [Hoare Logic, Strongest Postcondition, Weakest Precondition](https://tube.switch.ch/videos/3fc107a7) |
 |      |     |             | 17:15 | GRA330 | Lab04                        |    |
-|      |     |             |       | CE1103 | Lab04, watch video           | [J Strother Moore: Machines Reasoning about Machines](http://slideshot.epfl.ch/play/suri_moore) |
+|      |     |             |       | CE1103 | Lab04, watch video           | [J Strother Moore: Machines Reasoning about Machines](http://slideshot.epfl.ch/play/suri_moore), [alternative video](https://www.newton.ac.uk/seminar/21742/) |
