@@ -45,20 +45,20 @@ You can now use your favourite theorem prover to have it automatically deduce wh
 Play a bit with those tools (we recommand Isabelle). Try to modify the input formulas or to encode a different problem of your liking.
 
 ## Part 2
-In the second part, you will implement (part of) a resolution procedure for first order logic as you have seen in the course. The file Lab04.scala gives you the template to do so.
+In the second part, you will implement (part of) a resolution procedure for first order logic as you have seen in the course. The file [Lab04.scala](Lab04.scala) gives you the template to do so.
 
 ### Setting
-See that we are defining Formulas and Terms as simple algebraic data types. For your convenience, we provide you a few pre-implemented functions. Without surprise freeVariables compute the set of freeVariables occuring in a Formula or Term, and substitute performs simultaneous substitution of terms for variable inside terms. Hopefully for us we won't need to implement substitution inside formula, which means we don't have to deal with capture-avoiding substitution.
+Observe that we are defining Formulas and Terms as simple algebraic data types. For your convenience, we provide you a few pre-implemented functions. Unsurprisingly, `freeVariables` compute the set of free variables occuring in a `Formula` or a `Term`, and `substitute` performs simultaneous substitution of terms for variable inside terms. Fortunately for us, we do not need to implement substitution inside formulas, so we need not deal with capture-avoiding substitutions.
 
-More interesting, you're also provided with a formula that make sure all variable names are unique. This will make it much easier to implement later steps.
+More interestingly, you are also provided with a function that makes sure that all variable names are unique. This will make it easier to implement later steps.
 
 ### Transformations
 
-To be subject to resolution, a formula must have a very specific form. This is what you will implement now.
+To be subject to clausal resolution, a formula must have a very specific form. This is what you will implement now.
 - Start with `negationNormalForm`. This should be equivalence-preserving. The resulting formula should not contain implication symbols, and negation should only appear directly surronding predicates.
 - Then implement `skolemizationNegation`, which has to call `negationNormalForm` first . You will need to provide fresh constant names. This transformation is only satisfiability-preserving, and the resulting formula should not contain any existential quantifiers.
-- Proceede now to `prenexSkolemizationNegation`, which has to call the previous function first. This step can be tricky in general, but if we make sure that all bound variables have different names (and different from free variables) this step becomes actually simple. Moreover, since all variables are universally quantified, we don't need to keep the prefix of the formula (i.e. the quantifiers) explicitly and we only care about keeping the matrix (i.e. the quantifier-free part of the formula).
-- Finally, implement `conjunctionPrenexSkolemizationNegation`. This function first call the previous function, at which point it consists only in alternations of conjunctions and disjunctions up to literals. In the end, the function should output a list of clauses as seen in course.
+- Proceed now to `prenexSkolemizationNegation`, which has to call the previous function first. This step can be tricky in general, but if we make sure that all bound variables have different names (and different from free variables) this step becomes actually simple. Moreover, since all variables are universally quantified, we don't need to keep the prefix of the formula (i.e. the quantifiers) explicitly and we only care about keeping the matrix (i.e. the quantifier-free part of the formula).
+- Finally, implement `conjunctionPrenexSkolemizationNegation`. This function first call the previous function, at which point it consists only in alternations of conjunctions and disjunctions up to literals. In the end, the function should output a list of clauses as seen in course. Your formula is allowed to be (singly) exponential in the size of the input formula.
 
 
 ### Proofs
