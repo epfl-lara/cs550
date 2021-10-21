@@ -1,5 +1,4 @@
 
-
 object Lab04 {
 
   // Term syntax
@@ -114,7 +113,7 @@ object Lab04 {
    */
   sealed abstract class Justification
   case object Assumed extends Justification
-  case class Deduced(premisces: (Int, Int), subst: Map[Var, Term]) extends Justification
+  case class Deduced(premices: (Int, Int), subst: Map[Var, Term]) extends Justification
 
   type ResolutionProof = List[(Clause, Justification)]
 
@@ -159,7 +158,7 @@ object Lab04 {
   def extractTheorem(proof: ResolutionProof):Formula = {
     if (proof.contains(Nil)) Neg(And(proof.filter(_._2 match {
       case Assumed => true
-      case Deduced(premisces, subst) =>false
+      case Deduced(premices, subst) =>false
     }).map(_._1).map(Or)))
     else throw new Exception("The proof did not succeed")
   }
