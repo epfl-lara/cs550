@@ -69,7 +69,7 @@ The system you've just implemented is not quite automated, but it's not so far f
 A practical implementation would also include a unification algorithm that would authomatically compute the adequate substitution at each step. Then, if we implement a proof search procedure that simply explore the whole proof space (i.e. all deducible clauses) carefully so that we don't miss any one clause, then if the initial clauses are unsat we will, necessarily, produce the empty clause at some point. Hence the system would be **refutationally complete**.
 
 
-Once you've finished your implementation, you can test it with the Mansion example (or other formulas you designed in the first part). Produce a proof that finishes with a clause `killed(a/b/c, a)` to impress the local detectives!
+Once you've finished your implementation, you can test it with the Mansion example (or other formulas you designed in the first part). Produce a proof that finishes with a clause `killed(a/b/c, a)` to impress the local detectives! You may need to add reasonnable assumptions about equality such as commutativity (x=y -> y=x) or Leibniz's property (x=y -> P(x) -> P(y) for any predicate (or formula) P)
 
 
 
