@@ -60,8 +60,7 @@ object Lab04 {
         case Forall(variable, inner) =>
           val nvar = "x"+i
           i+=1
-          val np = (Var(variable), Var(nvar))
-          val t = mVNUForm(inner, subst+np )
+          val t = mVNUForm(inner, subst + ((Var(variable), Var(nvar))) )
           Forall(nvar, t)
         case Exists(variable, inner) =>
           val nvar = "x"+i
