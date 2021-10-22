@@ -2,7 +2,7 @@
 
 [Moodle](https://moodle.epfl.ch/course/view.php?id=13051), [Coursebook](https://edu.epfl.ch/coursebook/en/formal-verification-CS-550?cb_cycle=bama_cyclemaster&cb_section=in)
 
-This  repository will be the homepage of the course Formal Verification (fall 2021) and host all the material necesary for the labs.
+This  repository is the homepage of the course Formal Verification (fall 2021) and hosts the material necesary for the labs.
 
  **Construct 100% correct software!** The course is all project based. 
 
@@ -19,7 +19,7 @@ The projects will consist in 4 small labs and one larger project. Students shoul
 
 - 40% Four labs to be done in groups, each group working independently on same projects
 - 60% Final project to be done in groups : you will choose a topic with our agreement
-    - 15% Presentation of a background paper 
+    - 15% Written presentation of a background paper 
     - 15% Results accomplished (how hard it was, how far you got)
     - 15% Presentation of results 
     - 15% Final report
@@ -53,7 +53,7 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 |      |     |             | 17:15 | GRA330 | Continue Lab03 |      
 |      | Fri | 15.10.2021  | 13:15 | CE1103 | Continue Lab03 |
 |      |     |             | 14:15 | BC 410 | Talk on Flix                 | Attend the talk by Magnus Madsen if interested |
-|      | Thu | 21.10.2021  | 15:15 | GRA330 | Lecture 7                    | [Converting Imperative Programs to Formulas](https://tube.switch.ch/videos/79219264), [Hoare Logic, Strongest Postcondition, Weakest Precondition](https://tube.switch.ch/videos/3fc107a7), [Live Recording 1](https://tube.switch.ch/videos/FZx8YneDwJ), [Live Recording 2](https://tube.switch.ch/videos/3qWOMPmLz3) |
+|      | Thu | 21.10.2021  | 15:15 | GRA330 | Lecture 7                    | [Converting Imperative Programs to Formulas](https://tube.switch.ch/videos/79219264), [Hoare Logic, Strongest Postcondition, Weakest Precondition](https://tube.switch.ch/videos/3fc107a7), [Live Recording 1](https://tube.switch.ch/videos/FZx8YneDwJ), [Live Recording 2](https://tube.switch.ch/videos/3qWOMPmLz3), [Live Recording 3](https://tube.switch.ch/videos/jnBtMCUhu6/) |
 |      |     |             | 17:15 | GRA330 | [Lab04](labs/lab04/)           |    |
 |      |     |             |       | CE1103 | Lab04, watch videos          | [J Strother Moore: Machines Reasoning about Machines](http://slideshot.epfl.ch/play/suri_moore), [alternative video](https://www.newton.ac.uk/seminar/21742/) |
 |      |     |             |       |        |                              | [Talk of Tony Hoare at EPFL in June 2011](http://slideshot.epfl.ch/play/suri_hoare), [Wikipedia Page of Tony Hoare](https://en.wikipedia.org/wiki/Tony_Hoare) |
