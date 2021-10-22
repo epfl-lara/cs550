@@ -55,4 +55,6 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 |      |     |             | 14:15 | BC 410 | Talk on Flix                 | Attend the talk by Magnus Madsen if interested |
 |      | Thu | 21.10.2021  | 15:15 | GRA330 | Lecture 7                    | [Converting Imperative Programs to Formulas](https://tube.switch.ch/videos/79219264), [Hoare Logic, Strongest Postcondition, Weakest Precondition](https://tube.switch.ch/videos/3fc107a7), [Live Recording 1](https://tube.switch.ch/videos/FZx8YneDwJ), [Live Recording 2](https://tube.switch.ch/videos/3qWOMPmLz3) |
 |      |     |             | 17:15 | GRA330 | [Lab04](labs/lab04/)           |    |
-|      |     |             |       | CE1103 | Lab04, watch video           | [J Strother Moore: Machines Reasoning about Machines](http://slideshot.epfl.ch/play/suri_moore), [alternative video](https://www.newton.ac.uk/seminar/21742/) |
+|      |     |             |       | CE1103 | Lab04, watch videos          | [J Strother Moore: Machines Reasoning about Machines](http://slideshot.epfl.ch/play/suri_moore), [alternative video](https://www.newton.ac.uk/seminar/21742/) |
+|      |     |             |       |        |                              | [Talk of Tony Hoare at EPFL in June 2011](http://slideshot.epfl.ch/play/suri_hoare), [Wikipedia Page of Tony Hoare](https://en.wikipedia.org/wiki/Tony_Hoare) |
+|      |     |             |       |        |                              | [Rustan Leino: Directions to and for verified software](https://slideshot.epfl.ch/play/kYmvaDF6Z6jI) |
