@@ -1,4 +1,3 @@
-
 object Lab04 {
 
   // Term syntax
@@ -60,14 +59,14 @@ object Lab04 {
         case Neg(inner) => Neg(mVNUForm(inner, subst))
         case Forall(variable, inner) =>
           val nvar = "x"+i
+          i+=1
           val np = (Var(variable), Var(nvar))
           val t = mVNUForm(inner, subst+np )
-          i+=1
           Forall(nvar, t)
         case Exists(variable, inner) =>
           val nvar = "x"+i
-          val t = mVNUForm(inner, subst + ((Var(variable), Var(nvar))) )
           i+=1
+          val t = mVNUForm(inner, subst + ((Var(variable), Var(nvar))) )
           Exists(nvar, t)
       }
     }
