@@ -162,5 +162,27 @@ object Lab04 {
   }
 
 
+    def P(a:Term) = Predicate("P", List(a))
+    def R(a:Term, b:Term) = Predicate("R", List(a, b))
+    def f(a:Term, b:Term) = Function("f", List(a, b))
+    def s1(a:Term) = Function("s1", List(a))
+    val s2 = Function("s2", List())
+
+    val exampleFromCourse : Formula = {
+        val f1 = Forall("x", Exists("y", R(x,y)))
+        val f2 = Forall("x", Forall("y", Implies(R(x,y), R(x, f(y,z)))))
+        val f3 = Forall("x", Or(List(P(x), P(f(x,a)))))
+        val f4 = Forall("x", Exists("y", And(List(R(x,y), P(y)))))
+        Neg(Implies(And(List(f1, f2, f3)), f4))
+    }
+
+    val exampleFromCourseResult:List[Clause] = {
+        val c1 = List(R(x, s1(x)))
+        val c2 = List(Neg(R(x,y)), R(x,f(y,z)))
+        val c3 = List(P(x), P(f(x,a)))
+        val c4 = List(Neg(R(x,y)), Neg(P(y)))
+        List(c1, c2, c3, c4)
+    }
+
 
 }
