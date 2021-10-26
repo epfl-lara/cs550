@@ -128,6 +128,7 @@ object Lab04 {
   val c = Function("c", Nil)
   val x = Var("x")
   val y = Var("y")
+  val y = Var("z")
   def lives(a:Term) = Predicate("lives", List(a))
   def killed(a:Term, b:Term) = Predicate("killed", List(a, b))
   def hates(a:Term, b:Term) = Predicate("hates", List(a, b))
@@ -137,7 +138,7 @@ object Lab04 {
   val mansionMystery: Formula = And(List(
     Exists("x", And( List(Predicate("lives", List(x)), Predicate("killed", List(x, a))) )),
     And(List(lives(a), lives(b), lives(c), Forall("x", Implies(lives(x), Or(List(eq(x, a), eq(x, b), eq(x, c))))))),
-    Forall("x", Forall("y", Implies(killed(x, y), And(List( hates(x,y), Neg(richer(x,y)) )) ))),
+    Forall("x", Forall("y", Implies(ckilled(x, y), And(List( hates(x,y), Neg(richer(x,y)) )) ))),
     Forall("x", Implies(hates(a,x), Neg(hates(c,x)))),
     Forall("x", Implies(hates(a,x), Neg(eq(x,b)))),
     Forall("x", Implies(Neg(eq(x,b)), hates(a,x))),
@@ -154,7 +155,7 @@ object Lab04 {
   Hence if a Proof contains an empty clause, then the negation of the conjunction of all assumed clauses has to be valid
    */
   def extractTheorem(proof: ResolutionProof):Formula = {
-    if (proof.contains(Nil)) Neg(And(proof.filter(_._2 match {
+    if (proof.exists(_._1.isEmpty)) Neg(And(proof.filter(_._2 match {
       case Assumed => true
       case Deduced(premices, subst) =>false
     }).map(_._1).map(Or)))
