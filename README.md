@@ -53,9 +53,21 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 |      |     |             | 17:15 | GRA330 | Continue Lab03 |      
 |      | Fri | 15.10.2021  | 13:15 | CE1103 | Continue Lab03 |
 |      |     |             | 14:15 | BC 410 | Talk on Flix                 | Attend the talk by Magnus Madsen if interested |
-|      | Thu | 21.10.2021  | 15:15 | GRA330 | Lecture 7                    | [Converting Imperative Programs to Formulas](https://tube.switch.ch/videos/79219264), [Hoare Logic, Strongest Postcondition, Weakest Precondition](https://tube.switch.ch/videos/3fc107a7), [Live Recording 1](https://tube.switch.ch/videos/FZx8YneDwJ), [Live Recording 2](https://tube.switch.ch/videos/3qWOMPmLz3), [Live Recording 3](https://tube.switch.ch/videos/jnBtMCUhu6/) |
+|      | Thu | 21.10.2021  | 15:15 | GRA330 | Lectures 7,8                    | [Converting Imperative Programs to Formulas](https://tube.switch.ch/videos/79219264), [Hoare Logic, Strongest Postcondition, Weakest Precondition](https://tube.switch.ch/videos/3fc107a7), [Live Recording 1](https://tube.switch.ch/videos/FZx8YneDwJ), [Live Recording 2](https://tube.switch.ch/videos/3qWOMPmLz3), [Live Recording 3](https://tube.switch.ch/videos/jnBtMCUhu6/) |
 |      |     |             | 17:15 | GRA330 | [Lab04](labs/lab04/)           |    |
 |      |     |             |       | CE1103 | Lab04, watch videos          | [J Strother Moore: Machines Reasoning about Machines](http://slideshot.epfl.ch/play/suri_moore), [alternative video](https://www.newton.ac.uk/seminar/21742/) |
 |      |     |             |       |        |                              | [Talk of Tony Hoare at EPFL in June 2011](http://slideshot.epfl.ch/play/suri_hoare), [Wikipedia Page of Tony Hoare](https://en.wikipedia.org/wiki/Tony_Hoare) |
 |      |     |             |       |        |                              | [Rustan Leino: Directions to and for verified software](https://slideshot.epfl.ch/play/kYmvaDF6Z6jI) |
-|      | Thu | 28.10.2021  | 15:15 | GRA330 | Lecture 8                    | [Monotonicity and Semantics of Local Variables](https://tube.switch.ch/videos/pJFK2gi0YM), [Relational Semantics of Loops](https://tube.switch.ch/videos/jAePaQR8jc)
+|      | Thu | 28.10.2021  | 15:15 | GRA330 | Lecture 9                    | [Monotonicity and Semantics of Local Variables](https://tube.switch.ch/videos/pJFK2gi0YM), [Relational Semantics of Loops](https://tube.switch.ch/videos/jAePaQR8jc)
+|      |     |             | 17:15 | GRA330 | [Lab04](labs/lab04/)           |    |
+|      | Fri | 29.10.2021  | 13:15 | CE1103 | Lecture 10                    | [Semantics of Recursion](slides/recursion.pdf) |
+|      |     |             |       |        |                               | [General Suggestions on Projects](https://gitlab.epfl.ch/kuncak/student-projects/)  |
+
+# Deadlines
+
+  * 29.10 Start reading [projects suggestions](https://gitlab.epfl.ch/kuncak/student-projects/) and discuss directions with colleagues
+  * 04.11 Discuss projects with teaching staff and choose a project as well as a paper to read for its background.
+  * 06.11 Deadline to send us the title and PDF of the paper you plan to read and report on
+  * 13.11 Submit a written short 5-page report about the chosen paper (template will be provided)
+  * Last two weeks of semester: project presentations (15min) in class or pre-recorded with 5 min Q&A live or over zoom
+  * End of semester: written report about your project with links to any repository code
