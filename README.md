@@ -58,3 +58,4 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 |      |     |             |       | CE1103 | Lab04, watch videos          | [J Strother Moore: Machines Reasoning about Machines](http://slideshot.epfl.ch/play/suri_moore), [alternative video](https://www.newton.ac.uk/seminar/21742/) |
 |      |     |             |       |        |                              | [Talk of Tony Hoare at EPFL in June 2011](http://slideshot.epfl.ch/play/suri_hoare), [Wikipedia Page of Tony Hoare](https://en.wikipedia.org/wiki/Tony_Hoare) |
 |      |     |             |       |        |                              | [Rustan Leino: Directions to and for verified software](https://slideshot.epfl.ch/play/kYmvaDF6Z6jI) |
+|      | Thu | 28.10.2021  | 15:15 | GRA330 | Lecture 8                    | [Relational Semantics of Local Variables](https://tube.switch.ch/videos/pJFK2gi0YM), [Relational Semantics of Loops](https://tube.switch.ch/videos/jAePaQR8jc)
