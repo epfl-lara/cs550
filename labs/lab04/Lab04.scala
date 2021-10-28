@@ -180,7 +180,7 @@ object Lab04 {
         val c1 = List(R(x, s1(x)))
         val c2 = List(Neg(R(x,y)), R(x,f(y,z)))
         val c3 = List(P(x), P(f(x,a)))
-        val c4 = List(Neg(R(x,y)), Neg(P(y)))
+        val c4 = List(Neg(R(s1,y)), Neg(P(y)))
         List(c1, c2, c3, c4)
     }
 
