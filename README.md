@@ -40,7 +40,7 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 | Week | Day | Date       | Time  | Room   | Topic                           | Videos & Slides              |
 | :--  | :-- | :--        | :--   | :--    | :--                             | :--                          |
 | 1    | Thu | 23.09.2021 | 15:15 | GRA330 | Lecture 1                       | [Intro to FV](https://tube.switch.ch/videos/56b40f7e) ([Live1](https://tube.switch.ch/videos/oTm0zFBy0d)), [Intro to Stainless](https://tube.switch.ch/videos/c7d203e8) ([Live2](https://tube.switch.ch/videos/gFl27xlOFU)), [Auxiliary Assertions](https://tube.switch.ch/videos/44e8a0dc), [Unfolding](https://tube.switch.ch/videos/ada8a42c), [Disasters, Successes, and Inductive Invariants](https://tube.switch.ch/videos/cca7c3f8) ([Live3](https://tube.switch.ch/videos/YBYi1cdSUs)) |
-|      |     |            | 17:15 | GRA330 | [Lab01 (Stainless)](https://gitlab.epfl.ch/lara/cs550/-/tree/main/labs/lab01) | [Tutorial 1](https://tube.switch.ch/videos/03edee61) (installation), [Tutorial 2](https://tube.switch.ch/videos/c22ea3e8), [Tutorial 3](https://tube.switch.ch/videos/7f57f7a9), [Tutorial 4](https://tube.switch.ch/videos/2a9fd35c) |
+|      |     |            | 17:15 | GRA330 | [Lab01 (Stainless)](https://gitlab.epfl.ch/lara/cs550/-/tree/main/labs/lab01) | [Tutorial 1](https://tube.switch.ch/videos/03edee61) (installation), [Tutorial 2](https://tube.switch.ch/videos/c22ea3e8), [Tutorial 3](https://tube.switch.ch/videos/7f57f7a9), [Tutorial 4](https://tube.switch.ch/videos/2a9fd35c), [FMCAD 2021 Tutorial](https://github.com/epfl-lara/fmcad2021tutorial/) |
 |      | Fri | 24.09.2021 | 13:15 | CE1103 | Labs                  |                               |
 | 2    | Thu | 30.09.2021 | 15:15 | GRA330 | Lecture 2                       | [Dispenser Example](https://tube.switch.ch/videos/ded227dd) ([Live1](https://tube.switch.ch/videos/oK3WSD3M5Y)), [Finite Systems Expressed with Formulas](https://tube.switch.ch/videos/088d2823) ([Live2](https://tube.switch.ch/videos/tA79fK2yKh)) |
 |      |     |            | 17:15 | GRA330 | [Lab02 (More Stainless)](https://gitlab.epfl.ch/lara/cs550/-/tree/main/labs/lab02) |
@@ -61,7 +61,10 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 |      | Thu | 28.10.2021  | 15:15 | GRA330 | Lecture 9                    | [Monotonicity and Semantics of Local Variables](https://tube.switch.ch/videos/pJFK2gi0YM), [Relational Semantics of Loops](https://tube.switch.ch/videos/jAePaQR8jc)
 |      |     |             | 17:15 | GRA330 | [Lab04](labs/lab04/)         |       |
 |      | Fri | 29.10.2021  | 13:15 | CE1103 | Lecture 10                   | [Loop Semantics Example](https://tube.switch.ch/videos/M2YCTkGZ4F), [Approximating Loops. Recursion 1](https://tube.switch.ch/videos/xCQoLRTGKq), [Recursion 2](https://tube.switch.ch/videos/NjerTXfE9z) |
-|      |     |             |       |        |                              | [General Suggestions on Projects](https://gitlab.epfl.ch/kuncak/student-projects/)  |
+|      |     |             |       |        |                              | [General Suggestions on Projects](https://gitlab.epfl.ch/kuncak/student-projects/) |
+|      | Thu | 04.11.2021  | 15:15 | GRA330 | Lecture 11                    | [SMT Solvers](slides/smt1.pdf) and [a thread on SMT-LIB mailing list](https://groups.google.com/g/smt-lib/c/hVfCvDmPOxk) |
+|      |     |             | 17:15 | GRA330 | Project and paper discussions  |       |
+
 
 # Deadlines
 
