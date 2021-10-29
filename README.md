@@ -59,9 +59,9 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 |      |     |             |       |        |                              | [Talk of Tony Hoare at EPFL in June 2011](http://slideshot.epfl.ch/play/suri_hoare), [Wikipedia Page of Tony Hoare](https://en.wikipedia.org/wiki/Tony_Hoare) |
 |      |     |             |       |        |                              | [Rustan Leino: Directions to and for verified software](https://slideshot.epfl.ch/play/kYmvaDF6Z6jI) |
 |      | Thu | 28.10.2021  | 15:15 | GRA330 | Lecture 9                    | [Monotonicity and Semantics of Local Variables](https://tube.switch.ch/videos/pJFK2gi0YM), [Relational Semantics of Loops](https://tube.switch.ch/videos/jAePaQR8jc)
-|      |     |             | 17:15 | GRA330 | [Lab04](labs/lab04/)           |    |
-|      | Fri | 29.10.2021  | 13:15 | CE1103 | Lecture 10                    | [Semantics of Recursion](slides/recursion.pdf) |
-|      |     |             |       |        |                               | [General Suggestions on Projects](https://gitlab.epfl.ch/kuncak/student-projects/)  |
+|      |     |             | 17:15 | GRA330 | [Lab04](labs/lab04/)         |       |
+|      | Fri | 29.10.2021  | 13:15 | CE1103 | Lecture 10                   | [Loop Semantics Example](https://tube.switch.ch/videos/M2YCTkGZ4F), [Approximating Loops. Recursion 1](https://tube.switch.ch/videos/xCQoLRTGKq), [Recursion 2](https://tube.switch.ch/videos/NjerTXfE9z) |
+|      |     |             |       |        |                              | [General Suggestions on Projects](https://gitlab.epfl.ch/kuncak/student-projects/)  |
 
 # Deadlines
 
