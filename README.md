@@ -69,7 +69,7 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 # Deadlines
 
   * 29.10 Start reading [projects suggestions](https://gitlab.epfl.ch/kuncak/student-projects/) and discuss directions with colleagues
-  * 04.11 Discuss projects with teaching staff and choose a project as well as a paper to read for its background.
+  * 04.11, 05.11 Discuss projects with teaching staff and choose a project as well as a paper to read for its background.
   * 06.11 Deadline to send us the title and PDF of the paper you plan to read and report on
   * 13.11 Submit a written short 5-page report about the chosen paper (template will be provided)
   * Last two weeks of semester: project presentations (15min) in class or pre-recorded with 5 min Q&A live or over zoom
