@@ -64,6 +64,7 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 |      |     |             |       |        |                              | [General Suggestions on Projects](https://gitlab.epfl.ch/kuncak/student-projects/) |
 |      | Thu | 04.11.2021  | 15:15 | GRA330 | Lecture 11                    | [SMT Solvers](slides/smt1.pdf) and [a thread on SMT-LIB mailing list](https://groups.google.com/g/smt-lib/c/hVfCvDmPOxk) |
 |      |     |             | 17:15 | GRA330 | Project and paper discussions  |       |
+|      |     |             |       |        | [Gentle Introduction to AI](https://www.youtube.com/watch?v=k6xH47tIS_I) |
 
 
 # Deadlines
