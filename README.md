@@ -62,7 +62,8 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 |      | Fri | 29.10.2021  | 13:15 | CE1103 | Lecture 10                   | [Loop Semantics Example](https://tube.switch.ch/videos/M2YCTkGZ4F), [Approximating Loops. Recursion 1](https://tube.switch.ch/videos/xCQoLRTGKq), [Recursion 2](https://tube.switch.ch/videos/NjerTXfE9z) |
 |      |     |             |       |        |                              | [General Suggestions on Projects](https://gitlab.epfl.ch/kuncak/student-projects/) |
 |      | Thu | 04.11.2021  | 15:15 | GRA330 | Lecture 11                    | [Rustan Leino: Directions to and for verified software](https://slideshot.epfl.ch/play/kYmvaDF6Z6jI), [Introduction to SMT Solvers](https://tube.switch.ch/videos/CDDwI5RZD0), [SMT by Example](https://sat-smt.codes/)
-|      |     |             |       |        |     | Talk to watch offline: [Gentle Introduction to AI](https://www.youtube.com/watch?v=k6xH47tIS_I) |
+|      |     |             |       |        |                               | Abstract Interpretation [Lecture 1](https://lara.epfl.ch/w/_media/fv19/lecture19-ai.pdf), [Lecture 2](https://lara.epfl.ch/w/_media/fv19/lecture20-predicates.pdf) |
+|      |     |             |       |        |                                | Talk to watch offline: [Gentle Introduction to AI](https://www.youtube.com/watch?v=k6xH47tIS_I) |
 |      |     |             | 17:15 | GRA330 | Project and paper discussions  |       |
 
 
