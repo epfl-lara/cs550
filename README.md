@@ -57,12 +57,11 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 |      |     |             | 17:15 | GRA330 | [Lab04](labs/lab04/)           |    |
 |      |     |             |       | CE1103 | Lab04, watch videos          | [J Strother Moore: Machines Reasoning about Machines](http://slideshot.epfl.ch/play/suri_moore), [alternative video](https://www.newton.ac.uk/seminar/21742/) |
 |      |     |             |       |        |                              | [Talk of Tony Hoare at EPFL in June 2011](http://slideshot.epfl.ch/play/suri_hoare), [Wikipedia Page of Tony Hoare](https://en.wikipedia.org/wiki/Tony_Hoare) |
-|      |     |             |       |        |                              | [Rustan Leino: Directions to and for verified software](https://slideshot.epfl.ch/play/kYmvaDF6Z6jI) |
 |      | Thu | 28.10.2021  | 15:15 | GRA330 | Lecture 9                    | [Monotonicity and Semantics of Local Variables](https://tube.switch.ch/videos/pJFK2gi0YM), [Relational Semantics of Loops](https://tube.switch.ch/videos/jAePaQR8jc)
 |      |     |             | 17:15 | GRA330 | [Lab04](labs/lab04/)         |       |
 |      | Fri | 29.10.2021  | 13:15 | CE1103 | Lecture 10                   | [Loop Semantics Example](https://tube.switch.ch/videos/M2YCTkGZ4F), [Approximating Loops. Recursion 1](https://tube.switch.ch/videos/xCQoLRTGKq), [Recursion 2](https://tube.switch.ch/videos/NjerTXfE9z) |
 |      |     |             |       |        |                              | [General Suggestions on Projects](https://gitlab.epfl.ch/kuncak/student-projects/) |
-|      | Thu | 04.11.2021  | 15:15 | GRA330 | Lecture 11                    | [SMT Solvers](slides/smt1.pdf) and [a thread on SMT-LIB mailing list](https://groups.google.com/g/smt-lib/c/hVfCvDmPOxk) |
+|      | Thu | 04.11.2021  | 15:15 | GRA330 | Lecture 11                    | [Rustan Leino: Directions to and for verified software](https://slideshot.epfl.ch/play/kYmvaDF6Z6jI), [Introduction to SMT Solvers](https://tube.switch.ch/videos/CDDwI5RZD0) ([slides](slides/smt1.pdf)) and [a thread on SMT-LIB mailing list](https://groups.google.com/g/smt-lib/c/hVfCvDmPOxk) |
 |      |     |             | 17:15 | GRA330 | Project and paper discussions  |       |
 |      |     |             |       |        | [Gentle Introduction to AI](https://www.youtube.com/watch?v=k6xH47tIS_I) |
 
