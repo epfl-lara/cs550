@@ -6,7 +6,7 @@ You should lock your paper by Saturday 6th of November (23:59). Please send us t
 ### Review of the background paper
 
 In the following week, you should make sure that you have a good understanding of the paper. Discuss it within your group, and you can also ask us if there is a part of the paper that you don't understand.
-Once you have a good understanding of the paper, we ask you to do a summary of the paper, **in your own words**. Present the topic, the results of the paper and sketch how those result are obtained. Your review should be one to two pages long. You can find in this repo a latex template that may help you structure your review.
+Once you have a good understanding of the paper, we ask you to do a summary of the paper, **in your own words**. Present the topic, the results of the paper and sketch how those result are obtained. Your review should be three to five pages long. You can find in this repo a latex template that may help you structure your review.
 
 
 ## Submission
