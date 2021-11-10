@@ -64,7 +64,7 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 |      | Thu | 04.11.2021  | 15:15 | GRA330 | Lecture 11                    | [Rustan Leino: Directions to and for verified software](https://slideshot.epfl.ch/play/kYmvaDF6Z6jI), [Introduction to SMT Solvers](https://tube.switch.ch/videos/CDDwI5RZD0), [SMT by Example](https://sat-smt.codes/)
 |      |     |             |       |        |                               | Abstract Interpretation [Lecture 1](https://lara.epfl.ch/w/_media/fv19/lecture19-ai.pdf), [Lecture 2](https://lara.epfl.ch/w/_media/fv19/lecture20-predicates.pdf) |
 |      |     |             |       |        |                                | Talk to watch offline: [Gentle Introduction to AI](https://www.youtube.com/watch?v=k6xH47tIS_I) |
-|      |     |             | 17:15 | GRA330 | Project and paper discussions  |       |
+|      |     |             | 17:15 | GRA330 | Project and paper discussions  | [Work on background paper report](labs/Background%20Papers) |
 
 
 # Deadlines
