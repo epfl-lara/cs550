@@ -64,15 +64,25 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 |      | Thu | 04.11.2021  | 15:15 | GRA330 | Lecture 11                    | [Rustan Leino: Directions to and for verified software](https://slideshot.epfl.ch/play/kYmvaDF6Z6jI), [Introduction to SMT Solvers](https://tube.switch.ch/videos/CDDwI5RZD0), [SMT by Example](https://sat-smt.codes/)
 |      |     |             | 17:15 | GRA330 | Project and paper discussions  | [Work on background paper report](labs/Background%20Papers) |
 |      | Fri | 05.11.2021  | 13:15 | CE1103 |                                | Discuss projects and background papers |
-|      | Thu | 11.11.2021  | 15:15 | GRA330 |                                | [Abstract Interpretation Idea](https://tube.switch.ch/videos/cOvvbWjTpU), [Lattices for Abstract Interpretation](https://tube.switch.ch/videos/Zj3TNfknHG) |
+|      | Thu | 11.11.2021  | 15:15 | GRA330 | Lecture 12                     | [Abstract Interpretation Idea](https://tube.switch.ch/videos/cOvvbWjTpU), [Lattices for Abstract Interpretation](https://tube.switch.ch/videos/Zj3TNfknHG) |
 |      |     |             |       |        |                                | Talk to watch offline: [Gentle Introduction to AI](https://www.youtube.com/watch?v=k6xH47tIS_I) |
-|      | Fri | 12.11.2021  | 13:15 | CE1103 |                                | Discuss projects and background papers |
+|      |     |             | 17:15 | GRA330 | Project and paper discussions  | [Work on background paper report](labs/Background%20Papers)
+|      | Fri | 12.11.2021  | 13:15 | CE1103 |                                | [Work on background paper report](labs/Background%20Papers) |
+
+# Coming soon
+
+| Week | Day | Date       | Time  | Room   | Topic                           | Videos & Slides              |
+| :--  | :-- | :--        | :--   | :--    | :--                             | :--                          |
+|      | Thu | 18.11.2021  | 15:15 | GRA330 | Lecture 13                     | More on Abstract Interpretation |
+|      |     |             | 17:15 | GRA330 | Individual Projects            |  |
+|      | Fri | 19.11.2021  | 13:15 | CE1103 | Presentation by Jérôme Boillot | Abstract Interpretation in Stainless: idea and demo | 
+|      |     |             | 14:15 | CE1103 | Individual Projects            |  |
 
 # Deadlines
 
-  * 29.10 Start reading [projects suggestions](https://gitlab.epfl.ch/kuncak/student-projects/) and discuss directions with colleagues
-  * 04.11, 05.11 Discuss projects with teaching staff and choose a project as well as a paper to read for its background.
-  * 06.11 Deadline to send us the title and PDF of the paper you plan to read and report on
+  * ~~29.10 Start reading [projects suggestions](https://gitlab.epfl.ch/kuncak/student-projects/) and discuss directions with colleagues~~
+  * ~~04.11, 05.11 Discuss projects with teaching staff and choose a project as well as a paper to read for its background.~~
+  * ~~06.11 Deadline to send us the title and PDF of the paper you plan to read and report on~~
   * 13.11 Submit a written short 5-page report about the chosen paper (template will be provided)
   * Last two weeks of semester: project presentations (15min) in class or pre-recorded with 5 min Q&A live or over zoom
   * End of semester: written report about your project with links to any repository code
