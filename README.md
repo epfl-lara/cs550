@@ -68,13 +68,13 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 |      |     |             |       |        |                                | Talk to watch offline: [Gentle Introduction to AI](https://www.youtube.com/watch?v=k6xH47tIS_I) |
 |      |     |             | 17:15 | GRA330 | Project and paper discussions  | [Work on background paper report](labs/Background%20Papers)
 |      | Fri | 12.11.2021  | 13:15 | CE1103 |                                | [Work on background paper report](labs/Background%20Papers) |
+|      | Thu | 18.11.2021  | 15:15 | GRA330 | Lecture 13                     | [From Lattice Products to Tarski's Fixpoint Theorem](https://tube.switch.ch/videos/dQ5vvteGhz), [Omega Continuity, Galois Connection, and AI Recipe](https://tube.switch.ch/videos/DkObtnApKb) |
+|      |     |             | 17:15 | GRA330 | Individual Projects            |   |
 
 # Coming soon
 
 | Week | Day | Date       | Time  | Room   | Topic                           | Videos & Slides              |
 | :--  | :-- | :--        | :--   | :--    | :--                             | :--                          |
-|      | Thu | 18.11.2021  | 15:15 | GRA330 | Lecture 13                     | More on Abstract Interpretation |
-|      |     |             | 17:15 | GRA330 | Individual Projects            |  |
 |      | Fri | 19.11.2021  | 13:15 | CE1103 | Presentation by Jérôme Boillot | Abstract Interpretation in Stainless: idea and demo | 
 |      |     |             | 14:15 | CE1103 | Individual Projects            |  |
 
