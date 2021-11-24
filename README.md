@@ -77,12 +77,26 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 
 | Week | Day | Date       | Time  | Room   | Topic                           | Videos & Slides              |
 | :--  | :-- | :--        | :--   | :--    | :--                             | :--                          |
+|      | Thu | 25.11.2021  | 15:15 | GRA330 | Lecture 14 |   |
+|      |     |             | 17:15 | GRA330 | Individual Projects            |     |
+|      | Fri | 26.11.2021  | 13:15 | CE1103 | Individual Projects            |     | 
+|      | Thu | 02.12.2021  | 15:15 | GRA330 | Lecture 15: Sequent Calculus and LISA Kernel |   |
+|      |     |             | 17:15 | GRA330 | Individual Projects            |   |
+|      | Fri | 03.12.2021  | 13:15 | CE1103 | Individual Projects |     | 
+|      | Thu | 09.12.2021  | 15:15 | GRA330 | Lecture 16: Mystery Lecture   |   |
+|      |     |             | 17:15 | GRA330 | Individual Projects            |   |
+|      | Fri | 11.12.2021  | 13:15 | CE1103 | Individual Projects |     | 
+|      | Thu | 16.12.2021  | 15:15 | GRA330 | Project Presentations    |     |
+|      |     |             | 17:15 | GRA330 | Project Presentations    |     |
+|      | Fri | 17.12.2021  | 13:15 | CE1103 | Project Presentations    |     | 
+|      | Thu | 23.12.2021  | 15:15 | GRA330 | Project Presentations    |     |
+|      |     |             | 17:15 | GRA330 | Project Presentations    |     |
 
 # Deadlines
 
   * ~~29.10 Start reading [projects suggestions](https://gitlab.epfl.ch/kuncak/student-projects/) and discuss directions with colleagues~~
   * ~~04.11, 05.11 Discuss projects with teaching staff and choose a project as well as a paper to read for its background.~~
   * ~~06.11 Deadline to send us the title and PDF of the paper you plan to read and report on~~
-  * 13.11 Submit a written short 5-page report about the chosen paper (template will be provided)
+  * ~~13.11 Submit a written short 5-page report about the chosen paper (template will be provided)~~
   * Last two weeks of semester: project presentations (15min) in class or pre-recorded with 5 min Q&A live or over zoom
-  * End of semester: written report about your project with links to any repository code
+  * End of semester or the latest on 10 January 2021: written report about your project with links to any repository code
