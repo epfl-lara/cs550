@@ -72,14 +72,14 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 |      |     |             | 17:15 | GRA330 | Individual Projects            |   |
 |      | Fri | 19.11.2021  | 13:15 | CE1103 | Presentation by Jérôme Boillot | [Abstract Interpretation in Stainless](https://tube.switch.ch/videos/LVjHvczUpy) | 
 |      |     |             | 14:15 | CE1103 | Individual Projects            |  |
+|      | Thu | 25.11.2021  | 15:15 | GRA330 | Lecture 14a  | [Semantics and Verification of Concurrency](https://tube.switch.ch/videos/BtlLSpFINW) |
+|      |     |             | 17:15 | GRA330 | Individual Projects            |     |
+|      | Fri | 26.11.2021  | 13:15 | CE1103 | Individual Projects            |     | 
 
 # Coming soon
 
 | Week | Day | Date       | Time  | Room   | Topic                           | Videos & Slides              |
 | :--  | :-- | :--        | :--   | :--    | :--                             | :--                          |
-|      | Thu | 25.11.2021  | 15:15 | GRA330 | Lecture 14 |   |
-|      |     |             | 17:15 | GRA330 | Individual Projects            |     |
-|      | Fri | 26.11.2021  | 13:15 | CE1103 | Individual Projects            |     | 
 |      | Thu | 02.12.2021  | 15:15 | GRA330 | Lecture 15: Sequent Calculus and LISA Kernel |   |
 |      |     |             | 17:15 | GRA330 | Individual Projects            |   |
 |      | Fri | 03.12.2021  | 13:15 | CE1103 | Individual Projects |     | 
