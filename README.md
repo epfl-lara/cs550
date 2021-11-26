@@ -74,7 +74,7 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 |      |     |             | 14:15 | CE1103 | Individual Projects            |  |
 |      | Thu | 25.11.2021  | 15:15 | GRA330 | Lecture 14a  | [Semantics and Verification of Concurrency](https://tube.switch.ch/videos/BtlLSpFINW) |
 |      |     |             | 17:15 | GRA330 | Individual Projects            |     |
-|      | Fri | 26.11.2021  | 13:15 | CE1103 | Individual Projects            |     | 
+|      | Fri | 26.11.2021  | 13:15 | CE1103 | Lecture 14b | [Total Functions: Why and How](https://tube.switch.ch/videos/n9OsbDPfwG) | 
 
 # Coming soon
 
