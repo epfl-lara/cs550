@@ -83,7 +83,7 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 |      | Thu | 02.12.2021  | 15:15 | GRA330 | Lecture 15: Sequent Calculus and LISA Kernel |   |
 |      |     |             | 17:15 | GRA330 | Individual Projects            |   |
 |      | Fri | 03.12.2021  | 13:15 | CE1103 | Individual Projects |     | 
-|      | Thu | 09.12.2021  | 15:15 | GRA330 | Lecture 16: Mystery Lecture   |   |
+|      | Thu | 09.12.2021  | 15:15 | GRA330 | Lecture 16: Reasoning About State. Monadic Semantics |   |
 |      |     |             | 17:15 | GRA330 | Individual Projects            |   |
 |      | Fri | 11.12.2021  | 13:15 | CE1103 | Individual Projects |     | 
 |      | Thu | 16.12.2021  | 15:15 | GRA330 | Project Presentations    |     |
