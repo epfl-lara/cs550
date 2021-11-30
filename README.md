@@ -75,13 +75,14 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 |      | Thu | 25.11.2021  | 15:15 | GRA330 | Lecture 14a  | [Semantics and Verification of Concurrency](https://tube.switch.ch/videos/BtlLSpFINW) |
 |      |     |             | 17:15 | GRA330 | Individual Projects            |     |
 |      | Fri | 26.11.2021  | 13:15 | CE1103 | Lecture 14b | [Total Functions: Why and How](https://tube.switch.ch/videos/n9OsbDPfwG) | 
+|      | Thu | 02.12.2021  | 15:15 | GRA330 | Lecture 15a: Sequent Calculus by Simon Guilloud |   |
+|      | Thu | 02.12.2021  | 16:00 | [Zoom](https://mit.zoom.us/j/96451987305)  | Thesis Presentation by Clément Pit-Claudel  | [Abstract](https://www.csail.mit.edu/event/thesis-defense-relational-compilation-end-end-verification), [Background](https://people.csail.mit.edu/cpitcla/thesis/relational-compilation.html)  |
+|      |     |             | 17:15 | GRA330 | Individual Projects            |   |
 
 # Coming soon
 
 | Week | Day | Date       | Time  | Room   | Topic                           | Videos & Slides              |
 | :--  | :-- | :--        | :--   | :--    | :--                             | :--                          |
-|      | Thu | 02.12.2021  | 15:15 | GRA330 | Lecture 15: Sequent Calculus and LISA Kernel |   |
-|      |     |             | 17:15 | GRA330 | Individual Projects            |   |
 |      | Fri | 03.12.2021  | 13:15 | CE1103 | Individual Projects |     | 
 |      | Thu | 09.12.2021  | 15:15 | GRA330 | Lecture 16: Reasoning About State. Monadic Semantics |   |
 |      |     |             | 17:15 | GRA330 | Individual Projects            |   |
