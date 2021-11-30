@@ -76,7 +76,7 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 |      |     |             | 17:15 | GRA330 | Individual Projects            |     |
 |      | Fri | 26.11.2021  | 13:15 | CE1103 | Lecture 14b | [Total Functions: Why and How](https://tube.switch.ch/videos/n9OsbDPfwG) | 
 |      | Thu | 02.12.2021  | 15:15 | GRA330 | Lecture 15a: Sequent Calculus by Simon Guilloud |   |
-|      | Thu | 02.12.2021  | 16:00 | [Zoom](https://mit.zoom.us/j/96451987305)  | Thesis Defense of [Clément Pit-Claudel](http://pit-claudel.fr/clement/)  | [Abstract](https://www.csail.mit.edu/event/thesis-defense-relational-compilation-end-end-verification), [Background](https://people.csail.mit.edu/cpitcla/thesis/relational-compilation.html)  |
+|      |     |             | 16:00 | [Zoom](https://mit.zoom.us/j/96451987305)  | Thesis Defense of [Clément Pit-Claudel](http://pit-claudel.fr/clement/)  | [Abstract](https://www.csail.mit.edu/event/thesis-defense-relational-compilation-end-end-verification), [Background](https://people.csail.mit.edu/cpitcla/thesis/relational-compilation.html)  |
 |      |     |             | 17:15 | GRA330 | Individual Projects            |   |
 
 # Coming soon
