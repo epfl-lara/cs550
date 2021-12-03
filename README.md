@@ -78,12 +78,13 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 |      | Thu | 02.12.2021  | 15:15 | GRA330 | Lecture 15a | [Sequent Calculus](https://tube.switch.ch/videos/OE4GR0K9nK) by Simon Guilloud |   |
 |      |     |             | 16:00 | [Zoom](https://mit.zoom.us/j/96451987305)  | Thesis Defense of [Clément Pit-Claudel](http://pit-claudel.fr/clement/)  | [Abstract](https://www.csail.mit.edu/event/thesis-defense-relational-compilation-end-end-verification), [Background](https://people.csail.mit.edu/cpitcla/thesis/relational-compilation.html)  |
 |      |     |             | 17:15 | GRA330 | Individual Projects            |   |
+|      | Fri | 03.12.2021  | 13:15 | CE1103 | Lecture 15b | Discussion of LISA's sequent calculus. Paper: [Is ZF a hack?](https://doi.org/10.1016/j.jal.2005.10.011) |     
+|      |     |             |       | CE1103 | Individual Projects |     | 
 
 # Coming soon
 
 | Week | Day | Date       | Time  | Room   | Topic                           | Videos & Slides              |
 | :--  | :-- | :--        | :--   | :--    | :--                             | :--                          |
-|      | Fri | 03.12.2021  | 13:15 | CE1103 | Individual Projects |     | 
 |      | Thu | 09.12.2021  | 15:15 | GRA330 | Lecture 16: Reasoning About State. Monadic Semantics |   |
 |      |     |             | 17:15 | GRA330 | Individual Projects            |   |
 |      | Fri | 11.12.2021  | 13:15 | CE1103 | Individual Projects |     | 
