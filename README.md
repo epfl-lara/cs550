@@ -80,6 +80,7 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 |      |     |             | 17:15 | GRA330 | Individual Projects            |   |
 |      | Fri | 03.12.2021  | 13:15 | CE1103 | Lecture 15b | Discussion of LISA's sequent calculus. Paper: [Is ZF a hack?](https://doi.org/10.1016/j.jal.2005.10.011) |     
 |      |     |             |       | CE1103 | Individual Projects |     | 
+|      | Tue | 07.12.2021  | 17:00 | zoom   | [Nadia Polikarpova: Synthesis of Safe Pointer-Manipulating Programs](https://tube.switch.ch/videos/bF2Y7ghXQR) |     | 
 
 # Coming soon
 
