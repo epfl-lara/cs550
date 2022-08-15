@@ -8,7 +8,7 @@ This  repository is the homepage of the course Formal Verification (autumn 2022)
 
 - Professor: [Viktor Kunčak](https://people.epfl.ch/viktor.kuncak)
 - Teaching Assistant: [Simon Guilloud](https://people.epfl.ch/simon.guilloud)
-- Student Assistants: 
+- Student Assistants: [Noé De Santo](https://people.epfl.ch/noe.desanto), [Andrea Gilot](https://people.epfl.ch/andrea.gilot)
 
 ### Grading
 
