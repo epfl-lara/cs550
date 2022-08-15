@@ -2,27 +2,27 @@
 
 [Moodle](https://moodle.epfl.ch/course/view.php?id=13051), [Coursebook](https://edu.epfl.ch/coursebook/en/formal-verification-CS-550?cb_cycle=bama_cyclemaster&cb_section=in)
 
-This  repository is the homepage of the course Formal Verification (fall 2021) and hosts the material necesary for the labs.
-
- **Construct 100% correct software!** The course is all project based. 
+This  repository is the homepage of the course Formal Verification (autumn 2022) and hosts the material necesary for the labs.
 
 ### Staff:
 
 - Professor: [Viktor Kunčak](https://people.epfl.ch/viktor.kuncak)
 - Teaching Assistant: [Simon Guilloud](https://people.epfl.ch/simon.guilloud)
-
-### Early Task
-
-The projects will consist in 4 small labs and one larger project. Students should form groups of 2 to 3 by October 1st and send their group to [Simon Guilloud](https://people.epfl.ch/simon.guilloud)
+- Student Assistants: 
 
 ### Grading
 
-- 40% Four labs to be done in groups, each group working independently on same projects
-- 60% Final project to be done in groups : you will choose a topic with our agreement
-    - 15% Written presentation of a background paper 
-    - 15% Results accomplished (how hard it was, how far you got)
-    - 15% Presentation of results 
-    - 15% Final report
+The grade is based on the written mid-term, as well as code, documentation, and explanation of projects during the semester. Specific percentages will be communicated in the first class and posted here.
+
+The types of graded materials will include:
+
+- Mid-term
+- Labs to be done in groups, each group working independently on same projects
+- Final project to be done in groups : you will choose a topic with our agreement
+    - Written presentation of a background paper 
+    - Results accomplished (how hard it was, how far you got)
+    - Presentation of results 
+    - Final report
 
 # Content
 
@@ -35,6 +35,8 @@ The course has two aspects:
 The course will follow a similar structure to the [2020 edition](https://lara.epfl.ch/w/fv20/top). The grading will be based only on project work. Project can be a case study in developing a verified piece of software, an implementation of verification tool functionality, or a theoretical result about verification, constraint solving or theorem proving. Students present their projects with a written report as well as by a live presentation of the background material and project results, answering our questions.
 
 Note that slides can be found **underneath each lecture video** on switch tube linkes below. 
+
+## OUTDATED OUTLINE FROM 2021:
 
 
 | Week | Day | Date       | Time  | Room   | Topic                           | Videos & Slides              |
@@ -82,24 +84,3 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 |      |     |             |       | CE1103 | Individual Projects |     | 
 |      | Tue | 07.12.2021  | 17:00 | zoom   | PL Seminar Talk | [Nadia Polikarpova: Synthesis of Safe Pointer-Manipulating Programs](https://tube.switch.ch/videos/bF2Y7ghXQR) |
 
-# Coming soon
-
-| Week | Day | Date       | Time  | Room   | Topic                           | Videos & Slides              |
-| :--  | :-- | :--        | :--   | :--    | :--                             | :--                          |
-|      | Thu | 09.12.2021  | 15:15 | GRA330 | Lecture 16: Reasoning About State. Monadic Semantics |   |
-|      |     |             | 17:15 | GRA330 | Individual Projects            |   |
-|      | Fri | 11.12.2021  | 13:15 | CE1103 | Individual Projects |     | 
-|      | Thu | 16.12.2021  | 15:15 | GRA330 | Project Presentations    |     |
-|      |     |             | 17:15 | GRA330 | Project Presentations    |     |
-|      | Fri | 17.12.2021  | 13:15 | CE1103 | Project Presentations    |     | 
-|      | Thu | 23.12.2021  | 15:15 | GRA330 | Project Presentations    |     |
-|      |     |             | 17:15 | GRA330 | Project Presentations    |     |
-
-# Deadlines
-
-  * ~~29.10 Start reading [projects suggestions](https://gitlab.epfl.ch/kuncak/student-projects/) and discuss directions with colleagues~~
-  * ~~04.11, 05.11 Discuss projects with teaching staff and choose a project as well as a paper to read for its background.~~
-  * ~~06.11 Deadline to send us the title and PDF of the paper you plan to read and report on~~
-  * ~~13.11 Submit a written short 5-page report about the chosen paper (template will be provided)~~
-  * Last two weeks of semester: project presentations (15min) in class or pre-recorded with 5 min Q&A live or over zoom
-  * End of semester or the latest on 10 January 2021: written report about your project with links to any repository code
