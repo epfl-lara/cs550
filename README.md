@@ -41,9 +41,9 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 
 | Week | Day | Date       | Time  | Room   | Topic                           | Videos & Slides              |
 | :--  | :-- | :--        | :--   | :--    | :--                             | :--                          |
-| 1    | Thu | 22.09.2022 | 15:15 | GRA330 | Lecture 1                       | [Intro to FV](https://tube.switch.ch/videos/56b40f7e), [Intro to Stainless](https://tube.switch.ch/videos/c7d203e8), [Auxiliary Assertions](https://tube.switch.ch/videos/44e8a0dc), [Unfolding](https://tube.switch.ch/videos/ada8a42c), [Disasters, Successes, and Inductive Invariants](https://tube.switch.ch/videos/cca7c3f8) |
+| 1    | Thu | 22.09.2022 | 15:15 | [GRA330](https://plan.epfl.ch/?room==GR%20A3%2030) | Lecture 1                       | [Intro to FV](https://tube.switch.ch/videos/56b40f7e), [Intro to Stainless](https://tube.switch.ch/videos/c7d203e8), [Auxiliary Assertions](https://tube.switch.ch/videos/44e8a0dc), [Unfolding](https://tube.switch.ch/videos/ada8a42c), [Disasters, Successes, and Inductive Invariants](https://tube.switch.ch/videos/cca7c3f8) |
 |      |     |           | 17:15 | GRA330 | Lecture 2                       | [Dispenser Example](https://tube.switch.ch/videos/ded227dd), [Finite Systems Expressed with Formulas](https://tube.switch.ch/videos/088d2823) |
-|      | Fri | 23.09.2022 | 13:15 | INR219 | Lecture 3                       | [What is a Formal Proof?](https://tube.switch.ch/videos/4a211e7a) and [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c) |
+|      | Fri | 23.09.2022 | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture 3                       | [What is a Formal Proof?](https://tube.switch.ch/videos/4a211e7a) and [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c) |
 | 2    | Thu | 29.09.2022 | 15:15 | GRA330 | Exercises 1 | Propositional logic | 
 |      |     |            | 17:15 | GRA330 | Labs 1  | Stainless | 
 |      | Fri | 30.09.2022 | 13:15 | INR219 | Lecture 4 |  [Automating First-Order Logic Proofs Using Resolution](https://tube.switch.ch/videos/60fb9217) | 
@@ -56,7 +56,7 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 | 5    | Thu | 20.10.2022 | 15:15 | GRA330 | Exercises 4 |  | 
 |      |     |            | 17:15 | GRA330 | Labs 3 | Isabelle | 
 |      | Fri | 21.10.2022 | 13:15 | INR219 | Lecture 7: Recursion and Fixpoints |   |
-| 6    | Thu | 27.10.2022 | 15:15 | TBA | **MID-TERM!!!** |      | 
+| 6    | Thu | 27.10.2022 | 15:15 | [GRA330](https://plan.epfl.ch/?room==GR%20A3%2030) and [GCC330](https://plan.epfl.ch/?room=%3DGC%20C3%2030) | **MID-TERM!!!** |      | 
 |      |     |            | 18:00 |        | End of mid-term |  | 
 |      | Fri | 28.10.2022 | 13:15 | INR219 | Lecture 8 | Decision procedures |
 | 7    | Thu | 03.11.2022 | 15:15 | GRA330 | Labs 4 | Introduction to Lisa |      
