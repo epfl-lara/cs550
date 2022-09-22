@@ -16,7 +16,7 @@ The grade is based on the written mid-term, as well as code, documentation, and 
 
 The types of graded materials will include:
 
-- 40% Mid-term: 27 October 15:15-18:00
+- 40% Mid-term: 27 October 15:15-18:00 (see [this folder with past exams](past-exams/))
 - 20% total: four labs, to be done in groups, each group working independently on same projects
 - 40% final project to be done in groups, you will choose a topic with our agreement
     - 10% Written presentation of a background paper 
