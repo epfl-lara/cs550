@@ -40,8 +40,9 @@ Note that slides can be found **underneath each lecture video** on switch tube l
 
 * [HandMC] **Handbook of Model Checking**, 2018, from [from Springer](https://link.springer.com/book/10.1007/978-3-319-10575-8), [from EPFL Library](https://library.epfl.ch/en/beast?isbn=9783319105758), edited by Edmund M. Clarke, Thomas A. Henzinger, Helmut Veith, Roderick Bloem.
 * [HandAR] **Handbook of Practical Logic and Automated Reasoning**, 2009, [from Cambridge University Press](https://doi.org/10.1017/CBO9780511576430) and [from EPFL Library](https://library.epfl.ch/en/beast?isbn=9786612058776), by John Harrison
+* [CalComp] **The Calculus of Computation - Decision Procedures with Applications to Verification**, 2007, [from Springer](https://doi.org/10.1007/978-3-540-74113-8), [from EPFL library](https://www.epfl.ch/campus/library/beast/?isbn=9783540741138), by Aaron Bradley and Zohar Manna.
 
-In the reading list below, HandAR Ch.2 means Chapter 2 in the Handbook of Practical Logic and Automated Reasoning Above, whereas HandMC Ch.9 means Chapter 9 of the Handbook of Model Checking.
+In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practical Logic and Automated Reasoning Above, whereas HandMC-Ch.9 means Chapter 9 of the Handbook of Model Checking, etc.
 
 ## COURSE OUTLINE 
 
@@ -51,9 +52,9 @@ In the reading list below, HandAR Ch.2 means Chapter 2 in the Handbook of Practi
 | 1    | Thu | 22.09.2022 | 15:15 | [GRA330](https://plan.epfl.ch/?room==GR%20A3%2030) | Lecture 1                       | [Intro to FV](https://tube.switch.ch/videos/56b40f7e), [Intro to Stainless](https://tube.switch.ch/videos/c7d203e8), [Auxiliary Assertions](https://tube.switch.ch/videos/44e8a0dc), [Unfolding](https://tube.switch.ch/videos/ada8a42c), [Disasters, Successes, and Inductive Invariants](https://tube.switch.ch/videos/cca7c3f8) |
 |      |     |           |   |   | Follow:                       | [Stainless ASPLOS'22 Tutorial](https://epfl-lara.github.io/asplos2022tutorial/)  |
 |      |     |           | 17:15 | GRA330 | Lecture 2                       | [Dispenser Example](https://tube.switch.ch/videos/ded227dd), [Finite Systems Expressed with Formulas](https://tube.switch.ch/videos/088d2823) |
-|      |     |           |   |   | Reading:                       | HandMC Ch.10  |
+|      |     |           |   |   | Reading:                       | HandMC-Ch.10  |
 |      | Fri | 23.09.2022 | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture 3                       | [What is a Formal Proof?](https://tube.switch.ch/videos/4a211e7a) and [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c) |
-|      |     |           |   |   | Reading:                       | HandAR Ch.2, HandMC Ch.9 |
+|      |     |           |   |   | Reading:                       | (CalComp-Ch.1 ∨ HandAR-Ch.2) ∧ HandMC-Ch.9 |
 | 2    | Thu | 29.09.2022 | 15:15 | GRA330 | Exercises 1 | Propositional logic | 
 |      |     |            | 17:15 | GRA330 | Labs 1  | Stainless | 
 |      | Fri | 30.09.2022 | 13:15 | INR219 | Lecture 4 |  [Automating First-Order Logic Proofs Using Resolution](https://tube.switch.ch/videos/60fb9217) | 
