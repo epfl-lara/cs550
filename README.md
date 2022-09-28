@@ -55,7 +55,7 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      |     |           |   |   | Reading:                       | HandMC-Ch.10  |
 |      | Fri | 23.09.2022 | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture 3                       | [What is a Formal Proof?](https://tube.switch.ch/videos/4a211e7a) and [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c) |
 |      |     |           |   |   | Reading:                       | (CalComp-Ch.1 ∨ HandAR-Ch.2) ∧ HandMC-Ch.9 |
-| 2    | Thu | 29.09.2022 | 15:15 | GRA330 | Exercises 1 | Propositional logic | 
+| 2    | Thu | 29.09.2022 | 15:15 | GRA330 | Exercises 1 | [Part 1](exercises/ex1/exercise1-part1.pdf), [Part 2](exercises/ex1/exercise1-part2.pdf) | 
 |      |     |            | 17:15 | GRA330 | Labs 1  | Stainless | 
 |      | Fri | 30.09.2022 | 13:15 | INR219 | Lecture 4 |  [Automating First-Order Logic Proofs Using Resolution](https://tube.switch.ch/videos/60fb9217) | 
 | 3    | Thu | 06.10.2022 | 15:15 | GRA330 | Exercises 2 | Using FOL axioms for Order and Lattices | 
