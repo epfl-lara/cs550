@@ -1,5 +1,7 @@
 # Lab 1: Introduction to Stainless
 
+**DEADLINE: 2022-10-12 (Wednesday, 12 October) at 23:59**
+
 In this first lab, you will use Stainless to verify a short scala file.
 
 ## Installation
