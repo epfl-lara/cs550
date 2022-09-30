@@ -54,13 +54,14 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      |     |           | 17:15 | GRA330 | Lecture 2                       | [Dispenser Example](https://tube.switch.ch/videos/ded227dd), [Finite Systems Expressed with Formulas](https://tube.switch.ch/videos/088d2823) |
 |      |     |           |   |   | Reading:                       | HandMC-Ch.10  |
 |      | Fri | 23.09.2022 | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture 3                       | [What is a Formal Proof?](https://tube.switch.ch/videos/4a211e7a) and [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c) |
-|      |     |           |   |   | Reading:                       | (CalComp-Ch.1 ∨ HandAR-Ch.2) ∧ HandMC-Ch.9 |
+|      |     |           |   |   | Reading:                       | CalComp-Ch.1 ∨ HandAR-Ch.2 |
 | 2    | Thu | 29.09.2022 | 15:15 | GRA330 | Exercises 1 | [Part 1](exercises/ex1/exercise1-part1.pdf), [Part 2](exercises/ex1/exercise1-part2.pdf) | 
 |      |     |            | 17:15 | GRA330 | Labs 1  | [Using Stainless](labs/lab1/) | 
-|      | Fri | 30.09.2022 | 13:15 | INR219 | Lecture 4 | Finish  [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c) and do [Automating First-Order Logic Proofs Using Resolution](https://tube.switch.ch/videos/60fb9217) | 
-| 3    | Thu | 06.10.2022 | 15:15 | GRA330 | Exercises 2 | Using FOL axioms for Order and Lattices | 
+|      | Fri | 30.09.2022 | 13:15 | INR219 | Lecture 4 | Finish  [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c) and do [Automating First-Order Logic Proofs Using Resolution](https://tube.switch.ch/videos/60fb9217) until normal forms | 
+|      |     |           |   |   | Reading:                       | (CalComp-1.6,1.7 ∨ HandAR-Ch.2) ∧ HandMC-Ch.9 ∧ CalComp-2.{1,2,3} |
+| 3    | Thu | 06.10.2022 | 15:15 | GRA330 | Exercises 2 | Proposital Clause Resolution, Reachability, FOL Models | 
 |      |     |            | 17:15 | GRA330 | Labs 1 |  | 
-|      | Fri | 07.10.2022 | 13:15 | INR219 | Lecture 5  | BDDs and Formal Hardware Verification (with Barbara Jobstmann) |
+|      | Fri | 07.10.2022 | 13:15 | INR219 | Lecture 5  | Formal Hardware Verification (Barbara Jobstmann) and more |
 | 4    | Thu | 13.10.2022 | 15:15 | GRA330 | Exercises 3 |  | 
 |      |     |            | 17:15 | GRA330 | Labs 2 | Resolution for FOL | 
 |      | Fri | 14.10.2022 | 13:15 | INR219 | Lecture 6: From Programs to Formulas |   |
