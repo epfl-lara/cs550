@@ -68,7 +68,7 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 | 5    | Thu | 20.10.2022 | 15:15 | GRA330 | Exercises 4 |  | 
 |      |     |            | 17:15 | GRA330 | Labs 3 | Isabelle | 
 |      | Fri | 21.10.2022 | 13:15 | INR219 | Lecture 7: Recursion and Fixpoints |   |
-| 6    | Thu | 27.10.2022 | 15:15 | [GRA330](https://plan.epfl.ch/?room==GR%20A3%2030) and [GCC330](https://plan.epfl.ch/?room=%3DGC%20C3%2030) | **MID-TERM!!!** |      | 
+| 6    | Thu | 27.10.2022 | 15:15 | [GRA330](https://plan.epfl.ch/?room==GR%20A3%2030) and  [MEB331](https://plan.epfl.ch/?room=%253DME%20B3%2031) | **MID-TERM!!!** |      | 
 |      |     |            | 18:00 |        | End of mid-term |  | 
 |      | Fri | 28.10.2022 | 13:15 | INR219 | Lecture 8 | Decision procedures |
 | 7    | Thu | 03.11.2022 | 15:15 | GRA330 | Labs 4 | Introduction to Lisa |      
