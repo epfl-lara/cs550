@@ -61,7 +61,7 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      |     |           |   |   | Reading:                       | (CalComp-1.6,1.7 ∨ HandAR-Ch.2) ∧ HandMC-Ch.9 ∧ CalComp-2.{1,2,3} |
 | 3    | Thu | 06.10.2022 | 15:15 | GRA330 | Exercises 2 | [Sheet](exercises/ex2/Exercise2.pdf) | 
 |      |     |            | 17:15 | GRA330 | Labs 1 |  | 
-|      | Fri | 07.10.2022 | 13:15 | INR219 | Lecture 5  | Formal Hardware Verification (Barbara Jobstmann) and more |
+|      | Fri | 07.10.2022 | 13:15 | INR219 | Lecture 5  | Formal Hardware Verification (Barbara Jobstmann) and [Symbolic Model Checking](lectures/lec05.pdf) (Viktor) |
 | 4    | Thu | 13.10.2022 | 15:15 | GRA330 | Exercises 3 |  | 
 |      |     |            | 17:15 | GRA330 | Labs 2 | Resolution for FOL | 
 |      | Fri | 14.10.2022 | 13:15 | INR219 | Lecture 6: From Programs to Formulas |   |
