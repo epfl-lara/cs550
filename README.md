@@ -63,7 +63,7 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      |     |            | 17:15 | GRA330 | Labs 1 |  | 
 |      | Fri | 07.10.2022 | 13:15 | INR219 | Lecture 5  | Formal Hardware Verification in Industry (Barbara Jobstmann) and [Symbolic Exploration](https://tube.switch.ch/videos/DuvmOssLQG) (Viktor) |
 | 4    | Thu | 13.10.2022 | 15:15 | GRA330 | **Lecture** | [Automating First-Order Logic Proofs Using Resolution](https://tube.switch.ch/videos/60fb9217), from normal forms onwards. | 
-|      |     |            | 17:15 | GRA330 | Labs 2 | Resolution Proof Checker | 
+|      |     |            | 17:15 | GRA330 | Labs 2 | [Resolution for FOL](labs/lab2/) | 
 |      | Fri | 14.10.2022 | 13:15 | INR219 | Lecture 6: From Programs to Formulas |   |
 | 5    | Thu | 20.10.2022 | 15:15 | GRA330 | Exercises 3 |  | 
 |      |     |            | 17:15 | GRA330 | Labs 3 | Lab using [Lisa](https://github.com/epfl-lara/lisa) | 
