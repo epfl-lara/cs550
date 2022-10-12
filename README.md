@@ -62,15 +62,15 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 | 3    | Thu | 06.10.2022 | 15:15 | GRA330 | Exercises 2 | [Sheet](exercises/ex2/Exercise2.pdf) ([solution](exercises/ex2/solutions2.pdf)) | 
 |      |     |            | 17:15 | GRA330 | Labs 1 |  | 
 |      | Fri | 07.10.2022 | 13:15 | INR219 | Lecture 5  | Formal Hardware Verification in Industry (Barbara Jobstmann) and [Symbolic Exploration](https://tube.switch.ch/videos/DuvmOssLQG) (Viktor) |
-| 4    | Thu | 13.10.2022 | 15:15 | GRA330 | **Lecture** | [Automating First-Order Logic Proofs Using Resolution](https://tube.switch.ch/videos/60fb9217), from normal forms on | 
-|      |     |            | 17:15 | GRA330 | Labs 2 |  | 
+| 4    | Thu | 13.10.2022 | 15:15 | GRA330 | **Lecture** | [Automating First-Order Logic Proofs Using Resolution](https://tube.switch.ch/videos/60fb9217), from normal forms onwards. | 
+|      |     |            | 17:15 | GRA330 | Labs 2 | Resolution Proof Checker | 
 |      | Fri | 14.10.2022 | 13:15 | INR219 | Lecture 6: From Programs to Formulas |   |
-| 5    | Thu | 20.10.2022 | 15:15 | GRA330 | Exercises 4 |  | 
-|      |     |            | 17:15 | GRA330 | Labs 3 | Isabelle | 
+| 5    | Thu | 20.10.2022 | 15:15 | GRA330 | Exercises 3 |  | 
+|      |     |            | 17:15 | GRA330 | Labs 3 | Lab using [Lisa](https://github.com/epfl-lara/lisa) | 
 |      | Fri | 21.10.2022 | 13:15 | INR219 | Lecture 7: Recursion and Fixpoints |   |
 | 6    | Thu | 27.10.2022 | 15:15 | [GRA330](https://plan.epfl.ch/?room==GR%20A3%2030) and  [MEB331](https://plan.epfl.ch/?room=%253DME%20B3%2031) | **MID-TERM!!!** |      | 
 |      |     |            | 18:00 |        | End of mid-term |  | 
 |      | Fri | 28.10.2022 | 13:15 | INR219 | Lecture 8 | Decision procedures |
-| 7    | Thu | 03.11.2022 | 15:15 | GRA330 | Labs 4 | Introduction to Lisa |      
+| 7    | Thu | 03.11.2022 | 15:15 | GRA330 | Labs 4 |  |      
 |      |     |            | 17:15 | GRA330 | Labs 4 |  | 
 |      | Fri | 28.10.2022 | 13:15 | INR219 | Lecture 9 | also [list of projects](https://gitlab.epfl.ch/kuncak/student-projects/) |
