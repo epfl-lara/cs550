@@ -64,7 +64,7 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      | Fri | 07.10.2022 | 13:15 | INR219 | Lecture 5  | Formal Hardware Verification in Industry (Barbara Jobstmann) and [Symbolic Exploration](https://tube.switch.ch/videos/DuvmOssLQG) (Viktor) |
 | 4    | Thu | 13.10.2022 | 15:15 | GRA330 | **Lecture** | [Automating First-Order Logic Proofs Using Resolution](https://tube.switch.ch/videos/60fb9217), from normal forms onwards. [Term Models for FOL](slides/term-models.pdf) | 
 |      |     |            | 17:15 | GRA330 | Labs 2 | [Resolution for FOL](labs/lab2/) | 
-|      | Fri | 14.10.2022 | 13:15 | INR219 | Lecture 6: From Programs to Formulas |   |
+|      | Fri | 14.10.2022 | 13:15 | INR219 | Lecture 6 | [Converting Imperative Programs to Formulas](https://tube.switch.ch/videos/79219264), [Hoare Logic, Strongest Postcondition, Weakest Precondition](https://tube.switch.ch/videos/3fc107a7) |   |
 | 5    | Thu | 20.10.2022 | 15:15 | GRA330 | Exercises 3 |  | 
 |      |     |            | 17:15 | GRA330 | Labs 3 | Lab using [Lisa](https://github.com/epfl-lara/lisa) | 
 |      | Fri | 21.10.2022 | 13:15 | INR219 | Lecture 7: Recursion and Fixpoints |   |
