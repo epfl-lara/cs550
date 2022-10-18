@@ -52,13 +52,13 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 | 1    | Thu | 22.09.2022 | 15:15 | [GRA330](https://plan.epfl.ch/?room==GR%20A3%2030) | Lecture 1                       | [Intro to FV](https://tube.switch.ch/videos/56b40f7e), [Intro to Stainless](https://tube.switch.ch/videos/c7d203e8), [Auxiliary Assertions](https://tube.switch.ch/videos/44e8a0dc), [Unfolding](https://tube.switch.ch/videos/ada8a42c), [Disasters, Successes, and Inductive Invariants](https://tube.switch.ch/videos/cca7c3f8) |
 |      |     |           |   |   | Follow:                       | [Stainless ASPLOS'22 Tutorial](https://epfl-lara.github.io/asplos2022tutorial/)  |
 |      |     |           | 17:15 | GRA330 | Lecture 2                       | [Dispenser Example](https://tube.switch.ch/videos/ded227dd), [Finite Systems Expressed with Formulas](https://tube.switch.ch/videos/088d2823) |
-|      |     |           |   |   | Reading:                       | HandMC-Ch.10  |
+|      |     |            |   |   | Reading:                       | HandMC-Ch.10  |
 |      | Fri | 23.09.2022 | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture 3                       | [What is a Formal Proof?](https://tube.switch.ch/videos/4a211e7a) and [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c) |
-|      |     |           |   |   | Reading:                       | CalComp-Ch.1 ∨ HandAR-Ch.2 |
+|      |     |            |   |   | Reading:                       | CalComp-Ch.1 ∨ HandAR-Ch.2 |
 | 2    | Thu | 29.09.2022 | 15:15 | GRA330 | Exercises 1 | [Part 1](exercises/ex1/exercise1-part1.pdf) ([solution](exercises/ex1/solutions1.pdf)), [Part 2](exercises/ex1/exercise1-part2.pdf) ([solution](exercises/ex1/solutions2.pdf)) | 
 |      |     |            | 17:15 | GRA330 | Labs 1  | [Using Stainless](labs/lab1/) | 
 |      | Fri | 30.09.2022 | 13:15 | INR219 | Lecture 4 | Finish  [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c) and do [Automating First-Order Logic Proofs Using Resolution](https://tube.switch.ch/videos/60fb9217) until normal forms | 
-|      |     |           |   |   | Reading:                       | (CalComp-1.6,1.7 ∨ HandAR-Ch.2) ∧ HandMC-Ch.9 ∧ CalComp-2.{1,2,3} |
+|      |     |            |   |   | Reading:                       | (CalComp-1.6,1.7 ∨ HandAR-Ch.2) ∧ HandMC-Ch.9 ∧ CalComp-2.{1,2,3} |
 | 3    | Thu | 06.10.2022 | 15:15 | GRA330 | Exercises 2 | [Sheet](exercises/ex2/Exercise2.pdf) ([solution](exercises/ex2/solutions2.pdf)) | 
 |      |     |            | 17:15 | GRA330 | Labs 1 |  | 
 |      | Fri | 07.10.2022 | 13:15 | INR219 | Lecture 5  | Formal Hardware Verification in Industry (Barbara Jobstmann) and [Symbolic Exploration](https://tube.switch.ch/videos/DuvmOssLQG) (Viktor) |
@@ -66,11 +66,11 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      |     |            | 17:15 | GRA330 | Labs 2 | [Resolution for FOL](labs/lab2/) | 
 |      | Fri | 14.10.2022 | 13:15 | INR219 | Lecture 6 | [Converting Imperative Programs to Formulas](https://tube.switch.ch/videos/79219264), [Hoare Logic, Strongest Postcondition, Weakest Precondition](https://tube.switch.ch/videos/3fc107a7) |   |
 | 5    | Thu | 20.10.2022 | 15:15 | GRA330 | Exercises 3 |  | 
-|      |     |            | 17:15 | GRA330 | Labs 3 | Lab using [Lisa](https://github.com/epfl-lara/lisa) | 
+|      |     |            | 17:15 | GRA330 | Labs 2 | Continue Lab 2 | 
 |      | Fri | 21.10.2022 | 13:15 | INR219 | Lecture 7: Recursion and Fixpoints |   |
 | 6    | Thu | 27.10.2022 | 15:15 | [GRA330](https://plan.epfl.ch/?room==GR%20A3%2030) and  [MEB331](https://plan.epfl.ch/?room=%253DME%20B3%2031) | **MID-TERM!!!** |      | 
 |      |     |            | 18:00 |        | End of mid-term |  | 
-|      | Fri | 28.10.2022 | 13:15 | INR219 | Lecture 8 | Decision procedures |
+|      | Fri | 28.10.2022 | 13:15 | INR219 | Labs 3 | Lab using [Lisa](https://github.com/epfl-lara/lisa) |
 | 7    | Thu | 03.11.2022 | 15:15 | GRA330 | Labs 4 |  |      
 |      |     |            | 17:15 | GRA330 | Labs 4 |  | 
 |      | Fri | 28.10.2022 | 13:15 | INR219 | Lecture 9 | also [list of projects](https://gitlab.epfl.ch/kuncak/student-projects/) |
