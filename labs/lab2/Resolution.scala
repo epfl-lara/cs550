@@ -262,7 +262,7 @@ object Resolution {
 
   /*
    * A clause in a proof is either assumed, i.e. it is part of the initial formula, or it is deduced from previous clauses.
-   * A proof is written in a specific order, and a justification should not refer to a previous step.
+   * A proof is written in a specific order, and a justification should not refer to a subsequent step.
    */
   sealed abstract class Justification
   case object Assumed extends Justification

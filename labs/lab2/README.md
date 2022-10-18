@@ -76,7 +76,7 @@ To be subject to clausal resolution, a formula must have a very specific form. T
 - Then implement `skolemizationNegation`, which has to call `negationNormalForm` first . You will need to provide fresh constant names. This transformation is only satisfiability-preserving, and the resulting formula should be in nnf and should not contain any existential quantifiers (predicate `containsNoExistential`).
 - Proceed now to `prenexSkolemizationNegation`, which has to call the previous function first. This step can be tricky in general, but if we make sure that all bound variables have different names (and different from free variables) this step becomes actually simple. Moreover, since all variables are universally quantified, we don't need to keep the prefix of the formula (i.e. the quantifiers) explicitly and we only care about keeping the matrix (i.e. the quantifier-free part of the formula).
 To this point, if you have implemented the functionalities directly, Stainless will be able to prove the ensuring clauses without much direct help.
-- Finally, implement `conjunctionPrenexSkolemizationNegation`. This function first call the previous function, at which point it consists only in alternations of conjunctions and disjunctions up to literals. In the end, the function should output a list of clauses as seen in course. Your formula is allowed to be (singly) exponential in the size of the input formula. This is more tricky to implement in a way that will satisfy Stainless, and you may need to be more explicit with the proof of the ensuring clause. We suggest you to implement helper functions
+- Finally, implement `conjunctionPrenexSkolemizationNegation`. This function first call the previous function, at which point it consists only in alternations of conjunctions and disjunctions up to literals. In the end, the function should output a list of clauses as seen in course. Your formula is allowed to be (singly) exponential in the size of the input formula. To ensure that all the formulas in the clauses are literals, they will be boxed in `Atom`s (see [*Wrapping (quasi-)atomic formulas*](#wrapping-quasi-atomic-formulas) for a discussion).
 
 
 ### Proofs
@@ -170,6 +170,7 @@ Then copy the files from this lab so that the directory structure is as follows:
   |   |
   |   |- test
   |       |- ...
+  |
   |- .gitignore
   |- build.sbt
   |- README.md
@@ -183,4 +184,4 @@ sbt run
 > **_Note_**: when compiling the program, many warnings will appear about match exhaustivity. This is normal: we proved in Stainless that all matches were exhaustive, but the scala compiler is not aware of that.
 
 ## Submission
-Once you've finished, you can submit your [Resolution.scala](Resolution.scala) file [on Moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1169500) by Thursday, 20 October 2022, 23:59. Only one member of the group needs to submit.
+Once you've finished, you can submit your [Resolution.scala](Resolution.scala) file [on Moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1169500) by Wednesday, 26 October 2022, 23:59. Only one member of the group needs to submit.
