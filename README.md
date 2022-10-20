@@ -65,7 +65,7 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 | 4    | Thu | 13.10.2022 | 15:15 | GRA330 | **Lecture** | [Automating First-Order Logic Proofs Using Resolution](https://tube.switch.ch/videos/60fb9217), from normal forms onwards. [Term Models for FOL](slides/term-models.pdf) | 
 |      |     |            | 17:15 | GRA330 | Labs 2 | [Resolution for FOL](labs/lab2/) | 
 |      | Fri | 14.10.2022 | 13:15 | INR219 | Lecture 6 | [Converting Imperative Programs to Formulas](https://tube.switch.ch/videos/79219264), [Hoare Logic, Strongest Postcondition, Weakest Precondition](https://tube.switch.ch/videos/3fc107a7) |   |
-| 5    | Thu | 20.10.2022 | 15:15 | GRA330 | Exercises 3 | FOL models. Weakest Programs to Formulas | 
+| 5    | Thu | 20.10.2022 | 15:15 | GRA330 | Exercises 3 | [Sheet 2: FOL models. Weakest Preconditions. Programs to Formulas](exercises/ex3/Exercise3.pdf) | 
 |      |     |            | 17:15 | GRA330 | Labs 2 | Continue [Resolution for FOL](labs/lab2/) | 
 |      | Fri | 21.10.2022 | 13:15 | INR219 | Lecture 7 | BDDs. Fixpoints. |  
 | 6    | Thu | 27.10.2022 | 15:15 | [GRA330](https://plan.epfl.ch/?room==GR%20A3%2030) and  [MEB331](https://plan.epfl.ch/?room=%253DME%20B3%2031) | **MID-TERM!!!** |      | 
