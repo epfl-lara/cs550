@@ -60,14 +60,14 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      | Fri | 30.09.2022 | 13:15 | INR219 | Lecture 4 | Finish  [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c) and do [Automating First-Order Logic Proofs Using Resolution](https://tube.switch.ch/videos/60fb9217) until normal forms | 
 |      |     |            |   |   | Reading:                       | (CalComp-1.6,1.7 ∨ HandAR-Ch.2) ∧ HandMC-Ch.9 ∧ CalComp-2.{1,2,3} |
 | 3    | Thu | 06.10.2022 | 15:15 | GRA330 | Exercises 2 | [Sheet](exercises/ex2/Exercise2.pdf) ([solution](exercises/ex2/solutions2.pdf)) | 
-|      |     |            | 17:15 | GRA330 | Labs 1 |  | 
+|      |     |            | 17:15 | GRA330 | Labs 1 | Continue [Using Stainless](labs/lab1/)  | 
 |      | Fri | 07.10.2022 | 13:15 | INR219 | Lecture 5  | Formal Hardware Verification in Industry (Barbara Jobstmann) and [Symbolic Exploration](https://tube.switch.ch/videos/DuvmOssLQG) (Viktor) |
 | 4    | Thu | 13.10.2022 | 15:15 | GRA330 | **Lecture** | [Automating First-Order Logic Proofs Using Resolution](https://tube.switch.ch/videos/60fb9217), from normal forms onwards. [Term Models for FOL](slides/term-models.pdf) | 
 |      |     |            | 17:15 | GRA330 | Labs 2 | [Resolution for FOL](labs/lab2/) | 
 |      | Fri | 14.10.2022 | 13:15 | INR219 | Lecture 6 | [Converting Imperative Programs to Formulas](https://tube.switch.ch/videos/79219264), [Hoare Logic, Strongest Postcondition, Weakest Precondition](https://tube.switch.ch/videos/3fc107a7) |   |
 | 5    | Thu | 20.10.2022 | 15:15 | GRA330 | Exercises 3 | [Sheet 2: FOL models. Weakest Preconditions. Programs to Formulas](exercises/ex3/Exercise3.pdf) | 
 |      |     |            | 17:15 | GRA330 | Labs 2 | Continue [Resolution for FOL](labs/lab2/) | 
-|      | Fri | 21.10.2022 | 13:15 | INR219 | Lecture 7 | BDDs. Fixpoints. |  
+|      | Fri | 21.10.2022 | 13:15 | INR219 | Lecture 7 | [Monotonicity and Semantics of Local Variables](https://tube.switch.ch/videos/pJFK2gi0YM), [Relational Semantics of Loops](https://tube.switch.ch/videos/jAePaQR8jc), [Loop Semantics Example](https://tube.switch.ch/videos/M2YCTkGZ4F) |  
 | 6    | Thu | 27.10.2022 | 15:15 | [GRA330](https://plan.epfl.ch/?room==GR%20A3%2030) and  [MEB331](https://plan.epfl.ch/?room=%253DME%20B3%2031) | **MID-TERM!!!** |      | 
 |      |     |            | 18:00 |        | End of mid-term |  | 
 |      | Fri | 28.10.2022 | 13:15 | INR219 | Labs 3 | Lab using [Lisa](https://github.com/epfl-lara/lisa) |
