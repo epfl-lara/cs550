@@ -68,7 +68,7 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 | 5    | Thu | 20.10.2022 | 15:15 | GRA330 | Exercises 3 | [Sheet 2: FOL models. Weakest Preconditions. Programs to Formulas](exercises/ex3/Exercise3.pdf) ([solution](exercises/ex3/solutions3.pdf)) | 
 |      |     |            | 17:15 | GRA330 | Labs 2 | Continue [Resolution for FOL](labs/lab2/) | 
 |      | Fri | 21.10.2022 | 13:15 | INR219 | Lecture 8 | [Monotonicity and Semantics of Local Variables](https://tube.switch.ch/videos/pJFK2gi0YM), [Relational Semantics of Loops](https://tube.switch.ch/videos/jAePaQR8jc), [Loop Semantics Example](https://tube.switch.ch/videos/M2YCTkGZ4F) |  
-| 6    | Thu | 27.10.2022 | 15:15 | [GRA330](https://plan.epfl.ch/?room==GR%20A3%2030) and  [MEB331](https://plan.epfl.ch/?room=%253DME%20B3%2031) | **MID-TERM!!!** |      | 
+| 6    | Thu | 27.10.2022 | 15:15 | [GRA330](https://plan.epfl.ch/?room==GR%20A3%2030) and  [MEB331](https://plan.epfl.ch/?room=%253DME%20B3%2031) | **MID-TERM**: [INSTRUCTIONS](exam/) |      | 
 |      |     |            | 18:00 |        | End of mid-term |  | 
 |      | Fri | 28.10.2022 | 13:15 | INR219 | Labs 3 | Lab using [Lisa](https://github.com/epfl-lara/lisa) |
 | 7    | Thu | 03.11.2022 | 15:15 | GRA330 | Labs 4 |  |      
