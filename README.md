@@ -72,12 +72,12 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      |     |            | 18:00 |        | End of mid-term |  | 
 |      | Fri | 28.10.2022 | 13:15 | INR219 | Lab 3 Background | [Sequent Calculus Presentation](https://tube.switch.ch/videos/bF3Jixi666) and [Lisa](https://github.com/epfl-lara/lisa) Demo |
 | 7    | Thu | 03.11.2022 | 15:15 | GRA330 | Lecture |  |      
-|      |     |            | 17:15 | GRA330 | Labs 3 | Proofs in Lisa | 
+|      |     |            | 17:15 | GRA330 | Labs 3 | Proofs in Lisa (1 week) | 
 |      | Fri | 28.10.2022 | 13:15 | INR219 | Lecture 9 | also [list of projects](https://gitlab.epfl.ch/kuncak/student-projects/) |
 | 8    | Thu | 10.11.2022 | 15:15 | GRA330 | Lecture |  |
-|      |     |            | 17:15 | GRA330 | Labs 4 | Isabelle Lab | 
+|      |     |            | 17:15 | GRA330 | Labs 4 | Isabelle Lab (1 week) | 
 |      | Fri | 11.11.2022 | 13:15 | INR219 | Lecture |  |
-| 09   |     | 16.11.2022 | 23:59 |        | Abstract Due | project abstract + background paper title |
+| 09   |     | 16.11.2022 | 23:59 |        | Abstracts Due | project abstract + background paper title |
 |      | Thu | 17.11.2022 | 15:15 | GRA330 |  |  |
 |      |     |            | 17:15 | GRA330 |  |  | 
 |      | Fri | 18.11.2022 | 13:15 | INR219 |  |  |
