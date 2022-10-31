@@ -88,9 +88,9 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      | Thu | 01.12.2022 | 15:15 | GRA330 |  |  |
 |      |     |            | 17:15 | GRA330 |  |  | 
 |      | Fri | 02.12.2022 | 13:15 | INR219 |  |  |
-| 12   | Thu | 07.12.2022 | 15:15 | GRA330 |  |  |
+| 12   | Thu | 08.12.2022 | 15:15 | GRA330 |  |  |
 |      |     |            | 17:15 | GRA330 |  |  | 
-|      | Fri | 08.12.2022 | 13:15 | INR219 |  |  |
+|      | Fri | 09.12.2022 | 13:15 | INR219 |  |  |
 | 13   | Thu | 15.12.2022 | 15:15 | GRA330 |  |  |
 |      |     |            | 17:15 | GRA330 |  |  | 
 |      | Fri | 16.12.2022 | 13:15 | INR219 | Presentations | Project Presentations |
