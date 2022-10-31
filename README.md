@@ -97,3 +97,5 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 | 14   | Thu | 22.12.2022 | 15:15 | GRA330 | Presentations | Project Presentations |
 |      |     |            | 17:15 | GRA330 | Presentations | Project Presentations |
 |      | Fri | 23.12.2022 | 13:15 | INR219 | Presentations | Project Presentations |
+
+You are welcome to submit your final project (report and code) by the end of the semester. We will start grading on 9 January 2023.
