@@ -77,10 +77,10 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 | 8    | Thu | 10.11.2022 | 15:15 | GRA330 | Lecture |  |
 |      |     |            | 17:15 | GRA330 | Labs 4 | Isabelle Lab | 
 |      | Fri | 11.11.2022 | 13:15 | INR219 | Lecture |  |
-| 9    | Thu | 17.11.2022 | 15:15 | GRA330 |  |  |
+| 09   |     | 16.11.2022 | 23:59 |        | Abstract Due | project abstract + background paper title |
+|      | Thu | 17.11.2022 | 15:15 | GRA330 |  |  |
 |      |     |            | 17:15 | GRA330 |  |  | 
 |      | Fri | 18.11.2022 | 13:15 | INR219 |  |  |
-| 10   |     | 23.10.2022 | 23:59 |        | Abstract Due | project abstract + background paper title |
 |      | Thu | 24.11.2022 | 15:15 | GRA330 |  |  |
 |      |     |            | 17:15 | GRA330 |  |  | 
 |      | Fri | 25.11.2022 | 13:15 | INR219 |  |  |
