@@ -75,7 +75,7 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 | 7    | Thu | 03.11.2022 | 15:15 | GRA330 | Lecture |  |      
 | 7    | Thu | 03.11.2022 | 15:15 | GRA330 | Lecture 9 | [Presburger Arithmetic 1](https://tube.switch.ch/videos/535e9dea), [Presburger Airhtmetic 2](https://tube.switch.ch/videos/ceecf2f6) |
 |      |     |            | 17:15 | GRA330 | Labs 3 | Proofs in Lisa (due 13.11.2022) | 
-|      | Fri | 28.10.2022 | 13:15 | INR219 | Lecture 10 | also [list of projects](https://gitlab.epfl.ch/kuncak/student-projects/) |
+|      | Fri | 28.10.2022 | 13:15 | INR219 | Lecture 10 | [Discussion of Projects](https://gitlab.epfl.ch/kuncak/student-projects/) and of [Isabelle Proof Assistant](https://isabelle.in.tum.de/) including [Concrete Semantics](http://concrete-semantics.org/), [Selected Slides](lectures/lec10-isabelle/lecture10-isabelle.pdf), [Demos](lectures/lec10-isabelle/Demos/) |
 | 8    | Thu | 10.11.2022 | 15:15 | GRA330 | Lecture |  |
 |      |     |            | 17:15 | GRA330 | Labs 4 | Isabelle Lab (1 week) | 
 |      | Fri | 11.11.2022 | 13:15 | INR219 | Lecture |  |
