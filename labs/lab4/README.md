@@ -12,5 +12,5 @@ THe assignement consists in writing the following proofs. First, solve exercise 
 
 
 ## Submission
-Once you've finished, you can submit your Lab03.scala file [on Moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1100580) by Wednesday, 16 November 2022, 23:59. You are given 10 days so that you can ask questions if needed during the next exercise session. Only one member of the group needs to submit. 
+Once you've finished, you can submit your ProgramsAreRelationsLab.thy file [on Moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1100580) by Wednesday, 16 November 2022, 23:59. Only one member of the group needs to submit. 
 
