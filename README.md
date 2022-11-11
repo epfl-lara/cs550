@@ -71,16 +71,14 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 | 6    | Thu | 27.10.2022 | 15:15 | [GRA330](https://plan.epfl.ch/?room==GR%20A3%2030) and  [MEB331](https://plan.epfl.ch/?room=%253DME%20B3%2031) | **MID-TERM**: [INSTRUCTIONS](exam/) |      | 
 |      |     |            | 18:00 |        | End of mid-term |  | 
 |      | Fri | 28.10.2022 | 13:15 | INR219 | Lab 3 Background | [Sequent Calculus Presentation](https://tube.switch.ch/videos/bF3Jixi666) and [Lisa](https://github.com/epfl-lara/lisa) Demo |
-<<<<<<< HEAD
-| 7    | Thu | 03.11.2022 | 15:15 | GRA330 | Lecture |  |      
 | 7    | Thu | 03.11.2022 | 15:15 | GRA330 | Lecture 9 | [Presburger Arithmetic 1](https://tube.switch.ch/videos/535e9dea), [Presburger Airhtmetic 2](https://tube.switch.ch/videos/ceecf2f6) |
 |      |     |            | 17:15 | GRA330 | Labs 3 | Proofs in Lisa (due 13.11.2022) | 
 |      | Fri | 28.10.2022 | 13:15 | INR219 | Lecture 10 | [Discussion of Projects](https://gitlab.epfl.ch/kuncak/student-projects/) and of [Isabelle Proof Assistant](https://isabelle.in.tum.de/) including [Concrete Semantics](http://concrete-semantics.org/), [Selected Slides](lectures/lec10-isabelle/lecture10-isabelle.pdf), [Demos](lectures/lec10-isabelle/Demos/) |
 | 8    | Thu | 10.11.2022 | 15:15 | GRA330 | [Exam Solution](exam/partial-solutions.pdf) Presentation |  |
 |      |     |            | 16:15 | BC 420 | Suggestion: attend talk of Avi Wigderson (see email from Tania) |  |
-|      |     |            | 17:15 | GRA330 | Labs 4 | Isabelle Lab (1 week) | 
-|      | Fri | 11.11.2022 | 13:15 | INR219 | Lecture |  |
-| 09   |     | 16.11.2022 | 23:59 |        | Abstracts Due | project abstract + background paper title |
+|      |     |            | 17:15 | GRA330 | Labs 4 | [Isabelle Lab](labs/lab4/) (1 week long) | 
+|      | Fri | 11.11.2022 | 13:15 | INR219 | Lecture 11 | [Past videos of projects and background papers](https://tube.switch.ch/channels/), [Approximating Loops. Recursion 1](https://tube.switch.ch/videos/xCQoLRTGKq), [Recursion 2](https://tube.switch.ch/videos/NjerTXfE9z) |
+|  9   |     | 16.11.2022 | 23:59 |        | Abstracts Due | project abstract + background paper title |
 |      | Thu | 17.11.2022 | 15:15 | GRA330 |  |  |
 |      |     |            | 17:15 | GRA330 |  |  | 
 |      | Fri | 18.11.2022 | 13:15 | INR219 |  |  |
