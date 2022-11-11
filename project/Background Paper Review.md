@@ -15,7 +15,8 @@ You should lock your paper and the topic of your project by Wednesday, 16th of N
 
 ## Background Paper Review
 
-You are then asked to write a review of the background paper. A review should be 3 to 5 pages long. It is a summary of the most important points of the paper. You should demonstrate that you understood the paper well, and try to convey as much insight as possible about the original paper to the reader of your summary. Note that excessive quoting, or simply filtering the original text, will not be good enough, the review needs to be written {{in your own word}}.
-The most important parts your review should contain are the presentation of the topic, the results, and sketches of how those results where obtained (proof, implementation...). You can find a template giving an approximate structure for such review in [template.tex]. {Don't use the template as is in your review} and you don't have to use the exact same sections. It is merely a suggestion of organisation and typical content.
+You are then asked to write a review of the background paper. A review should be 3 to 5 pages long. It is a summary of the most important points of the paper. You should demonstrate that you understood the paper well, and try to convey as much insight as possible about the original paper to the reader of your summary. Note that excessive quoting, or simply filtering the original text, will not be good enough, the review needs to be written **in your own word**.
+
+The most important parts your review should contain are the presentation of the topic, the results, and sketches of how those results where obtained (proof, implementation...). You can find a template giving an approximate structure for such review in the file [template.tex](https://gitlab.epfl.ch/lara/cs550/-/blob/2021/labs/Background%20Papers/template.tex). **Don't use the template as is in your review** and you don't have to use the exact same sections. It is merely a suggestion of organisation and typical content.
 
 Your Background Paper Review will also need to be submitted on [moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1104628) before Wednesday, 30th of November (23:59).
