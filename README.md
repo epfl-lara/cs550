@@ -78,9 +78,9 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      |     |            | 16:15 | BC 420 | Suggestion: attend talk of Avi Wigderson (see email from Tania) |  |
 |      |     |            | 17:15 | GRA330 | Labs 4 | [Isabelle Lab](labs/lab4/) (1 week long) | 
 |      | Fri | 11.11.2022 | 13:15 | INR219 | Lecture 11 | [Past videos of projects and background papers](https://tube.switch.ch/channels/e9e4e787), [Approximating Loops. Recursion 1](https://tube.switch.ch/videos/xCQoLRTGKq), [Recursion 2](https://tube.switch.ch/videos/NjerTXfE9z) |
-|  9   | Thu | 17.11.2022 | 15:15 | GRA330 | Lecture | [SMT Solvers](https://tube.switch.ch/videos/CDDwI5RZD0), [Abstract Interpretation Idea](https://tube.switch.ch/videos/cOvvbWjTpU), [Lattices](https://tube.switch.ch/videos/Zj3TNfknHG) |
+|  9   | Thu | 17.11.2022 | 15:15 | GRA330 | Lecture | [SMT Solvers](https://tube.switch.ch/videos/CDDwI5RZD0), [Abstract Interpretation Idea](https://tube.switch.ch/videos/cOvvbWjTpU) |
 |      |     |            | 17:15 | GRA330 | Labs | Discuss further project topics |
-|      | Fri | 18.11.2022 | 13:15 | INR219 |  |  |
+|      | Fri | 18.11.2022 | 13:15 | INR219 | Lecture | [Lattices](https://tube.switch.ch/videos/Zj3TNfknHG), [Fixed Point Theorem](https://tube.switch.ch/videos/dQ5vvteGhz), [Omega Continuity](https://tube.switch.ch/videos/DkObtnApKb) |
 |      |     | 20.11.2022 | 23:59 |        | Abstracts Due | [project abstract + background paper title](project/Background%20Paper%20Review.md) |
 |      | Thu | 24.11.2022 | 15:15 | GRA330 |  |  |
 |      |     |            | 17:15 | GRA330 |  |  | 
@@ -98,5 +98,7 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 | 14   | Thu | 22.12.2022 | 15:15 | GRA330 | Presentations | Project Presentations |
 |      |     |            | 17:15 | GRA330 | Presentations | Project Presentations |
 |      | Fri | 23.12.2022 | 13:15 | INR219 | Presentations | Project Presentations |
+
+More: [Total Functions](https://tube.switch.ch/videos/n9OsbDPfwG), [Concurrency](https://tube.switch.ch/videos/BtlLSpFINW)
 
 You are welcome to submit your final project (report and code) by the end of the semester. We will start grading on 9 January 2023.
