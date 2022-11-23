@@ -73,7 +73,7 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      | Fri | 28.10.2022 | 13:15 | INR219 | Lab 3 Background | [Sequent Calculus Presentation](https://tube.switch.ch/videos/bF3Jixi666) and [Lisa](https://github.com/epfl-lara/lisa) Demo |
 | 7    | Thu | 03.11.2022 | 15:15 | GRA330 | Lecture 9 | [Presburger Arithmetic 1](https://tube.switch.ch/videos/535e9dea), [Presburger Airhtmetic 2](https://tube.switch.ch/videos/ceecf2f6) |
 |      |     |            | 17:15 | GRA330 | Labs 3 | Proofs in Lisa (due 13.11.2022) | 
-|      | Fri | 28.10.2022 | 13:15 | INR219 | Lecture 10 | [Discussion of Projects](https://gitlab.epfl.ch/kuncak/student-projects/) and of [Isabelle Proof Assistant](https://isabelle.in.tum.de/) including [Concrete Semantics](http://concrete-semantics.org/), [Selected Slides](lectures/lec10-isabelle/lecture10-isabelle.pdf), [Demos](lectures/lec10-isabelle/Demos/) |
+|      | Fri | 28.10.2022 | 13:15 | INR219 | Lecture 10 | [Discussion of Projects](https://gitlab.epfl.ch/kuncak/student-projects/) and of [Isabelle Proof Assistant](https://isabelle.in.tum.de/) including [Concrete Semantics](http://concrete-semantics.org/), [Selected Slides](lectures/lec10-isabelle/lecture10-isabelle.pdf), [Demos](lectures/lec10-isabelle/Demos/), [The Seven Virtues of Simple Type Theory](slides/SevenVirtues.pdf) |
 | 8    | Thu | 10.11.2022 | 15:15 | GRA330 | [Exam Solution](exam/partial-solutions.pdf) Presentation |  |
 |      |     |            | 16:15 | BC 420 | Suggestion: attend talk of Avi Wigderson (see email from Tania) |  |
 |      |     |            | 17:15 | GRA330 | Labs 4 | [Isabelle Lab](labs/lab4/) (1 week long) | 
