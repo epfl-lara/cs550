@@ -84,7 +84,7 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      |     | 20.11.2022 | 23:59 |        | Abstracts Due | [project abstract + background paper title](project/Background%20Paper%20Review.md) |
 |      | Thu | 24.11.2022 | 15:15 | GRA330 | Labs | Sudy Background Papers; Ask Questions |
 |      |     |            | 17:15 | GRA330 | Labs | unsupervised | 
-|      | Fri | 25.11.2022 | 13:15 | INR219 | Lecture 14 | Using Galois Connection. Predicate Abstraction |
+|      | Fri | 25.11.2022 | 13:15 | INR219 | Lecture 14 | From  [Omega Continuity](https://tube.switch.ch/videos/DkObtnApKb) lecture continue on Using Galois Connection, Predicate Abstraction, Widening. Upcoming: [Total Functions](https://tube.switch.ch/videos/n9OsbDPfwG), [Concurrency](https://tube.switch.ch/videos/BtlLSpFINW) |
 | 11   |     | 30.11.2022 | 23:59 |        | Reports Due | for Background Paper |
 |      | Thu | 01.12.2022 | 15:15 | GRA330 |  |  |
 |      |     |            | 17:15 | GRA330 |  |  | 
@@ -99,6 +99,6 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      |     |            | 17:15 | GRA330 | Presentations | Project Presentations |
 |      | Fri | 23.12.2022 | 13:15 | INR219 | Presentations | Project Presentations |
 
-More: [Total Functions](https://tube.switch.ch/videos/n9OsbDPfwG), [Concurrency](https://tube.switch.ch/videos/BtlLSpFINW)
+
 
 You are welcome to submit your final project (report and code) by the end of the semester. We will start grading on 9 January 2023.
