@@ -101,4 +101,4 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 
 
 
-You are welcome to submit your final project (report and code) by the end of the semester. We will start grading on 9 January 2023.
+You are welcome to submit your final project (report and code) by the end of the semester and revise it until we start grading on 9 January 2023.
