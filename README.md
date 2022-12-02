@@ -84,11 +84,11 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      |     | 20.11.2022 | 23:59 |        | Abstracts Due | [project abstract + background paper title](project/Background%20Paper%20Review.md) |
 |      | Thu | 24.11.2022 | 15:15 | GRA330 | Labs | Sudy Background Papers; Ask Questions |
 |      |     |            | 17:15 | GRA330 | Labs | unsupervised | 
-|      | Fri | 25.11.2022 | 13:15 | INR219 | Lecture 14 | From  [Omega Continuity](https://tube.switch.ch/videos/DkObtnApKb) lecture continue on Using Galois Connection, Predicate Abstraction, Widening. Upcoming: [Total Functions](https://tube.switch.ch/videos/n9OsbDPfwG), [Concurrency](https://tube.switch.ch/videos/BtlLSpFINW) |
+|      | Fri | 25.11.2022 | 13:15 | INR219 | Lecture 14 | From  [Omega Continuity](https://tube.switch.ch/videos/DkObtnApKb) lecture continue on Using Galois Connection, Predicate Abstraction |
 | 11   |     | 30.11.2022 | 23:59 |        | Reports Due | for Background Paper |
 |      | Thu | 01.12.2022 | 15:15 | GRA330 |  |  |
 |      |     |            | 17:15 | GRA330 |  |  | 
-|      | Fri | 02.12.2022 | 13:15 | INR219 |  |  |
+|      | Fri | 02.12.2022 | 13:15 | INR219 | Lecture 15 | [Widening](https://tube.switch.ch/download/document/170515). [Concurrency](https://tube.switch.ch/videos/BtlLSpFINW). [Total Functions](https://tube.switch.ch/videos/n9OsbDPfwG) |
 | 12   | Thu | 08.12.2022 | 15:15 | GRA330 |  |  |
 |      |     |            | 17:15 | GRA330 |  |  | 
 |      | Fri | 09.12.2022 | 13:15 | INR219 |  |  |
