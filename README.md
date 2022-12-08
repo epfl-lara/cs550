@@ -86,19 +86,18 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      |     |            | 17:15 | GRA330 | Labs | unsupervised | 
 |      | Fri | 25.11.2022 | 13:15 | INR219 | Lecture 14 | From  [Omega Continuity](https://tube.switch.ch/videos/DkObtnApKb) lecture continue on Using Galois Connection, Predicate Abstraction |
 | 11   |     | 30.11.2022 | 23:59 |        | Reports Due | for Background Paper |
-|      | Thu | 01.12.2022 | 15:15 | GRA330 |  |  |
-|      |     |            | 17:15 | GRA330 |  |  | 
+|      | Thu | 01.12.2022 | 15:15 | GRA330 |  | Labs |
+|      |     |            | 17:15 | GRA330 |  | Labs (unsupervised) | 
 |      | Fri | 02.12.2022 | 13:15 | INR219 | Lecture 15 | [Widening](https://tube.switch.ch/download/document/170515). [Concurrency](https://tube.switch.ch/videos/BtlLSpFINW). [Total Functions](https://tube.switch.ch/videos/n9OsbDPfwG) |
-| 12   | Thu | 08.12.2022 | 15:15 | GRA330 |  |  |
-|      |     |            | 17:15 | GRA330 |  |  | 
-|      | Fri | 09.12.2022 | 13:15 | INR219 |  |  |
-| 13   | Thu | 15.12.2022 | 15:15 | GRA330 |  |  |
-|      |     |            | 17:15 | GRA330 |  |  | 
+| 12   | Thu | 08.12.2022 | 15:15 | GRA330 |  | Labs |
+|      |     |            | 17:15 | GRA330 |  | Labs (unsupervised) | 
+|      | Fri | 09.12.2022 | 13:15 | INR219 |  | Lecture: program equivalence, mutable state, more on termination |
+| 13   | Thu | 15.12.2022 | 15:15 | GRA330 |  | Labs |
+|      |     |            | 17:15 | GRA330 |  | Labs (unsupervised) | 
 |      | Fri | 16.12.2022 | 13:15 | INR219 | Presentations | Project Presentations |
 | 14   | Thu | 22.12.2022 | 15:15 | GRA330 | Presentations | Project Presentations |
 |      |     |            | 17:15 | GRA330 | Presentations | Project Presentations |
 |      | Fri | 23.12.2022 | 13:15 | INR219 | Presentations | Project Presentations |
 
 
-
-You are welcome to submit your final project (report and code) by the end of the semester and revise it until we start grading on 9 January 2023.
+You are welcome to submit your final project (report and code) by the end of the semester but you can revise it without any penalty until we start grading it on 9 January 2023.
