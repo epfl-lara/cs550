@@ -91,7 +91,7 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      | Fri | 02.12.2022 | 13:15 | INR219 | Lecture 15 | [Widening](https://tube.switch.ch/download/document/170515). [Concurrency](https://tube.switch.ch/videos/BtlLSpFINW). [Total Functions](https://tube.switch.ch/videos/n9OsbDPfwG) |
 | 12   | Thu | 08.12.2022 | 15:15 | GRA330 |  | Labs |
 |      |     |            | 17:15 | GRA330 |  | Labs (unsupervised) | 
-|      | Fri | 09.12.2022 | 13:15 | INR219 |  | Lecture: program equivalence, mutable state, more on termination |
+|      | Fri | 09.12.2022 | 13:15 | INR219 | Lecture 16 | [Equivalence](lectures/lec16-last/slides.pdf) (with [examples](lectures/lec16-last/), [more of them](https://github.com/epfl-lara/stainless/tree/main/frontends/benchmarks/equivalence) and [docs](https://github.com/epfl-lara/stainless/blob/main/core/src/sphinx/equivalence.rst)), mutable state [without aliasing](https://github.com/epfl-lara/stainless/tree/main/frontends/benchmarks/imperative/valid), or [with aliasing](https://github.com/epfl-lara/stainless/tree/main/frontends/benchmarks/full-imperative/valid), and some remarks on [termination](https://tube.switch.ch/videos/n9OsbDPfwG) |
 | 13   | Thu | 15.12.2022 | 15:15 | GRA330 |  | Labs |
 |      |     |            | 17:15 | GRA330 |  | Labs (unsupervised) | 
 |      | Fri | 16.12.2022 | 13:15 | INR219 | Presentations | Project Presentations |
