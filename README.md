@@ -94,10 +94,26 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      | Fri | 09.12.2022 | 13:15 | INR219 | Lecture 16 | [Equivalence](lectures/lec16-last/slides.pdf) (with [examples](lectures/lec16-last/), [more of them](https://github.com/epfl-lara/stainless/tree/main/frontends/benchmarks/equivalence) and [docs](https://github.com/epfl-lara/stainless/blob/main/core/src/sphinx/equivalence.rst)), mutable state [without aliasing](https://github.com/epfl-lara/stainless/tree/main/frontends/benchmarks/imperative/valid), or [with aliasing](https://github.com/epfl-lara/stainless/tree/main/frontends/benchmarks/full-imperative/valid), and some remarks on [termination](https://tube.switch.ch/videos/n9OsbDPfwG) |
 | 13   | Thu | 15.12.2022 | 15:15 | GRA330 |  | Labs |
 |      |     |            | 17:15 | GRA330 |  | Labs (unsupervised) | 
-|      | Fri | 16.12.2022 | 13:15 | INR219 | Presentations | Project Presentations |
-| 14   | Thu | 22.12.2022 | 15:15 | GRA330 | Presentations | Project Presentations |
-|      |     |            | 17:15 | GRA330 | Presentations | Project Presentations |
-|      | Fri | 23.12.2022 | 13:15 | INR219 | Presentations | Project Presentations |
+|      | Fri | 16.12.2022 | 13:15 | INR219 | Presentations | MULTAZZU Luca, FOURMENT Joseph, AEBI Valentin|
+|      |     |            | 13:40 | INR219 | Presentations | RANDL Mathis, BERNIMOULIN Joshua, MICHELOUD Léa|
+|      |     |            | 14:15 | INR219 | Presentations | NATH Shubhojyoti, WACHTER Liam, BANDERET Thibaud|
+|      |     |            | 14:40 | INR219 | Presentations | CAREVIC Filip, MITIC Natalija, PEJIC Radenko|
+| 14   | Thu | 22.12.2022 | 15:15 | GRA330 | Presentations | HUANG Shengyu, MARZEC Tomasz |
+|      |     |            | 15:40 | GRA330 | Presentations | Goswami Yatharth, Goyal Aditi, Shankar Suhas|
+|      |     |            | 16:15 | GRA330 | Presentations | XU Yichen, PHAM Cao Nguyen, GUAN Yawen|
+|      |     |            | 16:40 | GRA330 | Presentations | HUSSEINI Solène, DANDY Liliane-Joy |
+|      |     |            | 17:15 | GRA330 | Presentations | LUO Yicong, HE Qingyi |
+|      |     |            | 17:40 | GRA330 | Presentations | PRUD'HOMME Jacob, WU Chunxiao, GIMALAC Pierre|
+|      |     |            | 18:15 | GRA330 | Presentations | SERANDOUR Erwan , PEDRUCCI David, DUPARC Max|
+|      |     |            | 18:40 | GRA330 | Presentations | CASTES Charly, GAMBHIR Sankalp, CEBECI Can|
+|      | Fri | 23.12.2022 | 13:15 | INR219 | Presentations | BIALAS Bartosz, MA Yijun, NEO wei qing|
+|      |     |            | 13:40 | INR219 | Presentations | PAPP Karoly Artur, MARTY Mathias, TEVAEARAI Zacharie|
+|      |     |            | 14:15 | INR219 | Presentations | PARAMONOV Anton, SEGUINI Giorgio |
+
+
+
+## Presentations Programs
+### Friday 16
 
 
 You are welcome to submit your final project (report and code) by the end of the semester but you can revise it without any penalty until we start grading it on 9 January 2023.
