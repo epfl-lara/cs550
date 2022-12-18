@@ -110,10 +110,4 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      |     |            | 13:40 | INR219 | Presentations | PAPP Karoly Artur, MARTY Mathias, TEVAEARAI Zacharie|
 |      |     |            | 14:15 | INR219 | Presentations | PARAMONOV Anton, SEGUINI Giorgio |
 
-
-
-## Presentations Programs
-### Friday 16
-
-
 You are welcome to submit your final project (report and code) by the end of the semester but you can revise it without any penalty until we start grading it on 9 January 2023.
