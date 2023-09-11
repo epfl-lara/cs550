@@ -8,7 +8,7 @@ This  repository is the homepage of the course Formal Verification (autumn 2022)
 
 - Professor: [Viktor Kunčak](https://people.epfl.ch/viktor.kuncak)
 - Teaching Assistant: [Simon Guilloud](https://people.epfl.ch/simon.guilloud)
-- Student Assistants: [Noé De Santo](https://people.epfl.ch/noe.desanto), [Andrea Gilot](https://people.epfl.ch/andrea.gilot)
+- Student Assistants: [Andrea Gilot](https://people.epfl.ch/andrea.gilot), [Valentin Aebi](https://people.epfl.ch/valentin.aebi/), [Noé De Santo](https://people.epfl.ch/noe.desanto)
 
 ### Grading
 
@@ -16,8 +16,8 @@ The grade is based on the written mid-term, as well as code, documentation, and 
 
 The types of graded materials will include:
 
-- 40% Mid-term: 27 October 15:15-18:00 (see [this folder with past exams](past-exams/))
-- 20% total: four labs, to be done in groups, each group working independently on same projects
+- 40% Late mid-term written exam: 23 November 15:15-18:00 (see [this folder with past exams](past-exams/))
+- 20% total: four-five labs, to be done in groups, each group working independently on same projects
 - 40% final project to be done in groups, you will choose a topic with our agreement
     - 10% Written presentation of a background paper 
     - 10% Results accomplished (how hard it was, how far you got)
@@ -32,15 +32,15 @@ The course has two aspects:
 - learning the practice of formal verification - how to use tools to construct verified software
 - understanding the principles behind formal verification and the ways in which verification tools work
 
-The course will follow a similar structure to the [2020 edition](https://lara.epfl.ch/w/fv20/top). Project can be a case study in developing a verified piece of software, an implementation of verification tool functionality, or a theoretical result about verification, constraint solving or theorem proving. Students present their projects with a written report as well as by a live presentation of the background material and project results, answering our questions.
+The course will follow a similar structure to the [2022 edition](https://gitlab.epfl.ch/lara/cs550/-/tree/2023?ref_type=heads). Project can be a case study in developing a verified piece of software, an implementation of verification tool functionality, or a theoretical result about verification, constraint solving or theorem proving. Students present their projects with a written report as well as by a live presentation of project results, answering our questions.
 
 Note that slides can be found **underneath each lecture video** on switch tube linkes below. 
 
 ## Books
 
+* [CalComp] **The Calculus of Computation - Decision Procedures with Applications to Verification**, 2007, [from Springer](https://doi.org/10.1007/978-3-540-74113-8), [from EPFL library](https://www.epfl.ch/campus/library/beast/?isbn=9783540741138), by Aaron Bradley and Zohar Manna.
 * [HandMC] **Handbook of Model Checking**, 2018, from [from Springer](https://link.springer.com/book/10.1007/978-3-319-10575-8), [from EPFL Library](https://library.epfl.ch/en/beast?isbn=9783319105758), edited by Edmund M. Clarke, Thomas A. Henzinger, Helmut Veith, Roderick Bloem.
 * [HandAR] **Handbook of Practical Logic and Automated Reasoning**, 2009, [from Cambridge University Press](https://doi.org/10.1017/CBO9780511576430) and [from EPFL Library](https://library.epfl.ch/en/beast?isbn=9786612058776), by John Harrison
-* [CalComp] **The Calculus of Computation - Decision Procedures with Applications to Verification**, 2007, [from Springer](https://doi.org/10.1007/978-3-540-74113-8), [from EPFL library](https://www.epfl.ch/campus/library/beast/?isbn=9783540741138), by Aaron Bradley and Zohar Manna.
 
 In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practical Logic and Automated Reasoning Above, whereas HandMC-Ch.9 means Chapter 9 of the Handbook of Model Checking, etc.
 
@@ -55,59 +55,5 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      |     |            |   |   | Reading:                       | HandMC-Ch.10  |
 |      | Fri | 23.09.2022 | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture 3                       | [What is a Formal Proof?](https://tube.switch.ch/videos/4a211e7a) and [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c) |
 |      |     |            |   |   | Reading:                       | CalComp-Ch.1 ∨ HandAR-Ch.2 |
-| 2    | Thu | 29.09.2022 | 15:15 | GRA330 | Exercises 1 | [Part 1](exercises/ex1/exercise1-part1.pdf) ([solution](exercises/ex1/solutions1.pdf)), [Part 2](exercises/ex1/exercise1-part2.pdf) ([solution](exercises/ex1/solutions2.pdf)) | 
-|      |     |            | 17:15 | GRA330 | Labs 1  | [Using Stainless](labs/lab1/) | 
-|      | Fri | 30.09.2022 | 13:15 | INR219 | Lecture 4 | Finish  [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c) and do [Automating First-Order Logic Proofs Using Resolution](https://tube.switch.ch/videos/60fb9217) until normal forms | 
-|      |     |            |   |   | Reading:                       | (CalComp-1.6,1.7 ∨ HandAR-Ch.2) ∧ HandMC-Ch.9 ∧ CalComp-2.{1,2,3} |
-| 3    | Thu | 06.10.2022 | 15:15 | GRA330 | Exercises 2 | [Sheet](exercises/ex2/Exercise2.pdf) ([solution](exercises/ex2/solutions2.pdf)) | 
-|      |     |            | 17:15 | GRA330 | Labs 1 | Continue [Using Stainless](labs/lab1/)  | 
-|      | Fri | 07.10.2022 | 13:15 | INR219 | Lecture 5  | Formal Hardware Verification in Industry (Barbara Jobstmann) and [Symbolic Exploration](https://tube.switch.ch/videos/DuvmOssLQG) (Viktor) |
-| 4    | Thu | 13.10.2022 | 15:15 | GRA330 | Lecture 6 | [Automating First-Order Logic Proofs Using Resolution](https://tube.switch.ch/videos/60fb9217), from normal forms onwards. [Term Models for FOL](slides/term-models.pdf) | 
-|      |     |            | 17:15 | GRA330 | Labs 2 | [Resolution for FOL](labs/lab2/) | 
-|      | Fri | 14.10.2022 | 13:15 | INR219 | Lecture 7 | [Converting Imperative Programs to Formulas](https://tube.switch.ch/videos/79219264), [Hoare Logic, Strongest Postcondition, Weakest Precondition](https://tube.switch.ch/videos/3fc107a7) |   |
-| 5    | Thu | 20.10.2022 | 15:15 | GRA330 | Exercises 3 | [Sheet 2: FOL models. Weakest Preconditions. Programs to Formulas](exercises/ex3/Exercise3.pdf) ([solution](exercises/ex3/solutions3.pdf)) | 
-|      |     |            | 17:15 | GRA330 | Labs 2 | Continue [Resolution for FOL](labs/lab2/) | 
-|      | Fri | 21.10.2022 | 13:15 | INR219 | Lecture 8 | [Monotonicity and Semantics of Local Variables](https://tube.switch.ch/videos/pJFK2gi0YM), [Relational Semantics of Loops](https://tube.switch.ch/videos/jAePaQR8jc), [Loop Semantics Example](https://tube.switch.ch/videos/M2YCTkGZ4F) |  
-| 6    | Thu | 27.10.2022 | 15:15 | [GRA330](https://plan.epfl.ch/?room==GR%20A3%2030) and  [MEB331](https://plan.epfl.ch/?room=%253DME%20B3%2031) | **MID-TERM**: [INSTRUCTIONS](exam/) | [Solutions](exam/solutions.pdf)   | 
-|      |     |            | 18:00 |        | End of mid-term |  | 
-|      | Fri | 28.10.2022 | 13:15 | INR219 | Lab 3 Background | [Sequent Calculus Presentation](https://tube.switch.ch/videos/bF3Jixi666) and [Lisa](https://github.com/epfl-lara/lisa) Demo |
-| 7    | Thu | 03.11.2022 | 15:15 | GRA330 | Lecture 9 | [Presburger Arithmetic 1](https://tube.switch.ch/videos/535e9dea), [Presburger Airhtmetic 2](https://tube.switch.ch/videos/ceecf2f6) |
-|      |     |            | 17:15 | GRA330 | Labs 3 | Proofs in Lisa (due 13.11.2022) | 
-|      | Fri | 28.10.2022 | 13:15 | INR219 | Lecture 10 | [Discussion of Projects](https://gitlab.epfl.ch/kuncak/student-projects/) and of [Isabelle Proof Assistant](https://isabelle.in.tum.de/) including [Concrete Semantics](http://concrete-semantics.org/), [Selected Slides](lectures/lec10-isabelle/lecture10-isabelle.pdf), [Demos](lectures/lec10-isabelle/Demos/), [The Seven Virtues of Simple Type Theory](slides/SevenVirtues.pdf) |
-| 8    | Thu | 10.11.2022 | 15:15 | GRA330 | [Exam Solution](exam/partial-solutions.pdf) Presentation |  |
-|      |     |            | 16:15 | BC 420 | Suggestion: attend talk of Avi Wigderson (see email from Tania) |  |
-|      |     |            | 17:15 | GRA330 | Labs 4 | [Isabelle Lab](labs/lab4/) (1 week long) | 
-|      | Fri | 11.11.2022 | 13:15 | INR219 | Lecture 11 | [Past videos of projects and background papers](https://tube.switch.ch/channels/e9e4e787), [Approximating Loops. Recursion 1](https://tube.switch.ch/videos/xCQoLRTGKq), [Recursion 2](https://tube.switch.ch/videos/NjerTXfE9z) |
-|  9   | Thu | 17.11.2022 | 15:15 | GRA330 | Lecture 12 | [SMT Solvers](https://tube.switch.ch/videos/CDDwI5RZD0), [Abstract Interpretation Idea](https://tube.switch.ch/videos/cOvvbWjTpU) |
-|      |     |            | 17:15 | GRA330 | Labs | Discuss further project topics |
-|      | Fri | 18.11.2022 | 13:15 | INR219 | Lecture 13 | [Lattices](https://tube.switch.ch/videos/Zj3TNfknHG), [Fixed Point Theorem](https://tube.switch.ch/videos/dQ5vvteGhz), [Omega Continuity](https://tube.switch.ch/videos/DkObtnApKb) |
-|      |     | 20.11.2022 | 23:59 |        | Abstracts Due | [project abstract + background paper title](project/Background%20Paper%20Review.md) |
-|      | Thu | 24.11.2022 | 15:15 | GRA330 | Labs | Sudy Background Papers; Ask Questions |
-|      |     |            | 17:15 | GRA330 | Labs | unsupervised | 
-|      | Fri | 25.11.2022 | 13:15 | INR219 | Lecture 14 | From  [Omega Continuity](https://tube.switch.ch/videos/DkObtnApKb) lecture continue on Using Galois Connection, Predicate Abstraction |
-| 11   |     | 30.11.2022 | 23:59 |        | Reports Due | for Background Paper |
-|      | Thu | 01.12.2022 | 15:15 | GRA330 |  | Labs |
-|      |     |            | 17:15 | GRA330 |  | Labs (unsupervised) | 
-|      | Fri | 02.12.2022 | 13:15 | INR219 | Lecture 15 | [Widening](https://tube.switch.ch/download/document/170515). [Concurrency](https://tube.switch.ch/videos/BtlLSpFINW). [Total Functions](https://tube.switch.ch/videos/n9OsbDPfwG) |
-| 12   | Thu | 08.12.2022 | 15:15 | GRA330 |  | Labs |
-|      |     |            | 17:15 | GRA330 |  | Labs (unsupervised) | 
-|      | Fri | 09.12.2022 | 13:15 | INR219 | Lecture 16 | [Equivalence](lectures/lec16-last/slides.pdf) (with [examples](lectures/lec16-last/), [more of them](https://github.com/epfl-lara/stainless/tree/main/frontends/benchmarks/equivalence) and [docs](https://github.com/epfl-lara/stainless/blob/main/core/src/sphinx/equivalence.rst)), mutable state [without aliasing](https://github.com/epfl-lara/stainless/tree/main/frontends/benchmarks/imperative/valid), or [with aliasing](https://github.com/epfl-lara/stainless/tree/main/frontends/benchmarks/full-imperative/valid), and some remarks on [termination](https://tube.switch.ch/videos/n9OsbDPfwG) |
-| 13   | Thu | 15.12.2022 | 15:15 | GRA330 |  | Labs |
-|      |     |            | 17:15 | GRA330 |  | Labs (unsupervised) | 
-|      | Fri | 16.12.2022 | 13:15 | INR219 | Presentations | MULTAZZU Luca, FOURMENT Joseph, AEBI Valentin|
-|      |     |            | 13:40 | INR219 | Presentations | RANDL Mathis, BERNIMOULIN Joshua, MICHELOUD Léa|
-|      |     |            | 14:15 | INR219 | Presentations | NATH Shubhojyoti, WACHTER Liam, BANDERET Thibaud|
-|      |     |            | 14:40 | INR219 | Presentations | CAREVIC Filip, MITIC Natalija, PEJIC Radenko|
-| 14   | Thu | 22.12.2022 | 15:15 | GRA330 | Presentations | HUANG Shengyu, MARZEC Tomasz |
-|      |     |            | 15:40 | GRA330 | Presentations | Goswami Yatharth, Goyal Aditi, Shankar Suhas|
-|      |     |            | 16:15 | GRA330 | Presentations | XU Yichen, PHAM Cao Nguyen, GUAN Yawen|
-|      |     |            | 16:40 | GRA330 | Presentations | HUSSEINI Solène, DANDY Liliane-Joy |
-|      |     |            | 17:15 | GRA330 | Presentations | LUO Yicong, HE Qingyi |
-|      |     |            | 17:40 | GRA330 | Presentations | PRUD'HOMME Jacob, WU Chunxiao, GIMALAC Pierre|
-|      |     |            | 18:15 | GRA330 | Presentations | SERANDOUR Erwan , PEDRUCCI David, DUPARC Max|
-|      |     |            | 18:40 | GRA330 | Presentations | CASTES Charly, GAMBHIR Sankalp, CEBECI Can|
-|      | Fri | 23.12.2022 | 13:15 | INR219 | Presentations | BIALAS Bartosz, MA Yijun, NEO wei qing|
-|      |     |            | 13:40 | INR219 | Presentations | PAPP Karoly Artur, MARTY Mathias, TEVAEARAI Zacharie|
-|      |     |            | 14:15 | INR219 | Presentations | PARAMONOV Anton, SEGUINI Giorgio |
 
-You are welcome to submit your final project (report and code) by the end of the semester but you can revise it without any penalty until we start grading it on 9 January 2023.
+You are welcome to submit your final project (report and code) by the end of the semester but you can revise it without any penalty until we start grading it on 8 January 2023.
