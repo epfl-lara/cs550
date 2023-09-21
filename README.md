@@ -32,7 +32,7 @@ The course has two aspects:
 - learning the practice of formal verification - how to use tools to construct verified software
 - understanding the principles behind formal verification and the ways in which verification tools work
 
-The course will follow a similar structure to the [2022 edition](https://gitlab.epfl.ch/lara/cs550/-/tree/2023?ref_type=heads). Project can be a case study in developing a verified piece of software, an implementation of verification tool functionality, or a theoretical result about verification, constraint solving or theorem proving. Students present their projects with a written report as well as by a live presentation of project results, answering our questions.
+The course will follow a similar structure to the [2022 edition](https://gitlab.epfl.ch/lara/cs550/-/tree/2022?ref_type=heads). Project can be a case study in developing a verified piece of software, an implementation of verification tool functionality, or a theoretical result about verification, constraint solving or theorem proving. Students present their projects with a written report as well as by a live presentation of project results, answering our questions.
 
 Note that slides can be found **underneath each lecture video** on switch tube linkes below. 
 
