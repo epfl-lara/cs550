@@ -43,7 +43,12 @@ sbt script version: 1.9.6
 ```
 
 ### Stainless
-Download the latest stainless release (0.9.8.1) from its [repository](https://github.com/epfl-lara/stainless/releases/tag/v0.9.8.1) (download the file named `stainless-dotty-standalone-0.9.8.1-<your_os>.zip`). The release is an archive containing, among other things, a script called **stainless**, that you should make available on your path. Detailed instructions can be found in [this video](https://tube.switch.ch/videos/03edee61).
+Download the latest stainless release (0.9.8.1) from its [repository](https://github.com/epfl-lara/stainless/releases/tag/v0.9.8.1) (download the file named `stainless-dotty-standalone-0.9.8.1-<your_os>.zip`). 
+On Windows, it is recommended to run the linux version on top of the [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install).
+
+The release is an archive containing, among other things, a script called **stainless**, that you should make available on your path. Detailed instructions can be found in [this video](https://tube.switch.ch/videos/03edee61).
+
+On Mac, you should also make the `z3` executable (which is part of the stainless release) available on your path.
 
 Stainless should then produce the following output (you may need to add `.sh` or `.bat` after `stainless`)
 ```shell
@@ -61,6 +66,10 @@ A tutorial on stainless can be found [here](https://epfl-lara.github.io/stainles
 Additionally, some older videos can be found on the [repository](https://github.com/epfl-lara/stainless/#further-documentation-and-learning-materials).
 
 ## Lab
+
+### Getting the source
+
+To start working on this lab, you can either clone this entire repository, or download the present directory alone from Gitlab (there should be a button for this on the top right of the web interface).
 
 ### The `sublist` relation
 
@@ -127,10 +136,14 @@ The file contains eleven properties on `sublist` that you have to prove.
 
 To check your proofs, use
 ```shell
+# On Linux and WSL
 > stainless Sublist.scala
+# On Mac
+> stainless --solvers=smt-z3 Sublist.scala
 ``` 
 
-The provided configuration file ([stainless.conf](stainless.conf)) will automatically set the SAT solver's timeout to 2 seconds.
+
+The provided configuration file ([stainless.conf](stainless.conf)) will automatically set the SMT solver's timeout to 2 seconds.
 You can override this while experimenting with your proofs by either changing the configuration file or using the command line, by adding e.g. `--timeout=5` to set the timeout to 5 seconds.
 You can also add `--watch` for stainless to automatically run on file save:
 ```shell
