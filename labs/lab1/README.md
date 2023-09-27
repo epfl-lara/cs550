@@ -46,7 +46,7 @@ sbt script version: 1.9.6
 Download the latest stainless release (0.9.8.1) from its [repository](https://github.com/epfl-lara/stainless/releases/tag/v0.9.8.1) (download the file named `stainless-dotty-standalone-0.9.8.1-<your_os>.zip`). 
 On Windows, it is recommended to run the linux version on top of the [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install).
 
-The release is an archive containing, among other things, a script called **stainless**, that you should make available on your path. Detailed instructions can be found in [this video](https://tube.switch.ch/videos/03edee61).
+The release is an archive containing, among other things, a script called **stainless**, that you should make available on your path. Detailed instructions can be found in [this video](https://tube.switch.ch/videos/03edee61). 
 
 On Mac, you should also make the `z3` executable (which is part of the stainless release) available on your path.
 
@@ -62,8 +62,25 @@ Stainless should then produce the following output (you may need to add `.sh` or
 
 ## Tutorial
 
-A tutorial on stainless can be found [here](https://epfl-lara.github.io/stainless/tutorial.html).
-Additionally, some older videos can be found on the [repository](https://github.com/epfl-lara/stainless/#further-documentation-and-learning-materials).
+A basic tutorial on stainless can be found [here](https://epfl-lara.github.io/stainless/tutorial.html). Additionally, some older videos can be found on the [repository](https://github.com/epfl-lara/stainless/#further-documentation-and-learning-materials). In particular, illustrative examples are in the [bolts/tutorials](https://github.com/epfl-lara/bolts/tree/master/tutorials)  including those from the [FMCAD 2021 tutorial](https://github.com/epfl-lara/fmcad2021tutorial). The beginning of [ASPLOS 2022 tutorial](https://epfl-lara.github.io/asplos2022tutorial/) may be of interest as well. Some of the [verified examples in Stainless source directory](https://github.com/epfl-lara/stainless/blob/main/frontends/benchmarks/verification/valid/) are interesting, such as  [BalancedParentheses.scala](https://github.com/epfl-lara/stainless/blob/main/frontends/benchmarks/verification/valid/BalancedParentheses.scala), [associative list](https://github.com/epfl-lara/stainless/blob/main/frontends/benchmarks/verification/valid/AssociativeList.scala).
+
+To have a bit more intuition for how to do induction proofs, consider the following arithmetic example that verifies in Stainless:
+
+```scala
+def sumTo(n: BigInt): BigInt =
+  require(0 <= n)
+  if n == 0 then BigInt(0)
+  else n + sumTo(n-1)    
+
+def sumToIsCorrect(n: BigInt): Unit = {
+  require(0 <= n)
+  if n == 0 then ()
+  else sumToIsCorrect(n-1)
+} ensuring { _ => sumTo(n) == n*(n+1)/2 }
+```
+
+Whereas we could have modified `sumTo` to state the postcondition `res == n*(n+1)/2`, here we decided to leave `sumTo` as is. To ensure that Stainless proves property by induction, we repeat the recursive structure of `sumTo` inside the body of `sumToIsCorrect`. The result is the same induction schema as if we added apostcondition to `sumTo`. Simple cases of such induction can be simulated by adding `induct` annotation to the original method, but writing explicitly induction schema as we did here is more general.
+
 
 ## Lab
 
