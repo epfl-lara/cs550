@@ -180,5 +180,5 @@ Some advice:
 ## Submission
 
 Once you've completed all proofs, you can submit your [Sublist.scala](Sublist.scala) file on [Moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1092878).
-You need to pick your groups (min 2, max 3) for the labs and projects on Moodle: https://moodle.epfl.ch/mod/questionnaire/view.php?id=1216793
+You also need to pick your groups (min 2, max 3) for the labs and projects on [Moodle](https://moodle.epfl.ch/mod/questionnaire/view.php?id=1216793)
 Only one member of each group should submit a solution. 
