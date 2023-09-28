@@ -55,8 +55,8 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      |     |            |   |   | Reading:                       | HandMC-Ch.10  |
 |      | Fri | 22.09.2023 | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture 3                       | [What is a Formal Proof?](https://tube.switch.ch/videos/4a211e7a) and [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c) |
 |      |     |            |   |   | Reading:                       | CalComp-Ch.1 ∨ HandAR-Ch.2 |
-| 2    | Thu | 21.09.2023 | 15:15 | GRA330 | Exercises |
-|      |     |           | 17:15 | GRA330 | [Lab 1](labs/lab1/) |
+| 2    | Thu | 21.09.2023 | 15:15 | GRA330 | Exercises | Propositional logic
+|      |     |           | 17:15 | GRA330 | [Lab 1](labs/lab1/) | Sublists in Stainless
 |      | Fri | 22.09.2023 | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture 3                       | Finish [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c) and start first-order logic |
 
 
