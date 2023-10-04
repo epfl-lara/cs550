@@ -16,9 +16,9 @@ The communication protocol we will prove properties about involves two `Endpoint
 1. The sender sends a message over the network.
 2. It then queries the network to know whether the message has been transmitted.
 3. If this is the case, drop the last message sent from the buffer of the sender and add it to the buffer of the receiver. Otherwise skip to step 4.
-4. Reiterate step 1 with the updated sender and receiver.
+4. Repeat step 1 with the updated sender and receiver.
 
-In practice this means a message will be sent over and over until it has not been transmitted. Since we want to reason about finite programs, we will run the protocol for a finite number of iterations. The method simulating the protocol is `Network.messageExchange`.
+In practice this means a message will be sent over and over until it has been transmitted. Since we want to reason about finite programs, we will run the protocol for a finite number of iterations. The method simulating the protocol is `Network.messageExchange`.
 
 ### Goal of the lab
 
