@@ -59,7 +59,8 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      |     |            | 17:15 | GRA330 | [Lab 1](labs/lab1/) | Sublists in Stainless
 |      | Fri | 29.09.2023 | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture 4                       | [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c) up to and including equisatisfiability |
 | 3    | Thu | 5.10.2023 | 15:15 | GRA330 | Lecture 5 | [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c): Tseytin's transformation and SAT solving. [Automating First-Order Logic using Resolution](https://tube.switch.ch/videos/60fb9217) | 
-|      |     |           | 17:15 | GRA330 | [Lab 2](labs/lab2) | A communication protocol in Stainless |      | Fri | 6.10.2023 | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | [Exercise 2]( )         | Traces, SAT, models |
+|      |     |           | 17:15 | GRA330 | [Lab 2](labs/lab2) | A communication protocol in Stainless 
+|      | Fri | 6.10.2023 | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | [Exercise 2]( )         | Traces, SAT, models |
 | 4    | Thu | 12.10.2023| 15:15 | GRA330 | [Exercise 3]( ) | Propositional logic
 |      |     |           | 17:15 | GRA330 | [Lab 3](labs/lab1/) | Resolution proof checker (with Stainless)
 |      | Fri | 13.10.2023| 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture 6                       |  |
