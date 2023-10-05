@@ -16,8 +16,9 @@ trait Message
   * In order to be non-deterministic, hasSent relies on a seed. In the rest
   * of this lab, we will assume that the seed is the time.
   * 
-  * We also  define two special types of networks:
+  * We also  define three special types of networks:
   *  - noLossNetwork: networks that do not loose packets
+  *  - fullLossNetwork: networks that loose every packet
   *  - badButPredictableNetwork: networks that transmits a packet every n
   *    iteration and drop it otherwise
   */
@@ -136,8 +137,6 @@ object NetworkProperties {
   /**
     * For any network, if the receiver has received all the messages transmitted by the sender, then the number
     * of iteration of the protocol is at least the number of messages.
-    * 
-
     */
   def messageExchangeLowerBound(network: Network, sender: Endpoint, receiver: Endpoint, iter: BigInt): Unit = {
     decreases(iter)
@@ -164,8 +163,8 @@ object NetworkProperties {
   )
 
   /**
-  * Any network is less efficient then a network that does not loose any packets.
-  */
+    * Any network is less efficient then a network that does not loose any packets.
+    */
   def noLossNetworkIsOptimal(sender: Endpoint, receiver: Endpoint, iter: BigInt, network: Network): Unit = {
     require(iter >= 0)
     require(receivedAllMsgCorrectly(sender, receiver, network.messageExchange(sender, receiver, iter)._2))
@@ -175,9 +174,9 @@ object NetworkProperties {
   }.ensuring(receivedAllMsgCorrectly(sender, receiver, noLossNetwork.messageExchange(sender, receiver, iter)._2)) 
 
   /**
-  * If a network does not transmit any packet, then no matter how many iterations of the protocol one runs, the 
-  * result will always be the same.
-  */
+    * If a network does not transmit any packet, then no matter how many iterations of the protocol one runs, the 
+    * result will always be the same.
+    */
   def messageExchangeWithFullLosses(sender: Endpoint, receiver: Endpoint, iter: BigInt): Unit = {
     decreases(iter)
     require(iter >= 0)
