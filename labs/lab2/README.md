@@ -47,4 +47,4 @@ The provided configuration file ([stainless.conf](stainless.conf)) will automati
 
 ### Submission
 
-Once you've completed all proofs, you can submit your [SimpleProtocol.scala](SimpleProtocol.scala) file on [Moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1169500). Only one member of each group should submit a solution. 
+Once you've completed all proofs, you can submit your [SimpleProtocol.scala](SimpleProtocol.scala) file on [Moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1169500&forceview=1). Only one member of each group should submit a solution. 
