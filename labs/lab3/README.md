@@ -62,19 +62,21 @@ We will use it to get to the bottom of the following mystery:
 Stated more formally:
 
 ```math
-\exists x. lives(x) \land killed(x,a) \\
-lives(a) \land lives(b) \land lives(c) \land \forall x. lives(x) \rightarrow (x=a \lor x=b \lor x=c) \\
-\forall x. \forall y. killed(x,y) \rightarrow (hates(x,y) \land \neg richer(x,y)) \\
-\forall x. hates(a,x) \rightarrow \neg hates(c,x) \\
-\forall x. hates(a,x) \leftrightarrow x \not= b \\
-\forall x. \neg richer(x,a) \leftrightarrow hates(b,x) \\
-\forall x. hates(a,x) \rightarrow hates(b,x) \\
-\neg \exists x. \forall y. hates(x,y) \\
-a \not= b
+\begin{align}
+& \exists x. lives(x) \land killed(x,a) \\
+& lives(a) \land lives(b) \land lives(c) \land \forall x. lives(x) \rightarrow (x=a \lor x=b \lor x=c) \\
+& \forall x. \forall y. killed(x,y) \rightarrow (hates(x,y) \land \neg richer(x,y)) \\
+& \forall x. hates(a,x) \rightarrow \neg hates(c,x) \\
+& \forall x. hates(a,x) \leftrightarrow x \not= b \\
+& \forall x. \neg richer(x,a) \leftrightarrow hates(b,x) \\
+& \forall x. hates(a,x) \rightarrow hates(b,x) \\
+& \neg \exists x. \forall y. hates(x,y) \\
+& a \not= b
+\end{align}
 ```
 
 We implemented this in [Mansion.scala](Mansion.scala).
-We also added some additional assumptions, such as commutativity of equality and Leibniz's property forall predicates.
+We also added some additional assumptions, such as commutativity of equality and Leibniz's property for all predicates.
 
 The transformation you implemented are then applied to all of these, resulting in the following assumed clauses:
 <details>
