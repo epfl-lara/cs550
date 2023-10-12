@@ -55,5 +55,14 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      |     |            |   |   | Reading:                       | HandMC-Ch.10  |
 |      | Fri | 22.09.2023 | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture 3                       | [What is a Formal Proof?](https://tube.switch.ch/videos/4a211e7a) and [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c) |
 |      |     |            |   |   | Reading:                       | CalComp-Ch.1 ∨ HandAR-Ch.2 |
+| 2    | Thu | 28.09.2023 | 15:15 | GRA330 | [Exercise 1](exercises/Exercises1/ex1.pdf) | Propositional logic
+|      |     |            | 17:15 | GRA330 | [Lab 1](labs/lab1/) | Sublists in Stainless
+|      | Fri | 29.09.2023 | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture 4                       | [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c) up to and including equisatisfiability |
+| 3    | Thu | 5.10.2023 | 15:15 | GRA330 | Lecture 5 | [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c): Tseytin's transformation and SAT solving. [Automating First-Order Logic using Resolution](https://tube.switch.ch/videos/60fb9217) | 
+|      |     |           | 17:15 | GRA330 | [Lab 2](labs/lab2) | A communication protocol in Stainless 
+|      | Fri | 6.10.2023 | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | [Exercise 2](https://gitlab.epfl.ch/lara/cs550/-/tree/main/exercises/Exercises2?ref_type=heads)         | Traces, SAT, models |
+| 4    | Thu | 12.10.2023| 15:15 | GRA330 | [Exercise 3]( ) | Propositional logic
+|      |     |           | 17:15 | GRA330 | [Lab 3](labs/lab1/) | Resolution proof checker (with Stainless)
+|      | Fri | 13.10.2023| 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture 6                       |  |
 
-You are welcome to submit your final project (report and code) by the end of the semester but you can revise it without any penalty until we start grading it on 8 January 2024.
+
