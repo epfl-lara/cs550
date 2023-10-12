@@ -61,8 +61,9 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 | 3    | Thu | 5.10.2023 | 15:15 | GRA330 | Lecture 5 | [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c): Tseytin's transformation and SAT solving. [Automating First-Order Logic using Resolution](https://tube.switch.ch/videos/60fb9217) | 
 |      |     |           | 17:15 | GRA330 | [Lab 2](labs/lab2) | A communication protocol in Stainless 
 |      | Fri | 6.10.2023 | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | [Exercise 2](https://gitlab.epfl.ch/lara/cs550/-/tree/main/exercises/Exercises2?ref_type=heads)         | Traces, SAT, models |
-| 4    | Thu | 12.10.2023| 15:15 | GRA330 | Lecture 6 | 
-|      |     |           | 17:15 | GRA330 | [Lab 3](labs/lab1/) | Resolution proof checker (with Stainless)
+| 4    | Thu | 12.10.2023 | 15:15 | GRA330 | Continue [Automating First-Order Logic using Resolution](https://tube.switch.ch/videos/60fb9217). [Term Models](extra-slides/term-models.pdf)
+|      |     |            | 17:15 | GRA330 | [Lab 3](labs/lab3/) | Resolution proof checker (with Stainless) |
 |      | Fri | 13.10.2023| 13:15 | INR219 | [Exercise 3](https://gitlab.epfl.ch/lara/cs550/-/tree/main/exercises/Exercises3)                     |  |
-
-
+| 5    | Thu | 19.10.2023 | 15:15 | GRA330 | Lecture |
+|      |     |            | 17:15 | GRA330 | [Lab 3](labs/lab3/) | Continue resolution proof checker |
+|      | Fri | 20.10.2023 | 13:15 | INR219 | Lecture |  |
