@@ -66,4 +66,4 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      | Fri | 13.10.2023| 13:15 | INR219 | [Exercise 3](https://gitlab.epfl.ch/lara/cs550/-/tree/main/exercises/Exercises3) | Propositional logic. Transition systems. Models |
 | 5    | Thu | 19.10.2023 | 15:15 | GRA330 | Lecture 7 | [Converting Imperative Programs to Formulas](https://tube.switch.ch/videos/79219264), [Hoare Logic, Strongest Postcondition, Weakest Precondition](https://tube.switch.ch/videos/3fc107a7) |  
 |      |     |            | 17:15 | GRA330 | [Lab 3](labs/lab3/) | Continue resolution proof checker |
-|      | Fri | 20.10.2023 | 13:15 | INR219 | Lecture |  |
+|      | Fri | 20.10.2023 | 13:15 | INR219 | Lecture 8 | [Presburger Arithmetic 1](https://tube.switch.ch/videos/535e9dea), [Presburger Airhtmetic 2](https://tube.switch.ch/videos/ceecf2f6) |
