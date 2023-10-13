@@ -2,7 +2,7 @@
 
 [Moodle](https://moodle.epfl.ch/course/view.php?id=13051), [Coursebook](https://edu.epfl.ch/coursebook/en/formal-verification-CS-550?cb_cycle=bama_cyclemaster&cb_section=in)
 
-This  repository is the homepage of the course Formal Verification (autumn 2022) and hosts the material necesary for the labs.
+This  repository is the homepage of the course Formal Verification (autumn 2023) and hosts the material necesary for the labs.
 
 ### Staff:
 
