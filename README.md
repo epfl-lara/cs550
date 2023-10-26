@@ -67,6 +67,6 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 | 5    | Thu | 19.10.2023 | 15:15 | GRA330 | Lecture 7 | [Converting Imperative Programs to Formulas](https://tube.switch.ch/videos/79219264), [Hoare Logic, Strongest Postcondition, Weakest Precondition](https://tube.switch.ch/videos/3fc107a7) |  
 |      |     |            | 17:15 | GRA330 | [Lab 3](labs/lab3/) | Continue resolution proof checker |
 |      | Fri | 20.10.2023 | 13:15 | INR219 | Lecture 8 | [Presburger Arithmetic 1](https://tube.switch.ch/videos/535e9dea), [Presburger Airhtmetic 2](https://tube.switch.ch/videos/ceecf2f6) |
-| 6    | Thu | 26.10.2023 | 15:15 | GRA330 | Exercise |  |  
-|      |     |            | 17:15 | GRA330 | [Lab 4](labs/lab4) | First Lisa Lab |
+| 6    | Thu | 26.10.2023 | 15:15 | GRA330 | Exercise | [Exercises 4](https://gitlab.epfl.ch/lara/cs550/-/tree/main/exercises/Exercises4) |  
+|      |     |            | 17:15 | GRA330 | [Lab 4](labs/lab4) | [First Lisa Lab](https://gitlab.epfl.ch/lara/cs550/-/tree/main/labs/lab4) |
 |      | Fri | 20.10.2023 | 13:15 | INR219 | Lecture 9 | [Abstract Interpretation Idea](https://tube.switch.ch/videos/cOvvbWjTpU), [Lattices](https://tube.switch.ch/videos/Zj3TNfknHG), [Fixed Point Theorem](https://tube.switch.ch/videos/dQ5vvteGhz), [Omega Continuity](https://tube.switch.ch/videos/DkObtnApKb) |
