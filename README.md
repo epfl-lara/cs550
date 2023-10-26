@@ -75,4 +75,4 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 | 7    | Thu | 2.11.2023 | 15:15 | GRA330 | [Exercises 5] |  |  
 |      |     |           | 17:15 | GRA330 | [Lab 5] |  |
 |      | Fri | 3.11.2023 | 13:15 | INR219 | Lecture 10 | |
-|      | Sun | 5.11.2023 |       |        | Lecture 10 | [Deadline to submit the topic of your project and the background paper you will review](https://gitlab.epfl.ch/lara/cs550/-/blob/main/project/Background%20Paper%20Review.md) |
+|      | Sun | 5.11.2023 |       |        |            | [Deadline to submit the topic of your project and the background paper you will review](https://gitlab.epfl.ch/lara/cs550/-/blob/main/project/Background%20Paper%20Review.md) |
