@@ -41,3 +41,15 @@ Implement a proof-producing variant of Whitman's algorithm, using the skeleton p
  - It is possible to test if a tactic succeeds by simply calling the tactic without the `have` keyword. Indeed, a tactic is a function that returns a `ProofTacticJudgement`, which can be either `Valid` if the tactic succeeded or `Invalid` otherwise. On can then test that with `isValid` as shown in the cases 1 and 4 given as examples.
 
 When you've finished, upload your file Lab04.scala on [moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1269436) (one submission per group).
+
+### To Go Further
+
+The algorithm can be generalised: In particular, there is a variant that can decide lattices inequality given any number of other inequalities assumed to be true: this would allow for example to show statement such as
+```latex
+s_1\leq t1,...,s_n \leq t_n \vdash s \leq t
+```
+Moreover, it can take complementation into account, with properties such as 
+```latex
+(x \cap \neg x) \leq y
+```
+Both those extensions are described in https://infoscience.epfl.ch/record/305982?ln=en: Implementing such extension in LISA could be a suitable project, and so would be other proof-producing decision procedures!
