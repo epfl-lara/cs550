@@ -44,7 +44,7 @@ When you've finished, upload your file Lab04.scala on [moodle](https://moodle.ep
 
 ### To Go Further
 
-The algorithm can be generalised: In particular, there is a variant that can decide lattices inequality given any number of other inequalities assumed to be true: this would allow for example to show statement such as
+The algorithm can be generalised: In particular, there is a variant that can decide lattices inequality given any number of other inequalities assumed to be true: this would allow for example to show statements such as
 $$
 s_1\leq t_1, ... ,s_n \leq t_n \vdash s \leq t
 $$
