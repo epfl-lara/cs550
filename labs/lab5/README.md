@@ -34,9 +34,12 @@ def solveLEQ(s, t):Boolean =
         case (x, c u d) => solveLEQ(x, c) || solveLEQ(x, d)
         case (x, y) => x == y // when x and y are literals
 ```
+It is not difficult to see that this algrithm is sound, meaning it will never accepts an inequality that is not always true. Making the algorithm proof-producing will ensure it.
+This algorithm is also complete: It will accept every statement that is true in all lattice. However, showing this is trickier and requires defining the notion of free lattices.
+
 Implemented like this, the algorithm is exponential. However observe that throughout execution, `solveLEQ` will only receive as arguments subterms of the two original arguments: In particular, it is necessary to evaluate it on only at most $\mathcal O(n^2)$ arguments. With memoization, we would obtain a quadratic algorithm, but we won't do that in today's Lab for simplicity.
 
-Implement a proof-producing variant of Whitman's algorithm, using the skeleton provided in Lab04.scala. Cases 1 and 4 are already implemented to show you the syntax. In particular:
+Now, implement a proof-producing variant of Whitman's algorithm, using the skeleton provided in Lab04.scala. Cases 1 and 4 are already implemented to show you the syntax. In particular:
  - To abort a proof because no correct proof can be produced, use `fail`.
  - It is possible to test if a tactic succeeds by simply calling the tactic without the `have` keyword. Indeed, a tactic is a function that returns a `ProofTacticJudgement`, which can be either `Valid` if the tactic succeeded or `Invalid` otherwise. On can then test that with `isValid` as shown in the cases 1 and 4 given as examples.
 
