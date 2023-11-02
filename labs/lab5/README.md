@@ -34,7 +34,7 @@ def solveLEQ(s, t):Boolean =
         case (x, c u d) => solveLEQ(x, c) || solveLEQ(x, d)
         case (x, y) => x == y // when x and y are literals
 ```
-It is not difficult to see that this algrithm is sound, meaning it will never accepts an inequality that is not always true. Making the algorithm proof-producing will ensure it.
+It is not difficult to see that this algrithm is sound, meaning it will never accepts an inequality that is not always true. Try to see which properties of lattices justify there different case.
 This algorithm is also complete: It will accept every statement that is true in all lattice. However, showing this is trickier and requires defining the notion of free lattices.
 
 Implemented like this, the algorithm is exponential. However observe that throughout execution, `solveLEQ` will only receive as arguments subterms of the two original arguments: In particular, it is necessary to evaluate it on only at most $\mathcal O(n^2)$ arguments. With memoization, we would obtain a quadratic algorithm, but we won't do that in today's Lab for simplicity.
