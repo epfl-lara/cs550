@@ -72,7 +72,7 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 | 6    | Thu | 26.10.2023 | 15:15 | GRA330 | [Exercises 4](https://gitlab.epfl.ch/lara/cs550/-/tree/main/exercises/Exercises4) |  |  
 |      |     |            | 17:15 | GRA330 | [Lab 4](labs/lab4) | [First Lisa Lab](https://gitlab.epfl.ch/lara/cs550/-/tree/main/labs/lab4) |
 |      | Fri | 27.10.2023 | 13:15 | INR219 | Lecture 9 | [Abstract Interpretation Idea](https://tube.switch.ch/videos/cOvvbWjTpU), [Lattices](https://tube.switch.ch/videos/Zj3TNfknHG), [Fixed Point Theorem](https://tube.switch.ch/videos/dQ5vvteGhz), [Omega Continuity](https://tube.switch.ch/videos/DkObtnApKb) |
-| 7    | Thu | 2.11.2023 | 15:15 | GRA330 | [Exercises 5] |  |  
-|      |     |           | 17:15 | GRA330 | [Lab 5] |  |
+| 7    | Thu | 2.11.2023 | 15:15 | GRA330 | [Exercises 5](https://gitlab.epfl.ch/lara/cs550/-/tree/main/exercises/Exercises5) |  |  
+|      |     |           | 17:15 | GRA330 | [Lab 5](https://gitlab.epfl.ch/lara/cs550/-/tree/main/labs/lab5) |  |
 |      | Fri | 3.11.2023 | 13:15 | INR219 | Lecture 10 | |
 |      | Sun | 5.11.2023 |       |        |            | [Deadline to submit the topic of your project and the background paper you will review](https://gitlab.epfl.ch/lara/cs550/-/blob/main/project/Background%20Paper%20Review.md) |
