@@ -74,7 +74,14 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      | Fri | 27.10.2023 | 13:15 | INR219 | Lecture 9 | [Abstract Interpretation Idea](https://tube.switch.ch/videos/cOvvbWjTpU), [Lattices](https://tube.switch.ch/videos/Zj3TNfknHG) |
 | 7    | Thu | 2.11.2023 | 15:15 | GRA330 | [Exercises 5](https://gitlab.epfl.ch/lara/cs550/-/tree/main/exercises/Exercises5) |  |  
 |      |     |           | 17:15 | GRA330 | [Lab 5](https://gitlab.epfl.ch/lara/cs550/-/tree/main/labs/lab5) |  |
-|      | Fri | 3.11.2023 | 13:15 | INR219 | Lecture 10 |  [Fixed Point Theorem](https://tube.switch.ch/videos/dQ5vvteGhz), [Omega Continuity](https://tube.switch.ch/videos/DkObtnApKb) |
+|      | Fri | 3.11.2023 | 13:15 | INR219 | Lecture 10 |  [Fixed Point Theorem](https://tube.switch.ch/videos/dQ5vvteGhz), [Omega Continuity](https://tube.switch.ch/videos/DkObtnApKb) (only until AI recipe) |
 |      | Sun | 5.11.2023 |       |        |            | [Deadline to submit the topic of your project and the background paper you will review](https://gitlab.epfl.ch/lara/cs550/-/blob/main/project/Background%20Paper%20Review.md) |
 | 8    | Thu | 9.11.2023 | 15:15 | GRA330 | [Exercises 6](https://gitlab.epfl.ch/lara/cs550/-/tree/main/exercises/Exercises6) |  |  
 |      |     |           | 17:15 | GRA330 | Finish [Lab 5](https://gitlab.epfl.ch/lara/cs550/-/tree/main/labs/lab5), Background paper review, Work on project |  |
+|      | Fri | 10.11.2023 | 13:15 | INR219 | Lecture 11 |  [Omega Continuity](https://tube.switch.ch/videos/DkObtnApKb) (from AI recipe on), Predicate Abstraction, Widening (see slide under the video) |
+| 9    | Thu | 16.11.2023 | 15:15 | GRA330 | Lecture 12 | [Monotonicity and Semantics of Local Variables](https://tube.switch.ch/videos/pJFK2gi0YM), [Relational Semantics of Loops](https://tube.switch.ch/videos/jAePaQR8jc), [Loop Semantics Example](https://tube.switch.ch/videos/M2YCTkGZ4F) |
+|      |     |           | 17:15 | GRA330 | Exercises and labs |
+|       | Fri | 17.11.2023 | 13:15 | INR219 | Exercises and labs |
+| 10    | Thu | 23.11.2023 | 15:15 | GRA330 | **WRITTEN EXAM** |  
+|       |     |            | 17:15 | GRA330 | **WRITTEN EXAM** |
+|      | Fri | 24.11.2023 | 13:15 | INR219 | Labs |
