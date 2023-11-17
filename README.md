@@ -63,7 +63,7 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 | 3    | Thu | 5.10.2023 | 15:15 | GRA330 | Lecture 5 | [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c): Tseytin's transformation and SAT solving. [Automating First-Order Logic using Resolution](https://tube.switch.ch/videos/60fb9217) | 
 |      |     |           | 17:15 | GRA330 | [Lab 2](labs/lab2) | A communication protocol in Stainless 
 |      | Fri | 6.10.2023 | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | [Exercise 2](https://gitlab.epfl.ch/lara/cs550/-/tree/main/exercises/Exercises2?ref_type=heads)         | Traces, SAT, models |
-| 4    | Thu | 12.10.2023 | 15:15 | GRA330 | Lecture 6 | Continue [Automating First-Order Logic using Resolution](https://tube.switch.ch/videos/60fb9217). [Term Models for First-Order Logic](https://mediaspace.epfl.ch/edit/0_jnuljf9n)
+| 4    | Thu | 12.10.2023 | 15:15 | GRA330 | Lecture 6 | Continue [Automating First-Order Logic using Resolution](https://tube.switch.ch/videos/60fb9217). [Term Models for First-Order Logic](https://mediaspace.epfl.ch/media/06-03+Term+Models+for+First-Order+Logic/0_jnuljf9n/30542)
 |      |     |            | 17:15 | GRA330 | [Lab 3](labs/lab3/) | Resolution proof checker (with Stainless) |
 |      | Fri | 13.10.2023| 13:15 | INR219 | [Exercise 3](https://gitlab.epfl.ch/lara/cs550/-/tree/main/exercises/Exercises3) | Propositional logic. Transition systems. Models |
 | 5    | Thu | 19.10.2023 | 15:15 | GRA330 | Lecture 7 | [Converting Imperative Programs to Formulas](https://tube.switch.ch/videos/79219264), [Hoare Logic, Strongest Postcondition, Weakest Precondition](https://tube.switch.ch/videos/3fc107a7) |  
