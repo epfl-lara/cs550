@@ -81,7 +81,7 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      | Fri | 10.11.2023 | 13:15 | INR219 | Lecture 11 |  [Omega Continuity](https://tube.switch.ch/videos/DkObtnApKb) (from AI recipe onwards), Predicate Abstraction. [Complete slides](lectures/lec11-ai.pdf), [Annotated](lectures/lec11-ai-annot.pdf) |
 | 9    | Thu | 16.11.2023 | 15:15 | GRA330 | Lecture 12 | [Monotonicity and Semantics of Local Variables](https://tube.switch.ch/videos/pJFK2gi0YM), [Relational Semantics of Loops](https://tube.switch.ch/videos/jAePaQR8jc), [Loop Semantics Example](https://tube.switch.ch/videos/M2YCTkGZ4F) |
 |      |     |           | 17:15 | GRA330 | Work on project | Deadline to finish and upload the background paper review.
-|       | Fri | 17.11.2023 | 13:15 | INR219 | Exercises 7 |
+|       | Fri | 17.11.2023 | 13:15 | INR219 | [Exercises 7](https://gitlab.epfl.ch/lara/cs550/-/tree/main/exercises/Exercises7?ref_type=head) |
 | 10    | Thu | 23.11.2023 | 15:15 | GRA330 | **WRITTEN EXAM** |  
 |       |     |            | 17:15 | GRA330 | **WRITTEN EXAM** |
 |      | Fri | 24.11.2023 | 13:15 | INR219 | Labs |
