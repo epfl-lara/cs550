@@ -62,26 +62,26 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |      | Fri | 29.09.2023 | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture 4                       | [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c) up to and including equisatisfiability |
 | 3    | Thu | 5.10.2023 | 15:15 | GRA330 | Lecture 5 | [Propositional Resolution](https://tube.switch.ch/videos/280bbc4c): Tseytin's transformation and SAT solving. [Automating First-Order Logic using Resolution](https://tube.switch.ch/videos/60fb9217) | 
 |      |     |           | 17:15 | GRA330 | [Lab 2](labs/lab2) | A communication protocol in Stainless 
-|      | Fri | 6.10.2023 | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | [Exercise 2](https://gitlab.epfl.ch/lara/cs550/-/tree/main/exercises/Exercises2?ref_type=heads)         | Traces, SAT, models |
+|      | Fri | 6.10.2023 | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | [Exercise 2](exercises/Exercises2/)         | Traces, SAT, models |
 | 4    | Thu | 12.10.2023 | 15:15 | GRA330 | Lecture 6 | Continue [Automating First-Order Logic using Resolution](https://tube.switch.ch/videos/60fb9217). [Term Models for First-Order Logic](https://mediaspace.epfl.ch/media/06-03+Term+Models+for+First-Order+Logic/0_jnuljf9n/30542)
 |      |     |            | 17:15 | GRA330 | [Lab 3](labs/lab3/) | Resolution proof checker (with Stainless) |
-|      | Fri | 13.10.2023| 13:15 | INR219 | [Exercise 3](https://gitlab.epfl.ch/lara/cs550/-/tree/main/exercises/Exercises3) | Propositional logic. Transition systems. Models |
+|      | Fri | 13.10.2023| 13:15 | INR219 | [Exercise 3](exercises/Exercises3/) | Propositional logic. Transition systems. Models |
 | 5    | Thu | 19.10.2023 | 15:15 | GRA330 | Lecture 7 | [Converting Imperative Programs to Formulas](https://tube.switch.ch/videos/79219264), [Hoare Logic, Strongest Postcondition, Weakest Precondition](https://tube.switch.ch/videos/3fc107a7) |  
 |      |     |            | 17:15 | GRA330 | [Lab 3](labs/lab3/) | Continue resolution proof checker |
 |      | Fri | 20.10.2023 | 13:15 | INR219 | Lecture 8 | [Presburger Arithmetic 1](https://tube.switch.ch/videos/535e9dea), [Presburger Airhtmetic 2](https://tube.switch.ch/videos/ceecf2f6) |
-| 6    | Thu | 26.10.2023 | 15:15 | GRA330 | [Exercises 4](https://gitlab.epfl.ch/lara/cs550/-/tree/main/exercises/Exercises4) |  |  
-|      |     |            | 17:15 | GRA330 | [Lab 4](labs/lab4) | [First Lisa Lab](https://gitlab.epfl.ch/lara/cs550/-/tree/main/labs/lab4) |
+| 6    | Thu | 26.10.2023 | 15:15 | GRA330 | [Exercises 4](exercises/Exercises4) |  |  
+|      |     |            | 17:15 | GRA330 | [Lab 4](labs/lab4) | [First Lisa Lab](labs/lab4) |
 |      | Fri | 27.10.2023 | 13:15 | INR219 | Lecture 9 | [Abstract Interpretation Idea](https://tube.switch.ch/videos/cOvvbWjTpU), [Lattices](https://tube.switch.ch/videos/Zj3TNfknHG) |
-| 7    | Thu | 2.11.2023 | 15:15 | GRA330 | [Exercises 5](https://gitlab.epfl.ch/lara/cs550/-/tree/main/exercises/Exercises5) |  |  
-|      |     |           | 17:15 | GRA330 | [Lab 5](https://gitlab.epfl.ch/lara/cs550/-/tree/main/labs/lab5) |  |
+| 7    | Thu | 2.11.2023 | 15:15 | GRA330 | [Exercises 5](exercises/Exercises5) |  |  
+|      |     |           | 17:15 | GRA330 | [Lab 5](labs/lab5) |  |
 |      | Fri | 3.11.2023 | 13:15 | INR219 | Lecture 10 |  [Fixed Point Theorem](https://tube.switch.ch/videos/dQ5vvteGhz), [Omega Continuity](https://tube.switch.ch/videos/DkObtnApKb) (only until AI recipe) |
 |      | Sun | 5.11.2023 |       |        |            | [Deadline to submit the topic of your project and the background paper you will review](https://gitlab.epfl.ch/lara/cs550/-/blob/main/project/Background%20Paper%20Review.md) |
-| 8    | Thu | 9.11.2023 | 15:15 | GRA330 | [Exercises 6](https://gitlab.epfl.ch/lara/cs550/-/tree/main/exercises/Exercises6) |  |  
-|      |     |           | 17:15 | GRA330 | Finish [Lab 5](https://gitlab.epfl.ch/lara/cs550/-/tree/main/labs/lab5), Background paper review, Work on project |  |
+| 8    | Thu | 9.11.2023 | 15:15 | GRA330 | [Exercises 6](exercises/Exercises6) |  |  
+|      |     |           | 17:15 | GRA330 | Finish [Lab 5](labs/lab5), Background paper review, Work on project |  |
 |      | Fri | 10.11.2023 | 13:15 | INR219 | Lecture 11 |  [Omega Continuity](https://tube.switch.ch/videos/DkObtnApKb) (from AI recipe onwards), Predicate Abstraction. [Complete slides](lectures/lec11-ai.pdf), [Annotated](lectures/lec11-ai-annot.pdf) |
 | 9    | Thu | 16.11.2023 | 15:15 | GRA330 | Lecture 12 | [Monotonicity and Semantics of Local Variables](https://tube.switch.ch/videos/pJFK2gi0YM), [Relational Semantics of Loops](https://tube.switch.ch/videos/jAePaQR8jc), [Loop Semantics Example](https://tube.switch.ch/videos/M2YCTkGZ4F) |
 |      |     |           | 17:15 | GRA330 | Work on project | Deadline to finish and upload the background paper review.
-|       | Fri | 17.11.2023 | 13:15 | INR219 | [Exercises 7](https://gitlab.epfl.ch/lara/cs550/-/tree/main/exercises/Exercises7?ref_type=head) |
+|       | Fri | 17.11.2023 | 13:15 | INR219 | [Exercises 7](exercises/Exercises7) |
 | 10    | Thu | 23.11.2023 | 15:15 | GRA330 | **WRITTEN EXAM** |  
 |       |     |            | 17:15 | GRA330 | **WRITTEN EXAM** |
 |      | Fri | 24.11.2023 | 13:15 | INR219 | Labs |
