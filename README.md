@@ -85,5 +85,5 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 | 10    | Thu | 23.11.2023 | 15:15 | GRA330 | **WRITTEN EXAM** | [Exam 2023 Sheet](past-exams/exam2023.pdf)
 |       |     |            | 17:15 | GRA330 | **WRITTEN EXAM** |
 | 11    | Thu | 30.11.2023 | 15:15 | GRA330 | Labs | Project discussions with course staff |
-|       |     |            | 17:15 | GRA330 | Presentation of Exam solutions |
+|       |     |            | 17:15 | GRA330 | Exercises | [Exam Solutions](past-exams/solutions2023.pdf) | 
 |       | Fri | 01.12.2023 | 13:15 | INR219 | Lecture |  [Approximating Loops. Recursion 1](https://tube.switch.ch/videos/xCQoLRTGKq), [Recursion 2](https://tube.switch.ch/videos/NjerTXfE9z) |
