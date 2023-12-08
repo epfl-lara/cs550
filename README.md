@@ -89,4 +89,10 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |       | Fri | 01.12.2023 | 13:15 | INR219 | Lecture |  [Approximating Loops. Recursion 1](https://tube.switch.ch/videos/xCQoLRTGKq), [Recursion 2](https://tube.switch.ch/videos/NjerTXfE9z), [Termination](lectures/termination.pdf) |
 | 12    | Thu | 07.12.2023 | 15:15 | GRA330 | Labs | Project discussions with course staff |
 |       |     |            | 17:15 | GRA330 | Labs | Project discussions with course staff |
-|       | Fri | 08.12.2023 | 13:15 | INR219 | Lecture | 
+|       | Fri | 08.12.2023 | 13:15 | INR219 | Lecture | [SMT Solvers](https://tube.switch.ch/videos/CDDwI5RZD0), Tableau-Based Theorem Proving (by Simon)
+| 13    | Thu | 14.12.2023 | 15:15 | GRA330 | Lecture | Guest lecture by [Prof. Thomas Bourgeat](https://people.epfl.ch/thomas.bourgeat) |
+|       |     |            | 17:15 | GRA330 | Labs |  |
+|       | Fri | 15.12.2023 | 13:15 | INR219 | Project Presentations |  | 
+| 14    | Thu | 21.12.2023 | 15:15 | GRA330 | Project Presentations |  |
+|       |     |            | 17:15 | GRA330 | Project Presentations |  |
+|       | Fri | 22.12.2023 | 13:15 | INR219 | Project Presentations |  |
