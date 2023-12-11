@@ -92,12 +92,12 @@ In the reading list below, HandAR-Ch.2 means Chapter 2 in the Handbook of Practi
 |       | Fri | 08.12.2023 | 13:15 | INR219 | Lecture | [SMT Solvers](https://tube.switch.ch/videos/CDDwI5RZD0), [Tableau-Based Theorem Proving](lectures/Lecture_on_Tableau-1.pdf) (by Simon)
 | 13    | Thu | 14.12.2023 | 15:15 | GRA330 | Lecture | Guest lecture by [Prof. Thomas Bourgeat](https://people.epfl.ch/thomas.bourgeat) |
 |       |     |            | 17:15 | GRA330 | Labs |  |
-|       | Fri | 15.12.2023 | 13:15 | INR219 | Project Presentations | ILIESCU Valentina-Florentina, WINDLER Leon, LAZAR David Leonardo| 
-|       |     |            | 13:45 | INR219 | Project Presentations | VIDIGUIERA Manuel, CONTOVOUNESIOS Basil, POIROUX Auguste | 
+|       | Fri | 15.12.2023 | 13:15 | INR219 | Project Presentations | ILIESCU Valentina-Florentina, WINDLER Leon, LAZAR David Leonardo|
 | 14    | Thu | 21.12.2023 | 15:15 | GRA330 | Project Presentations | GILLIARD Patrick, SCHNEUWLY Victor, PIVETEAU Alexandre |
 |       |     |            | 15:45 | GRA330 | Project Presentations | HALILOVIC Dario, HERNANDEZ CANO Alejandro |
 |       |     |            | 16:15 | GRA330 | Project Presentations | RAZGALLAH Hédi, ROVELLI Gianmaria, KLEYMANN David |
-|       |     |            | 16:45 | GRA330 | Project Presentations | KAPPELER Kelvin, JOLIDON Bastien, KALLAND Magnus |
+|       |     |            | 16:45 | GRA330 | Project Presentations | KAPPELER Kelvin, JOLIDON Bastien, KALLAND Magnus | 
+|       |     |            | 17:15 | GRA330 | Project Presentations | VIDIGUIERA Manuel, CONTOVOUNESIOS Basil, POIROUX Auguste | 
 |       | Fri | 22.12.2023 | 13:15 | INR219 | Project Presentations | REMMAL Hamza, FLESSELLE Eugene | 
 |       |     |            | 13:45 | INR219 | Project Presentations | ZHAO Yaoyu, FALTINGS Victor, BARMETTLER Lars |  
 |       |     |            | 14:15 | INR219 | Project Presentations | WOJNAROWSKI Marcin, BARTRINA Guillem, SAINAS Franco |  
