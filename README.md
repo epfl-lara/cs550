@@ -91,7 +91,7 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 |      | Fri | 08.11.2024 | 13:15 | INR219 | [Exercises 7](exercises/Exercises7/) |  |
 | 9    | Thu | 14.11.2024 | 15:15 | GRA330 | Lecture 11 [PDF](lectures/lec11-recursion.pdf) | Finish Predicates. [Recursion](lectures/lec11-recursion.pdf) |
 |      |     |            | 17:15 | GRA330 | | |
-|      | Fri | 15.11.2024 | 13:15 | INR219 | | [Exercises 8](exercises/Exercises8/) |
+|      | Fri | 15.11.2024 | 13:15 | INR219 | [Exercises 8](exercises/Exercises8/) | |
 | 10   | Thu | 21.11.2024 | 15:15 | GRA330 | | |
 |      |     |            | 17:15 | GRA330 | | |
 |      | Fri | 22.11.2024 | 13:15 | INR219 | | |
