@@ -81,7 +81,7 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 | -    | Thu | 24.10.2024 | 15:15 |        | Holidays | |
 |      |     |            | 17:15 |        | Holidays | |
 |      | Fri | 25.10.2024 | 13:15 |        | Holidays | |
-| 7    | Thu | 31.10.2024 | 15:15 | GRA330 | Lecture 9 [PDF](lectures/lec09-ai-fixpoint.pdf) | Abstract Interpration. Lattices. Tarski's fixpoint theorem |
+| 7    | Thu | 31.10.2024 | 15:15 | GRA330 | Lecture 9: [1](https://mediaspace.epfl.ch/media/12-01%2C+Abstract+Interpretation+Idea/0_5ijgftx3/30542), [2](https://mediaspace.epfl.ch/media/12-02-Live2%2C+Lattices+for+Abstract+Interpretation/0_1v7ouncc/30542), [3](https://mediaspace.epfl.ch/media/Omega+Continuity%2C+Galois+Connection%2C+and+AI+Recipe/0_0rxm5t2s/30542) [PDF](lectures/lec09-ai-fixpoint.pdf) | Abstract Interpration. Lattices. Tarski's fixpoint theorem |
 |      |     |            | 17:15 | GRA330 | Labs | |
 |      |     |            |       |        | | [Deadline to pick your project topic and Background Paper](project/README.md) |
 |      | Fri | 01.11.2024 | 13:15 | INR219 | [Exercises 6](exercises/Exercises6) | |
@@ -89,15 +89,15 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 |      |     |            | 17:15 | GRA330 | Labs | |
 |      |     |            |       |        | | [Deadline to write your Background Paper Review](project/README.md) |
 |      | Fri | 08.11.2024 | 13:15 | INR219 | [Exercises 7](exercises/Exercises7/) |  |
-| 9    | Thu | 14.11.2024 | 15:15 | GRA330 | Lecture 11 [PDF](lectures/lec11-recursion.pdf) | Finish Predicates. [Recursion](lectures/lec11-recursion.pdf) |
+| 9    | Thu | 14.11.2024 | 15:15 | GRA330 | Lecture 11: Recursion: [1](https://mediaspace.epfl.ch/media/09-01%2C+Monotonicity+and+Semantics+of+Local+Variables/0_uqnv7pkj/30542), [2](https://mediaspace.epfl.ch/media/09-02%2C+Relational+Semantics+of+Loops/0_iy1fbb8t/30542), [3](https://mediaspace.epfl.ch/media/10-03%2C+Recursion+2/0_w0rgyean/30542) [PDF](lectures/lec11-recursion.pdf) | Finish Predicates. [Recursion](lectures/lec11-recursion.pdf) |
 |      |     |            | 17:15 | GRA330 | | |
-|      | Fri | 15.11.2024 | 13:15 | INR219 | | |
-| 10   | Thu | 21.11.2024 | 15:15 | GRA330 | | |
+|      | Fri | 15.11.2024 | 13:15 | INR219 | [Exercises 8](exercises/Exercises8/) | |
+| 10   | Thu | 21.11.2024 | 15:15 | GRA330 | Lecture 12 | [Widening](lectures/lec12-widening.pdf), [Loops](lectures/lec12-loop.pdf) |
 |      |     |            | 17:15 | GRA330 | | |
-|      | Fri | 22.11.2024 | 13:15 | INR219 | | |
+|      | Fri | 22.11.2024 | 13:15 | INR219 | Q&A session | |
 | 11   | Thu | 28.11.2024 | 15:15 | **GRA330**, **AAC114** | **Midterm**, until 18:00 | [Seat Plan](seatplan.pdf) |
 |      | Fri | 29.11.2024 | 13:15 | INR219 | | |
-| 12   | Thu | 05.12.2024 | 15:15 | GRA330 | | |
+| 12   | Thu | 05.12.2024 | 15:15 | GRA330 | Lecture 13 | [SMT Solvers](lectures/lec12-smt.pdf),  [Termination](lectures/lec12-termination.pdf) |
 |      |     |            | 17:15 | GRA330 | | |
 |      | Fri | 06.12.2024 | 13:15 | INR219 | | |
 | 13   | Thu | 12.12.2024 | 15:15 | GRA330 | | |
