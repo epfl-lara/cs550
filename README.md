@@ -94,7 +94,7 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 |      | Fri | 15.11.2024 | 13:15 | INR219 | [Exercises 8](exercises/Exercises8/) | |
 | 10   | Thu | 21.11.2024 | 15:15 | GRA330 | Lecture 12 | [Widening](lectures/lec12-widening.pdf), [Loops](lectures/lec12-loop.pdf) |
 |      |     |            | 17:15 | GRA330 | | |
-|      | Fri | 22.11.2024 | 13:15 | INR219 | | |
+|      | Fri | 22.11.2024 | 13:15 | INR219 | Q&A session | |
 | 11   | Thu | 28.11.2024 | 15:15 | **GRA330**, **AAC114** | **Midterm**, until 18:00 | |
 |      | Fri | 29.11.2024 | 13:15 | INR219 | | |
 | 12   | Thu | 05.12.2024 | 15:15 | GRA330 | Lecture 13 | [SMT Solvers](lectures/lec12-smt.pdf),  [Termination](lectures/lec12-termination.pdf) |
