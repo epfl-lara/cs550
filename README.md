@@ -95,7 +95,7 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 | 10   | Thu | 21.11.2024 | 15:15 | GRA330 | | |
 |      |     |            | 17:15 | GRA330 | | |
 |      | Fri | 22.11.2024 | 13:15 | INR219 | | |
-| 11   | Thu | 28.11.2024 | 15:15 | **GRA330**, **AAC114** | **Midterm**, until 18:00 | |
+| 11   | Thu | 28.11.2024 | 15:15 | **GRA330**, **AAC114** | **Midterm**, until 18:00 | [Seat Plan](seatplan.pdf) |
 |      | Fri | 29.11.2024 | 13:15 | INR219 | | |
 | 12   | Thu | 05.12.2024 | 15:15 | GRA330 | | |
 |      |     |            | 17:15 | GRA330 | | |
