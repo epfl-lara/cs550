@@ -92,12 +92,12 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 | 9    | Thu | 14.11.2024 | 15:15 | GRA330 | Lecture 11: Recursion: [1](https://mediaspace.epfl.ch/media/09-01%2C+Monotonicity+and+Semantics+of+Local+Variables/0_uqnv7pkj/30542), [2](https://mediaspace.epfl.ch/media/09-02%2C+Relational+Semantics+of+Loops/0_iy1fbb8t/30542), [3](https://mediaspace.epfl.ch/media/10-03%2C+Recursion+2/0_w0rgyean/30542) [PDF](lectures/lec11-recursion.pdf) | Finish Predicates. [Recursion](lectures/lec11-recursion.pdf) |
 |      |     |            | 17:15 | GRA330 | | |
 |      | Fri | 15.11.2024 | 13:15 | INR219 | [Exercises 8](exercises/Exercises8/) | |
-| 10   | Thu | 21.11.2024 | 15:15 | GRA330 | Lecture 12 | [Widening](lectures/lec12-widening.pdf), [Loops](lectures/lec12-loop.pdf), [Termination](lectures/lec12-termination.pdf), [SMT Solvers](lectures/lec12-smt.pdf) |
+| 10   | Thu | 21.11.2024 | 15:15 | GRA330 | Lecture 12 | [Widening](lectures/lec12-widening.pdf), [Loops](lectures/lec12-loop.pdf) |
 |      |     |            | 17:15 | GRA330 | | |
 |      | Fri | 22.11.2024 | 13:15 | INR219 | | |
 | 11   | Thu | 28.11.2024 | 15:15 | **GRA330**, **AAC114** | **Midterm**, until 18:00 | |
 |      | Fri | 29.11.2024 | 13:15 | INR219 | | |
-| 12   | Thu | 05.12.2024 | 15:15 | GRA330 | | |
+| 12   | Thu | 05.12.2024 | 15:15 | GRA330 | Lecture 13 | [SMT Solvers](lectures/lec12-smt.pdf),  [Termination](lectures/lec12-termination.pdf) |
 |      |     |            | 17:15 | GRA330 | | |
 |      | Fri | 06.12.2024 | 13:15 | INR219 | | |
 | 13   | Thu | 12.12.2024 | 15:15 | GRA330 | | |
