@@ -96,7 +96,7 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 |      |     |            | 17:15 | GRA330 | | |
 |      | Fri | 22.11.2024 | 13:15 | INR219 | Q&A session | |
 | 11   | Thu | 28.11.2024 | 15:15 | **GRA330**, **AAC114** | **Midterm**, until 18:00 | [Seat Plan](seatplan.pdf) |
-|      | Fri | 29.11.2024 | 13:15 | INR219 | | |
+|      | Fri | 29.11.2024 | 13:15 | INR219 | Labs | Work on final course project |
 | 12   | Thu | 05.12.2024 | 15:15 | GRA330 | Lecture 13 | [SMT Solvers](lectures/lec12-smt.pdf),  [Termination](lectures/lec12-termination.pdf) |
 |      |     |            | 17:15 | GRA330 | | |
 |      | Fri | 06.12.2024 | 13:15 | INR219 | | |
