@@ -100,7 +100,7 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 | 12   | Thu | 05.12.2024 | 15:15 | GRA330 | Lecture 13 | [Concurrency](lectures/lec13-concurrency.pdf), [Termination](lectures/lec12-termination.pdf), finish [SMT Solvers](lectures/lec12-smt.pdf) |
 |      |     |            | 17:15 | GRA330 | Labs | |
 |      | Fri | 06.12.2024 | 13:15 | INR219 | Guest Lecture, Labs | The first part: lecture by Samuel Chassot on [Verified Hash Table](https://link.springer.com/chapter/10.1007/978-3-031-63498-7_18) and related case studies in Stainless. Second part: labs |
-| 13   | Thu | 12.12.2024 | 15:15 | GRA330 | Labs | Work on the project. [Advice on Presentation](labs/presentation.md) |
+| 13   | Thu | 12.12.2024 | 15:15 | GRA330 | Labs | Work on the project. [Advice for Presentations](labs/presentation.md) |
 |      |     |            | 17:15 | GRA330 | Labs | Work on the project |
 |      | Fri | 13.12.2024 | 13:15 | INR219 | Presentations | Sébastien KOBLER, Jacopo MORETTI<br> Léo LARIGAUDERIE, Daniele PUSCEDDU, Christoph WECH <br> Victor GARVALOV, Tsung-Han LIU, Alexander MÜLLER |
 | 14   | Thu | 19.12.2024 | 15:15 | GRA330 | Presentations |Inés ARAUJO CAÑAS, Roman PACCAUD, Sergi SOLER ARRUFAT <br> Jonathan ARNOULT	Dobrin BASHEV	Fabrice EGGER <br> Alessio DEMATTIA, Heikel JEBALI, Kevin SOLMSSEN <br> Sidonie BOUTHORS, Mai-Linh CORDONNIER |
