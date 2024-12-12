@@ -103,8 +103,8 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 | 13   | Thu | 12.12.2024 | 15:15 | GRA330 | Labs | Work on the project. [Advice for Presentations](labs/presentation.md) |
 |      |     |            | 17:15 | GRA330 | Labs | Work on the project |
 |      | Fri | 13.12.2024 | 13:15 | INR219 | Presentations | Sébastien KOBLER, Jacopo MORETTI<br> Léo LARIGAUDERIE, Daniele PUSCEDDU, Christoph WECH <br> Victor GARVALOV, Tsung-Han LIU, Alexander MÜLLER |
-| 14   | Thu | 19.12.2024 | 15:15 | GRA330 | Presentations |Inés ARAUJO CAÑAS, Roman PACCAUD, Sergi SOLER ARRUFAT <br> Jonathan ARNOULT	Dobrin BASHEV	Fabrice EGGER <br> Alessio DEMATTIA, Heikel JEBALI, Kevin SOLMSSEN <br> Sidonie BOUTHORS, Mai-Linh CORDONNIER |
+| 14   | Thu | 19.12.2024 | 15:15 | GRA330 | Presentations |Inés ARAUJO CAÑAS, Roman PACCAUD, Sergi SOLER ARRUFAT <br> Jonathan ARNOULT	Dobrin BASHEV	Fabrice EGGER <br> Alessio DEMATTIA, Heikel JEBALI, Kevin SOLMSSEN <br> Kacper KORBAN, Zhekai JIANG |
 |      |     |            | 17:15 | GRA330 | | Bodong JIA, Matthew MEYER, Amirkhon ALIMOV <br> Myriam HIMMI, Mamoun IMGHI <br> Marwan AZUZ, Guillaume BOYÉ, Alban TRINCHERINI <br> Zhili PAN, Nicola STOCCO, Samuel TEPOORTEN <br> |
-|      | Fri | 20.12.2024 | 13:15 | INR219 | Presentations | Mohamad ATWI, Salya DIALLO, Taufiq MOHAMMED <br> Kacper KORBAN, Zhekai JIANG <br> Wuyue SUN, Boran XU, Yue YU <br> Giorgio AJMONE, Pedro PALACIOS ALMENDROS, Adrian SCHEMEL
+|      | Fri | 20.12.2024 | 13:15 | INR219 | Presentations | Mohamad ATWI, Salya DIALLO, Taufiq MOHAMMED <br> Sidonie BOUTHORS, Mai-Linh CORDONNIER <br> Wuyue SUN, Boran XU, Yue YU <br> Giorgio AJMONE, Pedro PALACIOS ALMENDROS, Adrian SCHEMEL
 |
 
