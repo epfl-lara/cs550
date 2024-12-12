@@ -107,4 +107,5 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 |      |     |            | 17:15 | GRA330 | | Bodong JIA, Matthew MEYER, Amirkhon ALIMOV <br> Myriam HIMMI, Mamoun IMGHI <br> Marwan AZUZ, Guillaume BOYÉ, Alban TRINCHERINI <br> Zhili PAN, Nicola STOCCO, Samuel TEPOORTEN <br> |
 |      | Fri | 20.12.2024 | 13:15 | INR219 | Presentations | Mohamad ATWI, Salya DIALLO, Taufiq MOHAMMED <br> Sidonie BOUTHORS, Mai-Linh CORDONNIER <br> Wuyue SUN, Boran XU, Yue YU <br> Giorgio AJMONE, Pedro PALACIOS ALMENDROS, Adrian SCHEMEL
 |
+|      | Sun | 05.01.2025 | 22:00 |        |    | Project report submission deadline on [Moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1125375) |
 
