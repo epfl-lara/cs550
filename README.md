@@ -102,9 +102,20 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 |      | Fri | 06.12.2024 | 13:15 | INR219 | Guest Lecture, Labs | The first part: lecture by Samuel Chassot on [Verified Hash Table](https://link.springer.com/chapter/10.1007/978-3-031-63498-7_18) and related case studies in Stainless. Second part: labs |
 | 13   | Thu | 12.12.2024 | 15:15 | GRA330 | Labs | Work on the project. [Advice for Presentations](labs/presentation.md) |
 |      |     |            | 17:15 | GRA330 | Labs | Work on the project |
-|      | Fri | 13.12.2024 | 13:15 | INR219 | Presentations | Sébastien KOBLER, Jacopo MORETTI<br> Léo LARIGAUDERIE, Daniele PUSCEDDU, Christoph WECH <br> Victor GARVALOV, Tsung-Han LIU, Alexander MÜLLER |
-| 14   | Thu | 19.12.2024 | 15:15 | GRA330 | Presentations |Inés ARAUJO CAÑAS, Roman PACCAUD, Sergi SOLER ARRUFAT <br> Jonathan ARNOULT	Dobrin BASHEV	Fabrice EGGER <br> Alessio DEMATTIA, Heikel JEBALI, Kevin SOLMSSEN <br> Kacper KORBAN, Zhekai JIANG |
-|      |     |            | 17:15 | GRA330 | | Bodong JIA, Matthew MEYER, Amirkhon ALIMOV <br> Myriam HIMMI, Mamoun IMGHI <br> Marwan AZUZ, Guillaume BOYÉ, Alban TRINCHERINI <br> Zhili PAN, Nicola STOCCO, Samuel TEPOORTEN <br> |
-|      | Fri | 20.12.2024 | 13:15 | INR219 | Presentations | Mohamad ATWI, Salya DIALLO, Taufiq MOHAMMED <br> Sidonie BOUTHORS, Mai-Linh CORDONNIER <br> Wuyue SUN, Boran XU, Yue YU <br> Giorgio AJMONE, Pedro PALACIOS ALMENDROS, Adrian SCHEMEL |
-|      | Sun | 05.01.2025 | 23:59 |        |    | Project report submission deadline on [Moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1125375) |
+|      | Fri | 13.12.2024 | 13:15 | INR219 | Presentations | Sébastien KOBLER, Jacopo MORETTI |
+|      |     |            |       |        |               | Léo LARIGAUDERIE, Daniele PUSCEDDU, Christoph WECH |
+|      |     |            |       |        |               | Victor GARVALOV, Tsung-Han LIU, Alexander MÜLLER |
+| 14   | Thu | 19.12.2024 | 15:15 | GRA330 | Presentations | Inés ARAUJO CAÑAS, Roman PACCAUD, Sergi SOLER ARRUFAT |
+|      |     |            |       |        |               | Jonathan ARNOULT,	Dobrin BASHEV, Fabrice EGGER |
+|      |     |            |       |        |               | Alessio DEMATTIA, Heikel JEBALI, Kevin SOLMSSEN |
+|      |     |            |       |        |               | Kacper KORBAN, Zhekai JIANG |
+|      |     |            | 17:15 | GRA330 | Presentations | Bodong JIA, Matthew MEYER, Amirkhon ALIMOV |
+|      |     |            |       |        |               | Myriam HIMMI, Mamoun IMGHI |
+|      |     |            |       |        |               | Marwan AZUZ, Guillaume BOYÉ, Alban TRINCHERINI |
+|      |     |            |       |        |               | Zhili PAN, Nicola STOCCO, Samuel TEPOORTEN |
+|      | Fri | 20.12.2024 | 13:15 | INR219 | Presentations | Mohamad ATWI, Salya DIALLO, Taufiq MOHAMMED |
+|      |     |            |       |        |               | Sidonie BOUTHORS, Mai-Linh CORDONNIER |
+|      |     |            |       |        |               | Wuyue SUN, Boran XU, Yue YU |
+|      |     |            |       |        |               | Giorgio AJMONE, Pedro PALACIOS ALMENDROS, Adrian SCHEMEL |
+|      | Sun | 05.01.2025 | 23:59 |        |               | Project report submission deadline on [Moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1125375) |
 
