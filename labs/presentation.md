@@ -1,17 +1,23 @@
 # Advice for Presentation of Student Projects
 
-## Presentation content 
+## Presentation content and length
 
-Your presentation should summarize your project. In particular, we'd expect you to:
+The allowed time for presentation is 15 minutes (excluding questions). If you speak more than that, we reserve the right to stop you and grade you based on whatever you managed to say in those 15 minutes.
+
+Your presentation should summarize your project. In particular, we'd expect you to spend 5 minutes on:
 
   * introduce yourself (everyone should speak!)
   * state the goals of the project
   * indicate which theoretical background you neededed
   * mention the title of your background paper
-  * indicate what makes your project non-trivial 
+  * indicate what makes your project non-trivial
+
+In the remaining ~10 minutes you should:
+
   * state the work you have done (main part)
   * indicate what remains to be done
   * summarize what you did
+
 
 ## Presentation style 
 
