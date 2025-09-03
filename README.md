@@ -7,8 +7,8 @@ This  repository is the homepage of the course Formal Verification and hosts the
 ### Staff:
 
 - Professor: [Viktor Kunčak](https://people.epfl.ch/viktor.kuncak)
-- Teaching Assistant: [Simon Guilloud](https://people.epfl.ch/simon.guilloud)
-- Student Assistant: [Dario Halilovic](https://people.epfl.ch/dario.halilovic)
+- Teaching Assistant: [Sankalp Gambhir](https://people.epfl.ch/sankalp.gambhir)
+- Student Assistant: [Jacopo Philipp Moretti](https://people.epfl.ch/jacopo.moretti)
 
 ### Grading
 
