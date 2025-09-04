@@ -26,7 +26,7 @@ The types of graded materials will include:
 
 ### Midterm Exam
 
-The midterm exam will tentatively be held on Thursday 27/11/2025, during the 15h-19h slot for the course. The exact time and rooms will be communicated later.
+The midterm exam will be held on Thursday 27/11/2025, during the 15h-19h slot for the course, in rooms [GR A3 30](https://plan.epfl.ch/?room==GR%20A3%2030) and [MED 0 1618](https://plan.epfl.ch/?room==MED%200%201618). The exact time and seating plans will be communicated later.
 
 ### Course Project
 
