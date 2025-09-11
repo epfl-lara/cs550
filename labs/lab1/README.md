@@ -33,17 +33,17 @@ You will need to add coursier's `bin` directory to your path. The `bin` director
 You can test your installation with
 ```shell
 > scala -version
-Scala code runner version 3.3.1 -- Copyright 2002-2023, LAMP/EPFL
+Scala code runner version: 1.9.0
+Scala version (default): 3.7.3
 > scala-cli -version
-Scala CLI version: 1.5.0
-Scala version (default): 3.5.0
+Scala CLI version: 1.9.0
+Scala version (default): 3.7.2
 > sbt -version
-sbt version in this project: 1.9.8
-sbt script version: 1.9.8
+sbt runner version: 1.11.6
 ```
 
 ### Stainless
-Download the latest stainless release from its [repository](https://github.com/epfl-lara/stainless/releases/tag/v0.9.8.8). 
+Download the latest stainless release from its [repository](https://github.com/epfl-lara/stainless/releases/tag/v0.9.9.1). 
 
 On Windows, it is recommended to run the linux version on top of the Windows Subsystem for Linux (WSL 2).
 
@@ -55,12 +55,12 @@ Stainless should then produce the following output (you may need to add `.sh` or
 ```shell
 > stainless --version
 [  Info  ] Stainless verification tool (https://github.com/epfl-lara/stainless)
-[  Info  ]   Version: 0.9.8.8
-[  Info  ]   Built at: 2024-08-22 13:43:47.647+0200
-[  Info  ]   Stainless Scala version: 3.3.3
+[  Info  ]   Version: 0.9.9.1
+[  Info  ]   Built at: 2025-09-05 18:25:54.473+0200
+[  Info  ]   Stainless Scala version: 3.7.2
 [  Info  ] Inox solver (https://github.com/epfl-lara/inox)
-[  Info  ] Version: 1.1.5-166-gca9e9e8
-[  Info  ] Bundled Scala compiler: 3.3.3
+[  Info  ] Version: 1.1.5-208-g467725e
+[  Info  ] Bundled Scala compiler: 3.7.2
 ```
 
 ## Tutorial
