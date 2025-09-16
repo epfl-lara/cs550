@@ -1,7 +1,7 @@
 
-import stainless.lang._
-import stainless.collection._
-import stainless.annotation._
+import stainless.lang.*
+import stainless.collection.*
+import stainless.annotation.*
  
 /* 
  * The definition of List and its operations can be found here:
