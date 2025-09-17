@@ -119,8 +119,24 @@ These induction proofs work due to [function unfolding performed by
 Stainless](https://mediaspace.epfl.ch/media/01-04%2C+Unfolding+recursive+functions+in+Stainless/0_4byxmv9i/30542).
 Several other examples of inductive proofs can be found in the Stainless list
 library in the file
-[ListSpecs.scala](https://github.com/epfl-lara/stainless/blob/main/frontends/library/stainless/collection/ListSpecs.scala)
-(e.g. see `appendIndex`).
+[ListSpecs.scala](https://github.com/epfl-lara/stainless/blob/main/frontends/library/stainless/collection/ListSpecs.scala). One of the functions `appendIndex` is reproduced here as an example:
+
+```scala
+import stainless.collection.*
+object TestAppendIndex:
+  /**
+   * Proves the validity of indices when appending two lists.
+   */
+  def appendIndex[T](l1: List[T], l2: List[T], i: BigInt): Boolean = {
+    require(0 <= i && i < l1.size + l2.size)
+    l1 match
+      case Nil() => true
+      case Cons(x,xs) =>
+        (i == 0) || appendIndex(xs, l2, i - 1)
+  }.ensuring: _ =>
+    (l1 ++ l2).apply(i) == (if i < l1.size then l1(i) else l2(i - l1.size))
+
+```
 
 ### Additional Resources
 
