@@ -113,7 +113,14 @@ proves property by induction, we repeat the recursive structure of `sumTo`
 inside the body of `sumToIsCorrect`. The result is the same induction schema as
 if we added a post-condition to `sumTo`. Simple cases of such induction can be
 done automatically by Stainless (or enforced using the `@induct` annotation),
-but writing explicitly induction schemas as we did here is more general.
+but writing explicitly induction schemas as we did here is more general. 
+
+These induction proofs work due to [function unfolding performed by
+Stainless](https://mediaspace.epfl.ch/media/01-04%2C+Unfolding+recursive+functions+in+Stainless/0_4byxmv9i/30542).
+Several other examples of inductive proofs can be found in the Stainless list
+library in the file
+[ListSpecs.scala](https://github.com/epfl-lara/stainless/blob/main/frontends/library/stainless/collection/ListSpecs.scala)
+(e.g. see `appendIndex`).
 
 ### Additional Resources
 
