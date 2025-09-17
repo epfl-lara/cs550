@@ -19,7 +19,7 @@ javac 17.0.9
 The exact version might vary, but the major version should be 17.
 
 On some Linux distributions, a command exists to change your "active" JDK if multiple ones are installed on your machine. Examples include:
-- **Debian-based:** `update-alternatives -config java`;
+- **Debian-based:** `update-alternatives --config java`, and
 - **[ArchLinux-based](https://wiki.archlinux.org/title/Java#Switching_between_JVM):** `archlinux-java set java-17-openjdk`.
 
 ### Scala
