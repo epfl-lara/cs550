@@ -9,11 +9,11 @@ In order to run stainless, as well as the programs you will verify, you will nee
 
 You can check your Java version using 
 ```shell
-> java -version
+$ java -version
 openjdk version "17.0.9" 2023-10-17
 OpenJDK Runtime Environment Temurin-17.0.9+9 (build 17.0.9+9)
 OpenJDK 64-Bit Server VM Temurin-17.0.9+9 (build 17.0.9+9, mixed mode, sharing)
-> javac -version
+$ javac -version
 javac 17.0.9
 ```
 The exact version might vary, but the major version should be 17.
@@ -36,13 +36,13 @@ be printed in the terminal near the end of the installation.
 
 You can test your installation with
 ```shell
-> scala -version
+$ scala -version
 Scala code runner version: 1.8.4
 Scala version (default): 3.7.2
-> scala-cli -version
+$ scala-cli -version
 Scala CLI version: 1.8.0
 Scala version (default): 3.7.0
-> sbt -version
+$ sbt -version
 sbt runner version: 1.11.6
 ```
 
@@ -55,7 +55,7 @@ recommended (instructions on same page).
 
 You should be able to run Stainless to get the following output
 ```shell
-> stainless --version
+$ stainless --version
 [  Info  ] Stainless verification tool (https://github.com/epfl-lara/stainless)
 [  Info  ]   Version: 0.9.9.1-1-gb59c746
 [  Info  ]   Built at: 2025-09-11 11:55:08.469+0200
@@ -87,7 +87,8 @@ Finally, add an additional post-condition to your `sInsert` function:
   (content(l).contains(x) || size(res) == size(l) + 1)
 ```
 
-and verify that Stainless can prove it, adding additional assertions if necessary.
+and verify that Stainless can prove it, adding additional assertions and lemmas
+if necessary.
 
 ### On Induction
 
@@ -138,20 +139,18 @@ The file [`Sublist.scala`](src/Sublist.scala) defines a relation `sublist` on
 lists, also noted $`\sqsubseteq`$, which holds when all the elements of the
 first list appear in the second *in the same order*. Some examples and non-examples:
 ```math
-\newcommand{\slist}[0]{\sqsubseteq}
-\newcommand{\seq}[1]{\langle#1\rangle}
 \begin{align*}
-    \seq{0,2} &\slist \seq{0,1,2} \\
-    \seq{0,0,2} &\not\slist \seq{0, 2}\\
-    \seq{1,0} &\not\slist \seq{0,0,1} \\
-    \seq{10,5,25} &\slist \seq{70,10,11,8,5,25,22}
+    \langle0,2\rangle &\sqsubseteq \langle0,1,2\rangle \\
+    \langle0,0,2\rangle &\not\sqsubseteq \langle0, 2\rangle\\
+    \langle1,0\rangle &\not\sqsubseteq \langle0,0,1\rangle \\
+    \langle10,5,25\rangle &\sqsubseteq \langle70,10,11,8,5,25,22\rangle
 \end{align*}
 ```
 ![sublist example](SublistExample.png)
 
 The file includes a main function which checks the examples above
 ```shell
-> scala-cli run Sublist.scala
+$ scala-cli run Sublist.scala
 <0,2> ⊑ <0,1,2> = true
 <0,0,2> ⊑ <0,2> = false
 <1,0> ⊑ <0,0,1> = false
@@ -177,7 +176,7 @@ def reflexivity[T](l: List[T]): Unit = {
 ```
 which should be understood mathematically as
 ```math
-\forall l,\  l \slist l
+\forall l,\  l \sqsubseteq l
 ```
 Another example: transitivity
 ```scala
@@ -190,7 +189,7 @@ def transitivity[T](l1: List[T], l2: List[T], l3: List[T]): Unit = {
 ```
 which should be interpreted as
 ```math
-\forall l_1\, l_2\, l_3,\ l_1 \slist l_2 \land l_2 \slist l_3 \implies l_1 \slist l_3
+\forall l_1\, l_2\, l_3,\ l_1 \sqsubseteq l_2 \land l_2 \sqsubseteq l_3 \implies l_1 \sqsubseteq l_3
 ```
 
 The file contains eleven properties on `sublist` that you have to prove.
@@ -205,7 +204,7 @@ The provided configuration file ([stainless.conf](stainless.conf)) will automati
 You can override this while experimenting with your proofs by either changing the configuration file or using the command line, by adding e.g. `--timeout=5` to set the timeout to 5 seconds.
 You can also add `--watch` for stainless to automatically run on file save:
 ```shell
-> stainless --timeout=5 --watch src/Sublist.scala
+$ stainless --timeout=5 --watch src/Sublist.scala
 ```
 
 You are not allowed to change the definition of `sublist` or the statement (parameters/return types, function name, requirements, conclusion, etc.) for any of the properties.
@@ -213,7 +212,7 @@ You are not allowed to change the definition of `sublist` or the statement (para
 
 Some advice:
 - Try to understand how you would prove these properties with paper and pencil, and use examples to gain intuition;
-- Induction is the main proof method in many cases; see the videos on how to write inductive proofs;
+- Induction is the main proof method in many cases; see the above example and instructions on induction;
 - Prove lemmas in order: earlier lemmas (and their structure) will help you with subsequent lemmas;
 - Even though it is not necessary, you can define new lemmas if it helps (but you then have to prove them correct as well 😊);
 - Regarding the four lemmas about concatenation: two very similar lemmas can have vastly different proofs (in both size and difficulty – can you tell why?).
@@ -254,7 +253,7 @@ Again, don't forget to look at the tests in `test/Tests.scala` to see examples o
 
 You can run the tests with
 ```shell
-> scala-cli test .
+$ scala-cli test .
 ```
 When all tests pass successfully, you are done!
 
@@ -273,5 +272,5 @@ Once you've picked a group and completed all proofs, you can submit your
 ## Troubleshooting
 - If, when running `scala-cli test .` you obtain an error of the form `Error: bloop.rifle.FailedToStartServerExitCodeException: Server failed with exit code 1`, try to run the command:
 ```shell
-> eval "$(cs java --env --jvm temurin:17)"
+$ eval "$(cs java --env --jvm temurin:17)"
 ```
