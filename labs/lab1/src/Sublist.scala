@@ -5,9 +5,9 @@ import stainless.annotation.*
  
 /* 
  * The definition of List and its operations can be found here:
- * https://github.com/epfl-lara/stainless/blob/64a09dbc58d0a41e49e7dffbbd44b234c4d2da59/frontends/library/stainless/collection/List.scala
+ * https://github.com/epfl-lara/stainless/blob/main/frontends/library/stainless/collection/List.scala
  * You should not need them, but you can find some lemmas on List here:
- * https://github.com/epfl-lara/stainless/blob/64a09dbc58d0a41e49e7dffbbd44b234c4d2da59/frontends/library/stainless/collection/ListSpecs.scala
+ * https://github.com/epfl-lara/stainless/blob/main/frontends/library/stainless/collection/ListSpecs.scala
  */
 
 def sublist[T](l1: List[T], l2: List[T]): Boolean = {
