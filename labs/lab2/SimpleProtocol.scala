@@ -1,6 +1,6 @@
 //> using jar "stainless-library-sources.jar"
 //> using jar "stainless-library.jar"
-//> using scala "3.5.0"
+//> using scala "3.7.2"
 
 import stainless.lang.*
 import stainless.annotation.*
