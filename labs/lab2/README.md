@@ -16,7 +16,56 @@ To start working on this lab, you can either clone this entire repository, or
 download the present directory alone from GitLab (top-right, `Code > Download
 this directory`, for example).
 
-## Part 1: Reasoning about Protocols
+> **Note**:
+> This lab has two independent parts, separated as sections below.
+
+The provided configuration file ([stainless.conf](stainless.conf)) will
+automatically set the SMT solver's timeout to 2 seconds. You can also pass other
+options by default such as `--compact` (only displaying VCs Stainless was not
+able to prove) or `--watch` by adding respectively `compact=true` and
+`watch=true` as new lines in the configuration file.
+
+## Part 1: Reasoning about arithmetic
+
+This part of the lab uses and refers to the file
+[`Arithmetic.scala`](src/Arithmetic.scala).
+
+Consider the file [`GodelNumbering.scala`](src/GodelNumbering.scala), which can
+also be found in the Stainless repository at
+`stainless/frontends/benchmarks/verification/valid/GodelNumbering.scala`. A copy
+is bundled with the lab.
+
+The file defines natural numbers with the type `Nat`, with two constructors,
+`Zero` and `Succ(n: Nat)`. Follow the file to understand the definition of
+addition (`+`), multiplication (`*`), and exponentiation (`pow`) on `Nat` as
+given in the file.
+
+To run the files, use
+
+```shell
+$ stainless src/Arithmetic.scala src/GodelNumbering.scala --timeout=2 --watch --compact
+```
+
+The use of the options `--watch --compact` is highly recommended due to the
+large number of VCs generated. This hides passing VCs from the output table.
+
+### 1.1: Reasoning with `pow`
+
+Prove the lemma `powMul` in the file [`Arithmetic.scala`](src/Arithmetic.scala). 
+
+### 1.2: Reasoning about integers
+
+Following the definition of `Nat` in the given files, define a new case class
+`ZZ` of unbounded integers containing a sign `sgn: Int` and an absolute value
+`abs: Nat`. 
+
+The class must have an invariant that the sign must be either `0` (for
+non-negative integers), or `-1` (for strictly negative integers).
+
+Following this, define addition and multiplication on `ZZ`, proving that they
+are each commutative and associative, filling in the respective lemmas given. 
+
+## Part 2: Reasoning about Protocols
 
 This part of the lab uses and refers to the file
 [`SimpleProtocol.scala`](src/SimpleProtocol.scala).
@@ -64,48 +113,10 @@ $ stainless --solvers=smt-z3 SimpleProtocol.scala
 ``` 
 using `--watch` while you are working for quicker turnaround.
 
-
-The provided configuration file ([stainless.conf](stainless.conf)) will
-automatically set the SMT solver's timeout to 2 seconds. You can also pass other
-options by default such as `--compact` (only displaying VCs Stainless was not
-able to prove) or `--watch` by adding respectively `compact=true` and
-`watch=true` as new lines in the configuration file.
-
-## Part 2: Reasoning about arithmetic
-
-This part of the lab uses and refers to the file
-[`Arithmetic.scala`](src/Arithmetic.scala).
-
-Consider the file [`GodelNumbering.scala`](src/GodelNumbering.scala), which can
-also be found in the Stainless repository at
-`stainless/frontends/benchmarks/verification/valid/GodelNumbering.scala`. A copy
-is bundled with the lab.
-
-The file defines natural numbers with the type `Nat`, with two constructors,
-`Zero` and `Succ(n: Nat)`. Follow the file to understand the definition of
-addition (`+`), multiplication (`*`), and exponentiation (`pow`) on `Nat` as
-given in the file.
-
-### 2.1: Reasoning with `pow`
-
-Prove the lemma `powMul` in the file [`Arithmetic.scala`](src/Arithmetic.scala). 
-
-### 2.2: Reasoning about integers
-
-Following the definition of `Nat` in the given files, define a new case class
-`ZZ` of unbounded integers containing a sign `sgn: Int` and an absolute value
-`abs: Nat`. 
-
-The class must have an invariant that the sign must be either `0` (for
-non-negative integers), or `-1` (for strictly negative integers).
-
-Following this, define addition and multiplication on `ZZ`, proving that they
-are each commutative and associative, filling in the respective lemmas given. 
-
 ## Submission
 
 Once you've completed all proofs, you can submit the two files
-[`SimpleProtocol.scala`](src/SimpleProtocol.scala) and 
-[`Arithmetic.scala`](src/Arithmetic.scala) on
+[`Arithmetic.scala`](src/Arithmetic.scala) and
+[`SimpleProtocol.scala`](src/SimpleProtocol.scala) on
 [Moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1169500&forceview=1).
 Only one member of each group should submit a solution. 
