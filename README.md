@@ -71,12 +71,12 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 |      |     |            | 17:15 | GRA330 | [Lab 1](labs/lab1/README.md) | |
 |      | Fri | 19.09.2025 | 13:15 | DIA 004 | [Exercises 1](exercises/Exercises1) | Propositional Logic |
 |      |     |            |   |   | Reading:                       | CalComp-Ch.1 ∨ HandAR-Ch.2 |
-
-<!-- 
 | 3    | Thu | 25.09.2025 | 15:15 | GRA330 | [Lecture 5](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_x3485b9h/0_hmbkv363) [PDF](lectures/fol.pdf) | SAT solving from [Propositional Resolution](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_thr9uebs/0_lovmc46b). Start [Automating First-Order Logic Proofs Using Resolution ](https://mediaspace.epfl.ch/media/06-01%2C%20Automating%20First-Order%20Logic%20Proofs%20Using%20Resolution/0_hmbkv363) |
 |      |     |            | 17:15 | GRA330 | [Lab 2](labs/lab2/README.md) | A communication protocol in Stainless |
 |      |     |            |       |        | Reading:   | HandAR-Ch.3 |
 |      | Fri | 26.09.2025 | 13:15 | DIA 004 | [Exercises 2](exercises/Exercises2) | Traces, SAT, models |
+
+<!-- 
 | 4    | Thu | 02.10.2025 | 15:15 | GRA330 | Lecture 6 [PDF](lectures/TermModels.pdf) | Continue [Automating First-Order Logic using Resolution](https://mediaspace.epfl.ch/media/06-01%2C%20Automating%20First-Order%20Logic%20Proofs%20Using%20Resolution/0_hmbkv363). [Term Models for First-Order Logic](https://mediaspace.epfl.ch/media/06-03+Term+Models+for+First-Order+Logic/0_jnuljf9n/30542)
 |      |     |            | 17:15 | GRA330 | [Lab 3](labs/lab3/README.md) | FOL Resolution |
 |      |     |            |       |        |                                 | [Provers Proved New Math Results](https://www.mcs.anl.gov/research/projects/AR/new_results/) ([also in NYT](https://archive.nytimes.com/www.nytimes.com/library/cyber/week/1210math.html)), [SPASS Prover on The Web](https://webspass.spass-prover.org/) |
