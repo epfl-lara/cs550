@@ -1,4 +1,4 @@
-# Lab 2: Simple communication protocol in Stainless
+# Lab 2: From Arithmetic to a Communication Protocol in Stainless
 
 In this second lab, you will use Stainless to verify a simple communication
 protocol. As we will see, Stainless also allows us to prove properties on traits
@@ -59,8 +59,8 @@ Following the definition of `Nat` in the given files, define a new case class
 `ZZ` of unbounded integers containing a sign `sgn: Int` and an absolute value
 `abs: Nat`. 
 
-The class must have an invariant that the sign must be either `0` (for
-non-negative integers), or `-1` (for strictly negative integers).
+The class must have an invariant that the sign must be either `1` (for
+positive integers), `-1` (for negative integers), or `0` (for zero).
 
 Following this, define addition and multiplication on `ZZ`, proving that they
 are each commutative and associative, filling in the respective lemmas given. 
