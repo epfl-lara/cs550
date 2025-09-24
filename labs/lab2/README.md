@@ -104,7 +104,8 @@ are each commutative and associative, filling in the respective lemmas given.
 
 ## Submission
 
-Once you've completed all proofs, you can submit your
-[SimpleProtocol.scala](src/SimpleProtocol.scala) file on
+Once you've completed all proofs, you can submit the two files
+[`SimpleProtocol.scala`](src/SimpleProtocol.scala) and 
+[`Arithmetic.scala`](src/Arithmetic.scala) on
 [Moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1169500&forceview=1).
 Only one member of each group should submit a solution. 
