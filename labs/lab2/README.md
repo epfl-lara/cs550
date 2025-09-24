@@ -1,8 +1,12 @@
 # Lab 2: From Arithmetic to a Communication Protocol in Stainless
 
-In this second lab, you will use Stainless to verify a simple communication
-protocol. As we will see, Stainless also allows us to prove properties on traits
-and classes, which are at the core of every Scala program.
+In this second lab, you will first use Stainless to prove some properties about
+algebraically defined natural numbers and integers. As we will see, Stainless
+also allows us to prove properties on traits and classes, which are at the core
+of every Scala program.
+
+In the second part of the lab, you will elaborate on these techniques to verify
+a simple communication protocol. 
 
 By now you should already have some familiarity with Stainless. You may
 nonetheless find the resources in the handout of [Lab
