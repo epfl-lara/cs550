@@ -68,6 +68,7 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 |      |     |            |   |   | Follow:                        | [Stainless Tutorial Videos](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_t2ld6vzn/0_azxgetu9) and [materials](https://epfl-lara.github.io/asplos2022tutorial/)  |
 |      | Fri | 12.09.2025 | 13:15 | [DIA 004](https://plan.epfl.ch/?room==DIA%20004) | [Lecture 3](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_thr9uebs/0_tv48ew7w)                       | [What is a Formal Proof?](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_thr9uebs/0_tv48ew7w) and [Propositional Resolution](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_thr9uebs/0_lovmc46b) |
 | 2    | Thu | 18.09.2025 | 15:15 | GRA330 | [Lecture 4](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_1c4580tg/0_lovmc46b) [PDF](lectures/prop-resolution.pdf) | continue [Propositional Resolution](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_thr9uebs/0_lovmc46b) and DPLL |
+|      |     |            |  |  | Example: | [Toy implementations of SAT solvers in Scala](https://github.com/sankalpgambhir/smt-lia-pl-seminar/tree/main/code) |
 |      |     |            | 17:15 | GRA330 | [Lab 1](labs/lab1/README.md) | |
 |      | Fri | 19.09.2025 | 13:15 | DIA 004 | [Exercises 1](exercises/Exercises1) | Propositional Logic |
 |      |     |            |   |   | Reading:                       | CalComp-Ch.1 ∨ HandAR-Ch.2 |
