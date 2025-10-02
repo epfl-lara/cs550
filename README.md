@@ -76,7 +76,6 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 |      |     |            | 17:15 | GRA330 | [Lab 2](labs/lab2/README.md) | A communication protocol in Stainless |
 |      |     |            |       |        | Reading:   | HandAR-Ch.3 |
 |      | Fri | 26.09.2025 | 13:15 | DIA 004 | [Exercises 2](exercises/Exercises2) | Traces, SAT, models |
-
 | 4    | Thu | 02.10.2025 | 15:15 | GRA330 | Lecture 6 [PDF](lectures/TermModels.pdf) | Compactness and [Term Models for First-Order Logic](https://mediaspace.epfl.ch/media/06-03+Term+Models+for+First-Order+Logic/0_jnuljf9n/30542). [Slides](lectures/TermModels.pdf)
 <!-- 
 |      |     |            | 17:15 | GRA330 | [Lab 3](labs/lab3/README.md) | FOL Resolution |
