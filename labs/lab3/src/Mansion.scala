@@ -1,12 +1,19 @@
+package resolution.mansion
+
 import stainless.lang.Map
 import stainless.collection.*
 import stainless.annotation.*
 
-import Formulas.*
-import Resolution.*
-import Utils.*
+import formula.*
+import resolution.*
+import utils.*
 
 object Mansion {
+
+  ////////////////////////////////////////////////////////
+  // Defining the problem
+  ////////////////////////////////////////////////////////
+
   val a = const("a")
   val b = const("b")
   val c = const("c")
@@ -26,6 +33,7 @@ object Mansion {
   // x and y are the same person
   def eqv(x: Term, y: Term) = Literal(Predicate(id("="), List(x, y)))
 
+  // non-literal versions
   def livesp(a: Term) = Predicate(id("lives"), List(a))
   def killedp(a: Term, b: Term) = Predicate(id("killed"), List(a, b))
   def hatesp(a: Term, b: Term) = Predicate(id("hates"), List(a, b))
@@ -33,37 +41,55 @@ object Mansion {
   def eqvp(a: Term, b: Term) = Predicate(id("="), List(a, b))
 
   def hated(t: Term) = Function(id("hated"), List(t))
-  def leibnizProp(predicate: Term => Predicate): Formula = Forall(nvar("x"), Forall(nvar("y"), Implies(eqvp(nvar("x"), nvar("y")), Implies(predicate(nvar("x")), predicate(nvar("y"))))))
 
-  val mansionMystery: Formula = and(List(
-    Exists(nvar("x"), and( List(livesp(x), killedp(x, a)) )),
-    and(List(livesp(a), livesp(b), livesp(c), Forall(nvar("x"), Implies(livesp(x), or(List(eqvp(x, a), eqvp(x, b), eqvp(x, c))))))),
-    Forall(nvar("x"), Forall(nvar("y"), Implies(killedp(x, y), and(List( hatesp(x,y), Neg(richerp(x,y)) )) ))),
-    Forall(nvar("x"), Implies(hatesp(a,x), Neg(hatesp(c,x)))),
-    Forall(nvar("x"), Implies(hatesp(a,x), Neg(eqvp(x,b)))),
-    Forall(nvar("x"), Implies(Neg(eqvp(x,b)), hatesp(a,x))),
-    Forall(nvar("x"), Implies(hatesp(b,x), Neg(richerp(x,a)))),
-    Forall(nvar("x"), Implies(Neg(richerp(x,a)), hatesp(b,x))),
-    Forall(nvar("x"), Implies(hatesp(a, x), hatesp(b,x))),
-    Neg(Exists(nvar("x"), Forall(nvar("y"), hatesp(x,y)))),
-    Neg(eqvp(a,b))
-  ))
+  def leibnizProp(predicate: Term => Predicate): Formula =
+    forall(x, forall(y, eqvp(x, y) ==> (predicate(x) ==> predicate(y))))
 
-  val additionalAssumptions: Formula = and(List(
-    // 16) = commutativity
-    forall("x", forall("y", Implies(eqvp(nvar("x"), nvar("y")), eqvp(nvar("y"), nvar("x"))))), 
-    // 17) Leibniz's property for `killed(_, x)`                                               
-    forall("z", leibnizProp(killedp(_, nvar("z")))),   
-    // 18) Leibniz's property for `hates(_, x)`                                                                            
-    forall("z", leibnizProp(hatesp(_, nvar("z")))),   
-    // 19) Leibniz's property for `hates(x, _)`                                                                                  
-    forall("z", leibnizProp(hatesp(nvar("z"), _))),                                                                                     
-  ))
+  val mansionMystery: Formula = and(
+    List(
+      exists(x, livesp(x) /\ killedp(x, a)),
+      livesp(a) /\ livesp(b) /\ livesp(c) /\ forall(
+        x,
+        livesp(x) ==> (eqvp(x, a) \/ eqvp(x, b) \/ eqvp(x, c))
+      ),
+      forall(x, forall(y, killedp(x, y) ==> (hatesp(x, y) /\ !richerp(x, y)))),
+      forall(x, hatesp(a, x) ==> !hatesp(c, x)),
+      forall(x, hatesp(a, x) ==> !eqvp(x, b)),
+      forall(x, !eqvp(x, b) ==> hatesp(a, x)),
+      forall(x, hatesp(b, x) ==> !richerp(x, a)),
+      forall(x, !richerp(x, a) ==> hatesp(b, x)),
+      forall(x, hatesp(a, x) ==> hatesp(b, x)),
+      !exists(x, forall(y, hatesp(x, y))),
+      !eqvp(a, b)
+    )
+  )
 
-  val baseFormula = conjunctionPrenexSkolemizationNegation(And(mansionMystery, additionalAssumptions))
+  val additionalAssumptions: Formula = and(
+    List(
+      // 16) = commutativity
+      forall(x, forall(y, eqvp(x, y) ==> eqvp(y, x))),
+      // 17) Leibniz's property for `killed(_, x)`
+      forall(z, leibnizProp(killedp(_, z))),
+      // 18) Leibniz's property for `hates(_, x)`
+      forall(z, leibnizProp(hatesp(_, z))),
+      // 19) Leibniz's property for `hates(x, _)`
+      forall(z, leibnizProp(hatesp(z, _)))
+    )
+  )
+
+  ////////////////////////////////////////////////////////
+  // Transforming into clauses
+  ////////////////////////////////////////////////////////
+
+  val baseFormula = conjunctionPrenexSkolemizationNegation(
+    mansionMystery /\ additionalAssumptions
+  )
   val assumptions: ResolutionProof = baseFormula.map(c => (c, Assumed))
 
-  /* The assumptions are:
+  /* The assumptions should be the following. You may need to make minor changes
+   * to your transformation if your ordering is different.
+   *
+   * ```
    *   0 Assumed             : lives($0())
    *   1 Assumed             : killed($0(), a())
    *   2 Assumed             : lives(a())
@@ -84,6 +110,7 @@ object Mansion {
    *  17 Assumed             : ((¬=($15, $16) ∨ ¬killed($15, $14)) ∨ killed($16, $14))
    *  18 Assumed             : ((¬=($18, $19) ∨ ¬hates($18, $17)) ∨ hates($19, $17))
    *  19 Assumed             : ((¬=($21, $22) ∨ ¬hates($20, $21)) ∨ hates($20, $22))
+   * ```
    */
 
   // Skolem functions
@@ -91,73 +118,135 @@ object Mansion {
   val killer = const(0)
   def notHatedBy(t: Term) = Function(id(11), List(t))
 
-  def buildFirstPart(missing: ResolutionProof) = {
+  /**
+   * Given a proof fragment that shows that Charles is innocent, build the
+   * first part of the full proof.
+   */
+  def buildFirstPart(charlesInnocent: ResolutionProof) = {
     assumptions ++
       List(
-      // 20) The killer is one of the characters
-      ( List(eqv(killer, a), eqv(killer, b), eqv(killer, c)), Deduced((0, 5), Map(id(1) -> killer)) ),
-    ) ++
-    missing
+        // 20) The killer is one of the characters
+        (
+          List(eqv(killer, a), eqv(killer, b), eqv(killer, c)),
+          Deduced(0, 5, Map(id(1) -> killer))
+        )
+      ) ++
+      charlesInnocent
   }
 
-  def buildFullProof(missing1: ResolutionProof, missing2: BigInt => ResolutionProof) = {
-    val firstPart = buildFirstPart(missing1)
+  /**
+   * Build the full proof, given a proof fragment that shows that Charles is
+   * innocent, and a function that extends the proof below to show that Agatha
+   * killed herself.
+   */
+  def buildFullProof(
+      charlesInnocent: ResolutionProof,
+      agathaKilledAgatha: BigInt => ResolutionProof
+  ) = {
+
+    val firstPart = buildFirstPart(charlesInnocent)
     val offset = firstPart.length
 
     val prelude = firstPart ++ List(
-        // -11) If someone is the killer, then it killed Agatha                                           
-        ( List(eqv(killer, svar(16)).negation, killed(svar(16), a)), Deduced((1, 17), Map(id(14) -> a, id(15) -> killer)) ),           
-        // -10) Charles isn't the killer
-        ( List(eqv(killer, c).negation), Deduced((offset-1, offset), Map(id(16) -> c)) ),                                                             
-        // -9) The killer is Agatha or Butler
-        ( List(eqv(killer, a), eqv(killer, b)), Deduced((20, offset+1), Map()) ),                                                                 
-        // -8) Agatha hates X ==> Butler hates X
-        ( List(hates(a, notHatedBy(b)).negation), Deduced((13, 14), Map(id(9) -> notHatedBy(b), id(10) -> b)) ),        
-        // -7) The person Butler doesn't hate is Butler                       
-        ( List(eqv(notHatedBy(b), b)), Deduced((10, offset+3), Map(id(6) -> notHatedBy(b))) ),  
-        // -6) Butler is the person Butler doesn't hate                                                     
-        ( List(eqv(b, notHatedBy(b))), Deduced((16, offset+4), Map(id(12) -> notHatedBy(b), id(13) -> b)) ),  
-        // -5) 31's intermediary step                                     
-        ( List(hates(b, b).negation, hates(b, notHatedBy(b))), Deduced((19, offset+5), Map(id(20) -> b, id(21) -> b, id(22) -> notHatedBy(b))) ), 
-        // -4) Butler doesn't hate himself
-        ( List(hates(b, b).negation), Deduced((14, offset+6), Map(id(10) -> b)) ),  
-        // -3) Butler is richer than Agatha                                                             
-        ( List(richer(b, a)), Deduced((12, offset+7), Map(id(8) -> b)) ),     
-        // -2) Butler didn't kill Agatha                                                              
-        ( List(killed(b, a).negation), Deduced((7, offset+8), Map(id(2) -> b, id(3) -> a)) ),    
-        // -1) Butler isn't the killer                                           
-        ( List(eqv(killer, b).negation), Deduced((offset, offset+9), Map(id(16) -> b)) )
+      // -11) If someone is the killer, then they killed Agatha
+      (
+        List(!eqv(killer, svar(16)), killed(svar(16), a)),
+        Deduced(1, 17, Map(id(14) -> a, id(15) -> killer))
+      ),
+      // -10) Charles isn't the killer
+      (
+        List(!eqv(killer, c)),
+        Deduced(offset - 1, offset, Map(id(16) -> c))
+      ),
+      // -9) The killer is Agatha or the Butler
+      (
+        List(eqv(killer, a), eqv(killer, b)),
+        Deduced(20, offset + 1, Map())
+      ),
+      // -8) Agatha hates X ==> Butler hates X
+      (
+        List(!hates(a, notHatedBy(b))),
+        Deduced(13, 14, Map(id(9) -> notHatedBy(b), id(10) -> b))
+      ),
+      // -7) The person Butler doesn't hate is Butler
+      (
+        List(eqv(notHatedBy(b), b)),
+        Deduced(10, offset + 3, Map(id(6) -> notHatedBy(b)))
+      ),
+      // -6) Butler is the person Butler doesn't hate
+      (
+        List(eqv(b, notHatedBy(b))),
+        Deduced(16, offset + 4, Map(id(12) -> notHatedBy(b), id(13) -> b))
+      ),
+      // -5) 31's intermediary step
+      (
+        List(!hates(b, b), hates(b, notHatedBy(b))),
+        Deduced(19, offset + 5, Map(id(20) -> b, id(21) -> b, id(22) -> notHatedBy(b)))
+      ),
+      // -4) Butler doesn't hate himself
+      (
+        List(!hates(b, b)),
+        Deduced(14, offset + 6, Map(id(10) -> b))
+      ),
+      // -3) Butler is richer than Agatha
+      (
+        List(richer(b, a)),
+        Deduced(12, offset + 7, Map(id(8) -> b))
+      ),
+      // -2) Butler didn't kill Agatha
+      (
+        List(!killed(b, a)),
+        Deduced(7, offset + 8, Map(id(2) -> b, id(3) -> a))
+      ),
+      // -1) Butler isn't the killer
+      (
+        List(!eqv(killer, b)),
+        Deduced(offset, offset + 9, Map(id(16) -> b))
       )
+    )
+
     val newOffset = prelude.length
 
-    prelude ++ missing2(newOffset)
+    prelude ++ agathaKilledAgatha(newOffset)
   }
 
-
   lazy val firstPartProof = buildFirstPart(MansionFragments.charlesInnocent)
-  lazy val fullProof = buildFullProof(MansionFragments.charlesInnocent, MansionFragments.agathaKilledAgatha)
+  lazy val fullProof = buildFullProof(
+    MansionFragments.charlesInnocent,
+    MansionFragments.agathaKilledAgatha
+  )
 
   @extern
   @main
   def main(part: Int): Unit = {
     val (goalClause, proof) = part match {
-      case 1 => (killed(c, a).negation, buildFirstPart(MansionFragments.charlesInnocent))
-      case 2 => (killed(a, a), buildFullProof(MansionFragments.charlesInnocent, MansionFragments.agathaKilledAgatha))
+      case 1 =>
+        (
+          List(!killed(c, a)),
+          buildFirstPart(MansionFragments.charlesInnocent)
+        )
+      case 2 =>
+        (
+          List(killed(a, a)),
+          buildFullProof(
+            MansionFragments.charlesInnocent,
+            MansionFragments.agathaKilledAgatha
+          )
+        )
       case _ => throw new Exception(s"Argument should be 0 or 1; was ${part}")
     }
 
-    prettyPrint(proof)
+    println(prettyPrint(proof))
+
     val checked = checkResolutionProof(proof)
 
-    if (!checked.valid) {
+    if (!checked.isValid) {
       println("Proof is not valid.")
       println(checked)
-    }
-    else if (conclusion(proof) != List(goalClause)) {
+    } else if (conclusion(proof) != goalClause) {
       println("Proof valid but incomplete.")
-      println(s"The conclusion should be ${toFormula(List(goalClause))}.")
-    }
-    else {
+      println(s"The conclusion should be ${goalClause.toFormula}.")
+    } else {
       println("Proof successful!")
     }
   }

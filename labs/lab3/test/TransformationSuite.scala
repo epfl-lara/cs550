@@ -7,11 +7,11 @@ import scala.collection.immutable.{Set => SSet}
 
 import munit.{FunSuite, Tag}
 
-import Resolution.*
-import Formulas.*
-import Mansion.*
+import formula.*
+import resolution.*
+import mansion.*
 
-class Tests extends FunSuite {
+class TransformationSuite extends FunSuite {
 
   // Variables
   val x = Var(Named("x"))
@@ -125,7 +125,7 @@ class Tests extends FunSuite {
     val uf = makeVariableNamesUnique(f)
     val fv = uf.freeVariables
     assert(
-      fv.forall(_.isSynthetic)
+      fv.forall(_.name.isSynthetic)
     )
 
     uf match {
@@ -228,11 +228,11 @@ class Tests extends FunSuite {
   // CNF
 
   test("CNF - basic") {
-    val f = universallyQuantified( And(Or(p1(x), q1(y)), Or(p1(u), q1(v))) )
+    val f = And(Or(p1(x), q1(y)), Or(p1(u), q1(v))).universallyClosed
     val cnf = conjunctionPrenexSkolemizationNegation(f)
     assertEquals(
-      toFormula(cnf),
-      universallyQuantified( And(Or(p1(s0), q1(s1)), Or(p1(s2), q1(s3))) )
+      cnf.map(_.toFormula),
+      List(Or(p1(s0), q1(s1)): Formula, Or(p1(s2), q1(s3)))
     )
   }
 
@@ -251,20 +251,20 @@ class Tests extends FunSuite {
   // Proof checking
 
   test("Proof check - empty proof") {
-    assert(checkResolutionProof(Nil()).valid)
+    assert(checkResolutionProof(Nil()).isValid)
   }
 
   test("Proof check - valid proof") {
     // "Automating First-Order Logic Proofs Using Resolution", 
     // slide "Applying resolution"
     val proof: ResolutionProof = runningExampleClauses(s0, s1).map((_, Assumed)) ++ List(
-      /*4*/ ( List( Literal(p2(x1, f2(f(s0)(x1), z2))) ),                 Deduced((0, 1), Map(x2.name -> x1, y2.name -> f(s0)(x1))) ), 
-      /*5*/ ( List( Literal(Neg(p1(f(s0)(f(s1)())))) ),                   Deduced((0, 3), Map(x1.name -> f(s1)(), y4.name -> f(s0)(f(s1)()))) ),
-      /*6*/ ( List( Literal(p1(f2(f(s0)(f(s1)()), c1))) ),                Deduced((2, 5), Map(x3.name -> f(s0)(f(s1)()))) ),
-      /*7*/ ( List( Literal(Neg(p2(f(s1)(), f2(f(s0)(f(s1)()), c1)))) ),  Deduced((3, 6), Map(y4.name -> f2(f(s0)(f(s1)()), c1))) ),
-      /*8*/ ( Nil(),                                                      Deduced((4, 7), Map(x1.name -> f(s1)(), z2.name -> c1)) ),
+      /*4*/ ( List( Literal(p2(x1, f2(f(s0)(x1), z2))) ),                 Deduced(0, 1, Map(x2.name -> x1, y2.name -> f(s0)(x1))) ), 
+      /*5*/ ( List( Literal(Neg(p1(f(s0)(f(s1)())))) ),                   Deduced(0, 3, Map(x1.name -> f(s1)(), y4.name -> f(s0)(f(s1)()))) ),
+      /*6*/ ( List( Literal(p1(f2(f(s0)(f(s1)()), c1))) ),                Deduced(2, 5, Map(x3.name -> f(s0)(f(s1)()))) ),
+      /*7*/ ( List( Literal(Neg(p2(f(s1)(), f2(f(s0)(f(s1)()), c1)))) ),  Deduced(3, 6, Map(y4.name -> f2(f(s0)(f(s1)()), c1))) ),
+      /*8*/ ( List(),                                                     Deduced(4, 7, Map(x1.name -> f(s1)(), z2.name -> c1)) ),
     )
-    assert(checkResolutionProof(proof).valid)
+    assert(checkResolutionProof(proof).isValid)
   }
 
   test("Proof check - reordered conclusion") {
@@ -274,14 +274,14 @@ class Tests extends FunSuite {
     )
 
     val proof1 = assumptions ++ List(
-      ( List( Literal(p1(c2)), Literal(p1(c3))), Deduced((0, 1), Map()) )
+      ( List( Literal(p1(c2)), Literal(p1(c3))), Deduced(0, 1, Map()) )
     )
     val proof2 = assumptions ++ List(
-      ( List( Literal(p1(c3)), Literal(p1(c2))), Deduced((0, 1), Map()) )
+      ( List( Literal(p1(c3)), Literal(p1(c2))), Deduced(0, 1, Map()) )
     )
 
-    assert(checkResolutionProof(proof1).valid)
-    assert(checkResolutionProof(proof2).valid)
+    assert(checkResolutionProof(proof1).isValid)
+    assert(checkResolutionProof(proof2).isValid)
   }
 
   test("Proof check - contraction") {
@@ -290,14 +290,14 @@ class Tests extends FunSuite {
       ( List( Literal(Neg(p1(x1))), Literal(q1(x1)) ),  Assumed ),
     )
     val standard = assumptions ++ List(
-      ( List(Literal(q1(x1)), Literal(q1(x1))), Deduced((0, 1), Map()) )
+      ( List(Literal(q1(x1)), Literal(q1(x1))), Deduced(0, 1, Map()) )
     )
     val contracted = assumptions ++ List(
-      ( List(Literal(q1(x1))), Deduced((0, 1), Map()) )
+      ( List(Literal(q1(x1))), Deduced(0, 1, Map()) )
     )
 
-    assert(checkResolutionProof(standard).valid)
-    assert(checkResolutionProof(contracted).valid)
+    assert(checkResolutionProof(standard).isValid)
+    assert(checkResolutionProof(contracted).isValid)
   }
 
   // Theorem extraction
@@ -308,9 +308,9 @@ class Tests extends FunSuite {
     val proof: ResolutionProof = List(
       (f,     Assumed                     ), // 0
       (nf,    Assumed                     ), // 1
-      (Nil(), Deduced((0, 1), Map.empty)  ), // 2
+      (List(), Deduced(0, 1, Map.empty)  ), // 2
     )
-    assert(checkResolutionProof(proof).valid)
+    assert(checkResolutionProof(proof).isValid)
     assertEquals(
       extractTheorem(proof),
       Neg(And(p1(x), Neg(p1(x))))
