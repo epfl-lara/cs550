@@ -77,11 +77,11 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 |      |     |            |       |        | Reading:   | HandAR-Ch.3 |
 |      | Fri | 26.09.2025 | 13:15 | DIA 004 | [Exercises 2](exercises/Exercises2) | Traces, SAT, models |
 | 4    | Thu | 02.10.2025 | 15:15 | GRA330 | Lecture 6 [PDF](lectures/TermModels.pdf) | [Compactness](https://mediaspace.epfl.ch/media/Compactness+Theorem+for+Propositional+Logic/0_8lgfzony) and [Term Models for First-Order Logic](https://mediaspace.epfl.ch/media/06-03+Term+Models+for+First-Order+Logic/0_jnuljf9n/30542). [Slides](lectures/TermModels.pdf)
-<!-- 
 |      |     |            | 17:15 | GRA330 | [Lab 3](labs/lab3/README.md) | FOL Resolution |
 |      |     |            |       |        |                                 | [Provers Proved New Math Results](https://www.mcs.anl.gov/research/projects/AR/new_results/) ([also in NYT](https://archive.nytimes.com/www.nytimes.com/library/cyber/week/1210math.html)), [SPASS Prover on The Web](https://webspass.spass-prover.org/) |
 |      |     |            |       |        | Reading:   | HandAR-Ch.3 |
 |      | Fri | 03.10.2025 | 13:15 | DIA 004 | [Exercises 3](exercises/Exercises3) |            |
+<!--
 | 5    | Thu | 09.10.2025 | 15:15 | GRA330 | [Lecture 7](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_i70unjji/): [vcgen.pdf](lectures/lec07-vcgen.pdf) [Hoare.pdf](lectures/lec07-hoare.pdf) | [Converting Imperative Programs to Formulas](https://mediaspace.epfl.ch/media/07-01%2C+Converting+Imperative+Programs+to+Formulas/0_a525ptjc), [Hoare Logic, Strongest Postcondition, Weakest Precondition](https://mediaspace.epfl.ch/media/08-01%2C+Hoare+Logic%2C+Strongest+Postcondition%2C+Weakest+Precondition/0_8ebxh5n4) | 
 |      | Fri | 10.10.2025 | 13:15 | DIA 004 | [Exercises 4](exercises/Exercises4) | Transition Systems, Hoare Logic, Relations |
 | 6    | Thu | 16.10.2025 | 15:15 | GRA330 | Lecture | Guest Lecture of Gilles Barthe |
