@@ -110,9 +110,6 @@ object Lab04 extends lisa.Main {
         sorry
     }
 
-
-
-
     // This theorem is more complex. it says that "If all poor person have a rich father, then there is a rich person with a rich grandfather".
     // If you're stuck, make sure to first prove the statement with pen and paper.
     val father = function
@@ -128,6 +125,7 @@ object Lab04 extends lisa.Main {
     val green = predicate
     val child = predicate2
 
+
     val greenDragonsAreHappy = Theorem((
         ∀(x, ( ∀(y, child(x)(y) ==> canFly(y)) ==> happy(x) ) ), // A dragon is happy if all its children can fly
         ∀(x, canFly(x)),                                         // Dragons can fly
@@ -136,8 +134,4 @@ object Lab04 extends lisa.Main {
     ) {
         sorry
     }
-
-
-
-
 }
