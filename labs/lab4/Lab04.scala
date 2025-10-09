@@ -119,13 +119,14 @@ object Lab04 extends lisa.Main {
     val rich = predicate
 
     val richGrandfather = Theorem(∀(x, !rich(x) ==> rich(father(x))) |- ∃(x, rich(x) /\ rich(father(father(x)))) ) {
+        sorry
+    }
+
 
     val canFly = predicate
     val happy = predicate
     val green = predicate
     val child = predicate2
-
-
 
     val greenDragonsAreHappy = Theorem((
         ∀(x, ( ∀(y, child(x)(y) ==> canFly(y)) ==> happy(x) ) ), // A dragon is happy if all its children can fly
