@@ -97,7 +97,7 @@ For this part, you will be working in [Resolution.scala](src/Resolution.scala).
 Before performing resolution proofs, formulas must be transformed into a prenex
 Skolem conjunctive normal form.
 
-The transformation is done using 5 successive equivalence preserving
+The transformation is done using 5 successive satisfiability preserving
 transformations. The transformations have been described in class, so we detail
 them here. Please refer to the lectures for complete descriptions.
 
