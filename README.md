@@ -82,8 +82,8 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 |      |     |            |       |        | Reading:   | HandAR-Ch.3 |
 |      | Fri | 03.10.2025 | 13:15 | DIA 004 | [Exercises 3](exercises/Exercises3) |            |
 | 5    | Thu | 09.10.2025 | 15:15 | GRA330 | [Lecture 7](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_i70unjji/): [vcgen.pdf](lectures/lec07-vcgen.pdf) [Hoare.pdf](lectures/lec07-hoare.pdf) | [Converting Imperative Programs to Formulas](https://mediaspace.epfl.ch/media/07-01%2C+Converting+Imperative+Programs+to+Formulas/0_a525ptjc), [Hoare Logic, Strongest Postcondition, Weakest Precondition](https://mediaspace.epfl.ch/media/08-01%2C+Hoare+Logic%2C+Strongest+Postcondition%2C+Weakest+Precondition/0_8ebxh5n4) | 
-<!--
 |      | Fri | 10.10.2025 | 13:15 | DIA 004 | [Exercises 4](exercises/Exercises4) | Transition Systems, Hoare Logic, Relations |
+<!--
 | 6    | Thu | 16.10.2025 | 15:15 | GRA330 | Lecture | New Lecture on Sequent Calculus |
 | 6    | Thu | 16.10.2025 | 16:15 | GRA330 | [Lab 4](labs/lab4/) | Using Lisa Proof Framework |
 |      |     |            | 17:15 | GRA330 | [Lecture 8](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_0uec4oov/0_z0hn64mj) [PDF](lectures/lec08-qe.pdf) | Quantifier Elimination |
