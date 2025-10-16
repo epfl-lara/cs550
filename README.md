@@ -60,55 +60,55 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 ### COURSE OUTLINE 
 
 
-| Week | Day | Date       | Time  | Room   | Topic                           | Videos & Slides              |
-| :--  | :-- | :--        | :--   | :--    | :--                             | :--                          |
-| 1    | Thu | 11.09.2025 | 15:15 | [GRA330](https://plan.epfl.ch/?room==GR%20A3%2030) | [Lecture 1](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_vw42tr2d/0_3z52dv8y) | [Intro to FV](https://mediaspace.epfl.ch/media/01-01%2C+What+is+Formal+VerificationF/0_3z52dv8y/30542), [Intro to Stainless](https://mediaspace.epfl.ch/media/01-02%2C+First+Steps+with+Stainless/0_tghlsgep/30542), [Auxiliary Assertions](https://mediaspace.epfl.ch/media/01-03%2C+Auxiliary+Assertions+in+Stainless/0_54yx91xi/30542), [Unfolding](https://mediaspace.epfl.ch/media/01-04%2C+Unfolding+recursive+functions+in+Stainless/0_4byxmv9i/30542), [Disasters, Successes, and Inductive Invariants](https://mediaspace.epfl.ch/media/01-05%2C+Disasters%2C+Successes%2C+and+Inductive+Invariants/0_fei98b8f) |
-|      |     |           | 17:15 | GRA330 | [Lecture 2](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_b3ga55fo/0_omextd9i)                       | [Dispenser Example](https://mediaspace.epfl.ch/media/02-01%2C+Dispenser+Example+of+Finite+System/0_omextd9i), [Finite Systems Expressed with Formulas](https://mediaspace.epfl.ch/media/02-02%2C+Finite+Systems+Expressed+with+Formulas/0_8a6q0uve) |
-|      |     |            |   |   | Reading:                       | HandMC-Ch.10  |
-|      |     |            |   |   | Follow:                        | [Stainless Tutorial Videos](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_t2ld6vzn/0_azxgetu9) and [materials](https://epfl-lara.github.io/asplos2022tutorial/)  |
-|      | Fri | 12.09.2025 | 13:15 | [DIA 004](https://plan.epfl.ch/?room==DIA%20004) | [Lecture 3](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_thr9uebs/0_tv48ew7w)                       | [What is a Formal Proof?](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_thr9uebs/0_tv48ew7w) and [Propositional Resolution](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_thr9uebs/0_lovmc46b) |
-| 2    | Thu | 18.09.2025 | 15:15 | GRA330 | [Lecture 4](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_1c4580tg/0_lovmc46b) [PDF](lectures/prop-resolution.pdf) | continue [Propositional Resolution](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_thr9uebs/0_lovmc46b) and DPLL |
-|      |     |            |  |  | Example: | [Toy implementations of SAT solvers in Scala](https://github.com/sankalpgambhir/smt-lia-pl-seminar/tree/main/code) |
-|      |     |            | 17:15 | GRA330 | [Lab 1](labs/lab1/README.md) | |
-|      | Fri | 19.09.2025 | 13:15 | DIA 004 | [Exercises 1](exercises/Exercises1) | Propositional Logic |
-|      |     |            |   |   | Reading:                       | CalComp-Ch.1 ∨ HandAR-Ch.2 |
-| 3    | Thu | 25.09.2025 | 15:15 | GRA330 | [Lecture 5](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_x3485b9h/0_hmbkv363) [PDF](lectures/fol.pdf) | [Automating First-Order Logic Proofs Using Resolution ](https://mediaspace.epfl.ch/media/06-01%2C%20Automating%20First-Order%20Logic%20Proofs%20Using%20Resolution/0_hmbkv363) |
-|      |     |            | 17:15 | GRA330 | [Lab 2](labs/lab2/README.md) | A communication protocol in Stainless |
-|      |     |            |       |        | Reading:   | HandAR-Ch.3 |
-|      | Fri | 26.09.2025 | 13:15 | DIA 004 | [Exercises 2](exercises/Exercises2) | Traces, SAT, models |
-| 4    | Thu | 02.10.2025 | 15:15 | GRA330 | Lecture 6 [PDF](lectures/TermModels.pdf) | [Compactness](https://mediaspace.epfl.ch/media/Compactness+Theorem+for+Propositional+Logic/0_8lgfzony) and [Term Models for First-Order Logic](https://mediaspace.epfl.ch/media/06-03+Term+Models+for+First-Order+Logic/0_jnuljf9n/30542). [Slides](lectures/TermModels.pdf)
-|      |     |            | 17:15 | GRA330 | [Lab 3](labs/lab3/README.md) | FOL Resolution |
-|      |     |            |       |        |                                 | [Provers Proved New Math Results](https://www.mcs.anl.gov/research/projects/AR/new_results/) ([also in NYT](https://archive.nytimes.com/www.nytimes.com/library/cyber/week/1210math.html)), [SPASS Prover on The Web](https://webspass.spass-prover.org/) |
-|      |     |            |       |        | Reading:   | HandAR-Ch.3 |
-|      | Fri | 03.10.2025 | 13:15 | DIA 004 | [Exercises 3](exercises/Exercises3) |            |
-| 5    | Thu | 09.10.2025 | 15:15 | GRA330 | [Lecture 7](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_i70unjji/): [vcgen.pdf](lectures/lec07-vcgen.pdf) [Hoare.pdf](lectures/lec07-hoare.pdf) | [Converting Imperative Programs to Formulas](https://mediaspace.epfl.ch/media/07-01%2C+Converting+Imperative+Programs+to+Formulas/0_a525ptjc), [Hoare Logic, Strongest Postcondition, Weakest Precondition](https://mediaspace.epfl.ch/media/08-01%2C+Hoare+Logic%2C+Strongest+Postcondition%2C+Weakest+Precondition/0_8ebxh5n4) | 
-|      | Fri | 10.10.2025 | 13:15 | DIA 004 | [Exercises 4](exercises/Exercises4) | Transition Systems, Hoare Logic, Relations |
-|      |     |            | 15:15 | GRA330 | [Lecture 8](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_0uec4oov/0_z0hn64mj) [PDF](lectures/lec08-qe.pdf) | Quantifier Elimination |
-| 6    | Thu | 16.10.2025 | 17:15 | GRA330 | [Lab 4](labs/lab4/) | Using Lisa Proof Framework |
+| Week | Day | Date       | Labs Active | Time  | Room   | Topic                           | Videos & Slides              |
+| :--  | :-- | :--        | :--   | :--   | :--    | :--                             | :--                          |
+| 1    | Thu | 11.09.2025 | ..... | 15:15 | [GRA330](https://plan.epfl.ch/?room==GR%20A3%2030) | [Lecture 1](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_vw42tr2d/0_3z52dv8y) | [Intro to FV](https://mediaspace.epfl.ch/media/01-01%2C+What+is+Formal+VerificationF/0_3z52dv8y/30542), [Intro to Stainless](https://mediaspace.epfl.ch/media/01-02%2C+First+Steps+with+Stainless/0_tghlsgep/30542), [Auxiliary Assertions](https://mediaspace.epfl.ch/media/01-03%2C+Auxiliary+Assertions+in+Stainless/0_54yx91xi/30542), [Unfolding](https://mediaspace.epfl.ch/media/01-04%2C+Unfolding+recursive+functions+in+Stainless/0_4byxmv9i/30542), [Disasters, Successes, and Inductive Invariants](https://mediaspace.epfl.ch/media/01-05%2C+Disasters%2C+Successes%2C+and+Inductive+Invariants/0_fei98b8f) |
+|      |     |            | ..... | 17:15 | GRA330 | [Lecture 2](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_b3ga55fo/0_omextd9i)                       | [Dispenser Example](https://mediaspace.epfl.ch/media/02-01%2C+Dispenser+Example+of+Finite+System/0_omextd9i), [Finite Systems Expressed with Formulas](https://mediaspace.epfl.ch/media/02-02%2C+Finite+Systems+Expressed+with+Formulas/0_8a6q0uve) |
+|      |     |            |       |       |        | Reading:                       | HandMC-Ch.10  |
+|      |     |            |       |       |        | Follow:                        | [Stainless Tutorial Videos](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_t2ld6vzn/0_azxgetu9) and [materials](https://epfl-lara.github.io/asplos2022tutorial/)  |
+|      | Fri | 12.09.2025 | ..... | 13:15 | [DIA 004](https://plan.epfl.ch/?room==DIA%20004) | [Lecture 3](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_thr9uebs/0_tv48ew7w)                       | [What is a Formal Proof?](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_thr9uebs/0_tv48ew7w) and [Propositional Resolution](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_thr9uebs/0_lovmc46b) |
+| 2    | Thu | 18.09.2025 | 1.... | 15:15 | GRA330 | [Lecture 4](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_1c4580tg/0_lovmc46b) [PDF](lectures/prop-resolution.pdf) | continue [Propositional Resolution](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_thr9uebs/0_lovmc46b) and DPLL |
+|      |     |            |       |       |        | Example: | [Toy implementations of SAT solvers in Scala](https://github.com/sankalpgambhir/smt-lia-pl-seminar/tree/main/code) |
+|      |     |            | 1.... | 17:15 | GRA330 | [Lab 1](labs/lab1/README.md) | |
+|      | Fri | 19.09.2025 | 1.... | 13:15 | DIA 004 | [Exercises 1](exercises/Exercises1) | Propositional Logic |
+|      |     |            |       |       |   | Reading:                       | CalComp-Ch.1 ∨ HandAR-Ch.2 |
+| 3    | Thu | 25.09.2025 | 12... | 15:15 | GRA330 | [Lecture 5](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_x3485b9h/0_hmbkv363) [PDF](lectures/fol.pdf) | [Automating First-Order Logic Proofs Using Resolution ](https://mediaspace.epfl.ch/media/06-01%2C%20Automating%20First-Order%20Logic%20Proofs%20Using%20Resolution/0_hmbkv363) |
+|      |     |            |       | 17:15 | GRA330 | [Lab 2](labs/lab2/README.md) | A communication protocol in Stainless |
+|      |     |            |       |       |        | Reading:   | HandAR-Ch.3 |
+|      | Fri | 26.09.2025 | .2... | 13:15 | DIA 004 | [Exercises 2](exercises/Exercises2) | Traces, SAT, models |
+| 4    | Thu | 02.10.2025 | .23.. | 15:15 | GRA330 | Lecture 6 [PDF](lectures/TermModels.pdf) | [Compactness](https://mediaspace.epfl.ch/media/Compactness+Theorem+for+Propositional+Logic/0_8lgfzony) and [Term Models for First-Order Logic](https://mediaspace.epfl.ch/media/06-03+Term+Models+for+First-Order+Logic/0_jnuljf9n/30542). [Slides](lectures/TermModels.pdf)
+|      |     |            | .23.. | 17:15 | GRA330 | [Lab 3](labs/lab3/README.md) | FOL Resolution |
+|      |     |            |       |       |        |                                 | [Provers Proved New Math Results](https://www.mcs.anl.gov/research/projects/AR/new_results/) ([also in NYT](https://archive.nytimes.com/www.nytimes.com/library/cyber/week/1210math.html)), [SPASS Prover on The Web](https://webspass.spass-prover.org/) |
+|      |     |            |       |       |        | Reading:   | HandAR-Ch.3 |
+|      | Fri | 03.10.2025 | .23.. | 13:15 | DIA 004 | [Exercises 3](exercises/Exercises3) |            |
+| 5    | Thu | 09.10.2025 | .23.. | 15:15 | GRA330 | [Lecture 7](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_i70unjji/): [vcgen.pdf](lectures/lec07-vcgen.pdf) [Hoare.pdf](lectures/lec07-hoare.pdf) | [Converting Imperative Programs to Formulas](https://mediaspace.epfl.ch/media/07-01%2C+Converting+Imperative+Programs+to+Formulas/0_a525ptjc), [Hoare Logic, Strongest Postcondition, Weakest Precondition](https://mediaspace.epfl.ch/media/08-01%2C+Hoare+Logic%2C+Strongest+Postcondition%2C+Weakest+Precondition/0_8ebxh5n4) | 
+|      | Fri | 10.10.2025 | .23.. | 13:15 | DIA 004 | [Exercises 4](exercises/Exercises4) | Transition Systems, Hoare Logic, Relations |
+| 6    | Thu | 16.10.2025 | .23.. | 15:15 | GRA330 | [Lecture 8](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_0uec4oov/0_z0hn64mj) [PDF](lectures/lec08-qe.pdf) | Quantifier Elimination |
+|      |     |            | .23.. | 16:15 | GRA330 | [Lab 4](labs/lab4/) | Using Lisa Proof Framework |
+|      | Fri | 17.10.2025 | ...4. | 13:15 | DIA 004 | [Exercises 5](exercises/Exercises5/) | Quantifier elimination exercises |
+| -    | Thu | 23.10.2025 | ...4. | 15:15 |        | Holidays | |
+|      |     |            |       | 17:15 |        | Holidays | |
+|      | Fri | 24.10.2025 | ...4. | 13:15 |        | Holidays | |
 <!--
-|      | Fri | 17.10.2025 | 13:15 | DIA 004 | [Exercises 5](exercises/Exercises5/) | Quantifier elimination exercises |
-| -    | Thu | 23.10.2025 | 15:15 |        | Holidays | |
-|      |     |            | 17:15 |        | Holidays | |
-|      | Fri | 24.10.2025 | 13:15 |        | Holidays | |
-| 7    | Thu | 30.10.2025 | 15:15 | GRA330 | Lecture 9: [1](https://mediaspace.epfl.ch/media/12-01%2C+Abstract+Interpretation+Idea/0_5ijgftx3/30542), [2](https://mediaspace.epfl.ch/media/12-02-Live2%2C+Lattices+for+Abstract+Interpretation/0_1v7ouncc/30542), [3](https://mediaspace.epfl.ch/media/Omega+Continuity%2C+Galois+Connection%2C+and+AI+Recipe/0_0rxm5t2s/30542) [PDF](lectures/lec09-ai-fixpoint.pdf) | Abstract Interpration. Lattices. Tarski's fixpoint theorem |
-|      |     |            | 17:15 | GRA330 | Labs | |
-|      |     |            |       |        | | [Deadline to pick your project topic and Background Paper](project/README.md) |
-|      | Fri | 31.10.2025 | 13:15 | DIA 004 | [Exercises 6](exercises/Exercises6) | |
-| 8    | Thu | 06.11.2025 | 15:15 | GRA330 | Lecture 10 [PDF](lectures/lec10-lattices-predicates.pdf) | Fixed Points. Predicates |
-|      |     |            | 17:15 | GRA330 | Labs | |
-|      |     |            |       |        | | [Deadline to write your Background Paper Review](project/README.md) |
-|      | Fri | 07.11.2025 | 13:15 | DIA 004 | [Exercises 7](exercises/Exercises7/) |  |
-| 9    | Thu | 13.11.2025 | 15:15 | GRA330 | Lecture 11: Recursion: [1](https://mediaspace.epfl.ch/media/09-01%2C+Monotonicity+and+Semantics+of+Local+Variables/0_uqnv7pkj/30542), [2](https://mediaspace.epfl.ch/media/09-02%2C+Relational+Semantics+of+Loops/0_iy1fbb8t/30542), [3](https://mediaspace.epfl.ch/media/10-03%2C+Recursion+2/0_w0rgyean/30542) [PDF](lectures/lec11-recursion.pdf) | Finish Predicates. [Recursion](lectures/lec11-recursion.pdf) |
-|      |     |            | 17:15 | GRA330 | | |
-|      | Fri | 14.11.2025 | 13:15 | DIA 004 | [Exercises 8](exercises/Exercises8/) | |
-| 10   | Thu | 20.11.2025 | 15:15 | GRA330 | Lecture 12 | [Widening](lectures/lec12-widening.pdf), [Loops](lectures/lec12-loop.pdf) |
-|      |     |            | 17:15 | GRA330 | | |
-|      | Fri | 21.11.2025 | 13:15 | DIA 004 | Q&A session | |
-| 11   | Thu | 27.11.2025 | 15:15 | **GRA330**, **AAC114** | **Midterm**, until 18:00 | [Seat Plan](seatplan.pdf). [Solutions](past-exams/solutions2024.pdf) |
-|      | Fri | 28.11.2025 | 13:15 | DIA 004 | Labs | Work on final course project |
-| 12   | Thu | 04.12.2025 | 15:15 | GRA330 | Lecture 13 | [Concurrency](lectures/lec13-concurrency.pdf), [Termination](lectures/lec12-termination.pdf), finish [SMT Solvers](lectures/lec12-smt.pdf) |
-|      |     |            | 17:15 | GRA330 | Labs | |
-|      | Fri | 05.12.2025 | 13:15 | DIA 004 | Guest Lecture, Labs | The first part: lecture by Samuel Chassot on [Verified Hash Table](https://link.springer.com/chapter/10.1007/978-3-031-63498-7_18) and related case studies in Stainless. Second part: labs |
-| 13   | Thu | 11.12.2025 | 15:15 | GRA330 | Labs | Work on the project. [Advice for Presentations](labs/presentation.md) |
-|      |     |            | 17:15 | GRA330 | Labs | Work on the project | 
+| 7    | Thu | 30.10.2025 | ...4. | 15:15 | GRA330 | Lecture 9: [1](https://mediaspace.epfl.ch/media/12-01%2C+Abstract+Interpretation+Idea/0_5ijgftx3/30542), [2](https://mediaspace.epfl.ch/media/12-02-Live2%2C+Lattices+for+Abstract+Interpretation/0_1v7ouncc/30542), [3](https://mediaspace.epfl.ch/media/Omega+Continuity%2C+Galois+Connection%2C+and+AI+Recipe/0_0rxm5t2s/30542) [PDF](lectures/lec09-ai-fixpoint.pdf) | Abstract Interpration. Lattices. Tarski's fixpoint theorem |
+|      |     |            | ...4. | 17:15 | GRA330 | Labs | |
+|      |     |            |       |       |        | | [Deadline to pick your project topic and Background Paper](project/README.md) |
+|      | Fri | 31.10.2025 | ....5 | 13:15 | DIA 004 | [Exercises 6](exercises/Exercises6) | |
+| 8    | Thu | 06.11.2025 | ....5 | 15:15 | GRA330 | Lecture 10 [PDF](lectures/lec10-lattices-predicates.pdf) | Fixed Points. Predicates |
+|      |     |            | ....5 | 17:15 | GRA330 | Labs | |
+|      |     |            |       |       |        | | [Deadline to write your Background Paper Review](project/README.md) |
+|      | Fri | 07.11.2025 | ....5 | 13:15 | DIA 004 | [Exercises 7](exercises/Exercises7/) |  |
+| 9    | Thu | 13.11.2025 | ....5 | 15:15 | GRA330 | Lecture 11: Recursion: [1](https://mediaspace.epfl.ch/media/09-01%2C+Monotonicity+and+Semantics+of+Local+Variables/0_uqnv7pkj/30542), [2](https://mediaspace.epfl.ch/media/09-02%2C+Relational+Semantics+of+Loops/0_iy1fbb8t/30542), [3](https://mediaspace.epfl.ch/media/10-03%2C+Recursion+2/0_w0rgyean/30542) [PDF](lectures/lec11-recursion.pdf) | Finish Predicates. [Recursion](lectures/lec11-recursion.pdf) |
+|      |     |            |       | 17:15 | GRA330 | | |
+|      | Fri | 14.11.2025 | ....5 | 13:15 | DIA 004 | [Exercises 8](exercises/Exercises8/) | |
+| 10   | Thu | 20.11.2025 | ..... | 15:15 | GRA330 | Lecture 12 | [Widening](lectures/lec12-widening.pdf), [Loops](lectures/lec12-loop.pdf) |
+|      |     |            | ..... | 17:15 | GRA330 | | |
+|      | Fri | 21.11.2025 | ..... | 13:15 | DIA 004 | Q&A session | |
+| 11   | Thu | 27.11.2025 | ..... | 15:15 | **GRA330**, **AAC114** | **Midterm**, until 18:00 | [Seat Plan](seatplan.pdf). [Solutions](past-exams/solutions2024.pdf) |
+|      | Fri | 28.11.2025 | ..... | 13:15 | DIA 004 | Labs | Work on final course project |
+| 12   | Thu | 04.12.2025 | ..... | 15:15 | GRA330 | Lecture 13 | [Concurrency](lectures/lec13-concurrency.pdf), [Termination](lectures/lec12-termination.pdf), finish [SMT Solvers](lectures/lec12-smt.pdf) |
+|      |     |            | ..... | 17:15 | GRA330 | Labs | |
+|      | Fri | 05.12.2025 | ..... | 13:15 | DIA 004 | Guest Lecture, Labs | The first part: lecture by Samuel Chassot on [Verified Hash Table](https://link.springer.com/chapter/10.1007/978-3-031-63498-7_18) and related case studies in Stainless. Second part: labs |
+| 13   | Thu | 11.12.2025 | ..... | 15:15 | GRA330 | Labs | Work on the project. [Advice for Presentations](labs/presentation.md) |
+|      |     |            | ..... | 17:15 | GRA330 | Labs | Work on the project | 
 -->
