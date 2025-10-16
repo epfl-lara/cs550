@@ -1,8 +1,8 @@
-//> using scala "3.5.1"
-//> using dep "ch.epfl.lara::lisa::0.7,url=https://github.com/epfl-lara/lisa/releases/download/0.7/lisa_3-0.7.jar"
+//> using scala "3.7.2"
+//> using options -experimental
+//> using dep "ch.epfl.lara::lisa::0.9.3,url=https://github.com/epfl-lara/lisa/releases/download/0.9.3/lisa_3-0.9.3.jar"
 
 object Lab04 extends lisa.Main {
-
     /*
     You may use the following tactics: 
         - Restate              | "Trivially" true Sequent. Deals with alpha equivalence and most propositional rules but not distributivity
@@ -15,31 +15,29 @@ object Lab04 extends lisa.Main {
         - RightExists          | To introduce a ∃ quantifier in the conclusion
         - InstantiateForall    | To obtain a formula of the form P(t) from a quantified assumption ∀(x, P(x))
 
-
-
         thm1 and thm2 illustrate how those tactics can be used, as well as the usage of "assume", "have", "thenHave", "by", "thesis", "of" and "subproof".
     */
 
-    val x = variable
-    val y = variable
-    val z = variable
-    val f = function[1]
-    val P = formulaVariable
-    val Q = predicate[1]
-    val R = predicate[1]
-    val S = predicate[2]
+    val function = variable[Ind >>: Ind]
+    val predicate = variable[Ind >>: Prop]
+    val predicate2 = variable[Ind >>: (Ind >>: Prop)]
 
+    val x = variable[Ind]
+    val y = variable[Ind]
+    val z = variable[Ind]
+    val f = function
+    val P = variable[Prop]
+    val Q = predicate
+    val R = predicate
+    val S = predicate2
 
-
-
-
-    //A standard theorem about reordering quantifiers. Does the converse hold?
-    val thm1 = Theorem( ∃(x, ∀(y, S(x, y))) |-  ∀(y, ∃(x, S(x, y))) ) {
-        have(S(x, y) |- S(x, y)) by Restate
-        thenHave(∀(y, S(x, y)) |-  S(x, y)) by LeftForall
-        thenHave(∀(y, S(x, y)) |-  ∃(x, S(x, y))) by RightExists
-        thenHave(∃(x, ∀(y, S(x, y))) |-  ∃(x, S(x, y))) by LeftExists
-        thenHave(∃(x, ∀(y, S(x, y))) |-  ∀(y, ∃(x, S(x, y)))) by RightForall
+    // A standard theorem about reordering quantifiers. Does the converse hold?
+    val thm1 = Theorem( ∃(x, ∀(y, S(x)(y))) |-  ∀(y, ∃(x, S(x)(y))) ) {
+        have(S(x)(y) |- S(x)(y)) by Restate
+        thenHave(∀(y, S(x)(y)) |-  S(x)(y)) by LeftForall
+        thenHave(∀(y, S(x)(y)) |-  ∃(x, S(x)(y))) by RightExists
+        thenHave(∃(x, ∀(y, S(x)(y))) |-  ∃(x, S(x)(y))) by LeftExists
+        thenHave(∃(x, ∀(y, S(x)(y))) |-  ∀(y, ∃(x, S(x)(y)))) by RightForall
     }
 
     //A standard and important property of ∀: It distributes over conjunction. This is useful to justify prenex normal form.
@@ -85,60 +83,61 @@ object Lab04 extends lisa.Main {
 
     // This Theorem should be straightforward: You simply need to apply the ∀ and the ∃ quantifiers in the good order.
     val thm4 = Theorem( (∀(x, Q(x) ==> P), ∃(x, Q(x))) |- P ) {
-        sorry
+      // todo: prove me!
+      sorry
     }
 
     // This theorem is also short. 
     val thm5 = Theorem( ! ∀(x, Q(x)) |- ∃(x, !Q(x)) ) {
-        sorry
+      // todo: prove me!
+      sorry
     }
 
     // Quantifiers are not very nice to use.
     // The following theorem, called Russel's Paradox in Set theory, is equivalent to |- !∃(x, ∀(y, (y ∈ x) <=> !(y ∈ y)))
     // If we can, we prefer to avoid using the top level quantifier! Here x is a free parameter: The sequent is true for any term substituted for x.
     val thm6 = Theorem( ∀(y, (y ∈ x) <=> !(y ∈ y)) |- () ) {
-        sorry
+      // todo: prove me!
+      sorry
     }
 
     //Again, free variables in a sequent are implicitly universaly quantified: The statement hold with any term substituted for x.
     val thm7 = Theorem( (Q(x), R(x)) |- ∃(y, Q(y)) /\ ∃(y, R(y)) )  {
-        sorry
+      // todo: prove me!
+      sorry
     }
 
     // This theorem is a bit more involved
     val thm8 = Theorem( ∃(y, ∀(x, Q(y) ==> Q(x) )) ) {
-        sorry
+      // todo: prove me!
+      sorry
     }
-
-
-
 
     // This theorem is more complex. it says that "If all poor person have a rich father, then there is a rich person with a rich grandfather".
     // If you're stuck, make sure to first prove the statement with pen and paper.
-    val father = function[1]
-    val rich = predicate[1]
+    val father = function
+    val rich = predicate
 
     val richGrandfather = Theorem(∀(x, !rich(x) ==> rich(father(x))) |- ∃(x, rich(x) /\ rich(father(father(x)))) ) {
-        sorry
+      // todo: prove me!
+      sorry
     }
 
 
-    val canFly = predicate[1]
-    val happy = predicate[1]
-    val green = predicate[1]
-    val child = predicate[2]
+    val canFly = predicate
+    val happy = predicate
+    val green = predicate
+    val child = predicate2
 
 
     val greenDragonsAreHappy = Theorem((
-        ∀(x, ( ∀(y, child(x, y) ==> canFly(y)) ==> happy(x) ) ), // A dragon is happy if all its children can fly
-        ∀(x, canFly(x)),                                         // Dragons can fly
-        ∀(x, ( ∃(y, green(y) /\ child(y, x)) ==> green(x) ) )    // A dragon is green if it is a child of at least one green dragon
+        ∀(x, ( ∀(y, child(x)(y) ==> canFly(y)) ==> happy(x) ) ), // A dragon is happy if all its children can fly
+        ∀(x, green(x) ==> canFly(x)),                            // Green dragons can fly
+        ∀(x, ( ∃(y, green(y) /\ child(y)(x)) ==> green(x) ) )    // A dragon is green if it is a child of at least one green dragon
     ) |- ∀(x, green(x) ==> happy(x))                             // All green dragons are happy
     ) {
-        sorry
+      // todo: prove me!
+      sorry
     }
-
-
-
-
 }
+
