@@ -238,7 +238,7 @@ You may use any tactic described in the user manual except for the `Tableau` and
 `Goeland` tactics, though the tactics shown in the comment at the beginning of
 file and described above should suffice.
 
-When you're finished, upload the file [`Lab04.scala`](Lab04.scala) on moodle
-(one submission per group). The deadline for this lab is Friday 31st October,
-03:59am.
+When you're finished, upload the file [`Lab04.scala`](Lab04.scala) on
+[Moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1100580) (one submission
+per group). The deadline for this lab is Saturday 1st November, 03:59am.
 
