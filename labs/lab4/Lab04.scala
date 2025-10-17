@@ -18,18 +18,14 @@ object Lab04 extends lisa.Main {
         thm1 and thm2 illustrate how those tactics can be used, as well as the usage of "assume", "have", "thenHave", "by", "thesis", "of" and "subproof".
     */
 
-    val function = variable[Ind >>: Ind]
-    val predicate = variable[Ind >>: Prop]
-    val predicate2 = variable[Ind >>: (Ind >>: Prop)]
-
     val x = variable[Ind]
     val y = variable[Ind]
     val z = variable[Ind]
-    val f = function
+    val f = variable[Ind >>: Ind]
     val P = variable[Prop]
-    val Q = predicate
-    val R = predicate
-    val S = predicate2
+    val Q = variable[Ind >>: Prop]
+    val R = variable[Ind >>: Prop]
+    val S = variable[Ind >>: (Ind >>: Prop)]
 
     // A standard theorem about reordering quantifiers. Does the converse hold?
     val thm1 = Theorem( ∃(x, ∀(y, S(x)(y))) |-  ∀(y, ∃(x, S(x)(y))) ) {
@@ -113,10 +109,12 @@ object Lab04 extends lisa.Main {
       sorry
     }
 
-    // This theorem is more complex. it says that "If all poor person have a rich father, then there is a rich person with a rich grandfather".
-    // If you're stuck, make sure to first prove the statement with pen and paper.
-    val father = function
-    val rich = predicate
+    // This theorem is more complex. it says that "If every poor person has a
+    // rich father, then there is a rich person with a rich grandfather". If
+    // you're stuck, make sure to first prove the statement with pen and paper.
+
+    val father = variable[Ind >>: Ind]
+    val rich = variable[Ind >>: Prop]
 
     val richGrandfather = Theorem(∀(x, !rich(x) ==> rich(father(x))) |- ∃(x, rich(x) /\ rich(father(father(x)))) ) {
       // todo: prove me!
@@ -124,10 +122,10 @@ object Lab04 extends lisa.Main {
     }
 
 
-    val canFly = predicate
-    val happy = predicate
-    val green = predicate
-    val child = predicate2
+    val canFly = variable[Ind >>: Prop]
+    val happy = variable[Ind >>: Prop]
+    val green = variable[Ind >>: Prop]
+    val child = variable[Ind >>: Ind >>: Prop]
 
 
     val greenDragonsAreHappy = Theorem((
