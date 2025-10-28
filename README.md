@@ -24,6 +24,8 @@ The types of graded materials will include:
     - 10% Presentation of results
     - 10% Final report
 
+We have designed the labs so that you understand concepts and tools, so we ask you to **not use AI tools** when writing lab solutions. For the final project, you are allowed to use LLM-based tools, but you need to report how you used them and provide representative examples of tasks that came up in your project and that the LLM could and could not handle.
+
 ### Midterm Exam
 
 The midterm exam will be held on Thursday 27/11/2025, during the 15h-19h slot for the course, in rooms [GR A3 30](https://plan.epfl.ch/?room==GR%20A3%2030) and [MED 0 1618](https://plan.epfl.ch/?room==MED%200%201618). The exact time and seating plans will be communicated later.
