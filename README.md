@@ -24,7 +24,7 @@ The types of graded materials will include:
     - 10% Presentation of results
     - 10% Final report
 
-We have designed the labs so that you understand concepts and tools, so we ask you to **not use AI tools** when writing lab solutions. For the final project, you are allowed to use LLM-based tools, but you need to report how you used them and provide representative examples of tasks that came up in your project and that the LLM could and could not handle.
+We have designed the labs so that you understand formal method concepts and tools, so we ask you to **not use LLM-based tools** (including ChatGPT and GitHub copilot) when writing lab solutions. For the final project, you are allowed to use LLM-based tools, but you need to report how you used them and provide representative examples of tasks that came up in your project and that the LLM could and could not handle.
 
 ### Midterm Exam
 
