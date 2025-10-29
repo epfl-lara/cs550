@@ -88,13 +88,12 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 | 6    | Thu | 16.10.2025 | .23.. | 15:15 | GRA330 | [Lecture 8](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_0uec4oov/0_z0hn64mj) [PDF](lectures/lec08-qe.pdf) | Quantifier Elimination |
 |      |     |            | .23.. | 16:15 | GRA330 | [Lab 4](labs/lab4/) | Using Lisa Proof Framework |
 |      | Fri | 17.10.2025 | .234. | 13:15 | DIA 004 | [Exercises 5](exercises/Exercises5/) | Quantifier elimination exercises |
-| -    | Thu | 23.10.2025 | ...4. | 15:15 |        | Holidays | |
+| -    | Thu | 23.10.2025 | ...45 | 15:15 |        | Holidays | |
 |      |     |            |       | 17:15 |        | Holidays | |
-|      | Fri | 24.10.2025 | ...4. | 13:15 |        | Holidays | |
+|      | Fri | 24.10.2025 | ...45 | 13:15 |        | Holidays | |
+| 7    | Thu | 30.10.2025 | ...45 | 15:15 | GRA330 | Lecture 9: [1](https://mediaspace.epfl.ch/media/12-01%2C+Abstract+Interpretation+Idea/0_5ijgftx3/30542), [2](https://mediaspace.epfl.ch/media/12-02-Live2%2C+Lattices+for+Abstract+Interpretation/0_1v7ouncc/30542), [3](https://mediaspace.epfl.ch/media/Omega+Continuity%2C+Galois+Connection%2C+and+AI+Recipe/0_0rxm5t2s/30542) [PDF](lectures/lec09-ai-fixpoint.pdf) | Abstract Interpration. Lattices. Tarski's fixpoint theorem |
+|      |     |            | ...4. | 17:15 | GRA330 | [Lab 5](labs/lab5) | Finish the common labs. [Think about your project topic and Background Paper](project/README.md) |
 <!--
-| 7    | Thu | 30.10.2025 | ...4. | 15:15 | GRA330 | Lecture 9: [1](https://mediaspace.epfl.ch/media/12-01%2C+Abstract+Interpretation+Idea/0_5ijgftx3/30542), [2](https://mediaspace.epfl.ch/media/12-02-Live2%2C+Lattices+for+Abstract+Interpretation/0_1v7ouncc/30542), [3](https://mediaspace.epfl.ch/media/Omega+Continuity%2C+Galois+Connection%2C+and+AI+Recipe/0_0rxm5t2s/30542) [PDF](lectures/lec09-ai-fixpoint.pdf) | Abstract Interpration. Lattices. Tarski's fixpoint theorem |
-|      |     |            | ...4. | 17:15 | GRA330 | Labs | |
-|      |     |            |       |       |        | | [Deadline to pick your project topic and Background Paper](project/README.md) |
 |      | Fri | 31.10.2025 | ....5 | 13:15 | DIA 004 | [Exercises 6](exercises/Exercises6) | |
 | 8    | Thu | 06.11.2025 | ....5 | 15:15 | GRA330 | Lecture 10 [PDF](lectures/lec10-lattices-predicates.pdf) | Fixed Points. Predicates |
 |      |     |            | ....5 | 17:15 | GRA330 | Labs | |

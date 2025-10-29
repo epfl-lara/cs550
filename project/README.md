@@ -26,8 +26,8 @@ abstract should span approximately 10 lines of text and briefly present the
 scientific context, the motivation behind the project and what you plan to
 achieve.
 
-You should lock your paper and the topic of your project by Sunday, 9th of
-November. Write an abstract briefly presenting your project, and indicate the
+You should lock your paper and the topic of your project by the announced date (Sunday, 9th of
+November). Write an abstract briefly presenting your project, and indicate the
 full reference of your paper of choice in a PDF (we recommend using Latex) and
 send it to us via
 [moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1227669).
