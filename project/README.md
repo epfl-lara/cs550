@@ -16,8 +16,8 @@ to Formal Verification. The paper you chose should be related to your planned
 project. It is not a problem if the direction of the project changes later.
 
 For example, your project consists in verifying correctness of a certain
-algorithm or datastructure, a good choice of paper may be one where said
-algorithm or datastructure is presented and/or its correctness is proved. In
+algorithm or data structure, a good choice of paper may be one where said
+algorithm or data structure is presented and/or its correctness is proved. In
 case of doubts, you are welcome to discuss your choice of project and background
 paper with the teaching staff.
 
@@ -26,10 +26,10 @@ abstract should span approximately 10 lines of text and briefly present the
 scientific context, the motivation behind the project and what you plan to
 achieve.
 
-You should lock your paper and the topic of your project by Friday, 31st of
-October (03:59). Write an abstract briefly presenting your project, and indicate
-the full reference of your paper of choice in a PDF (we recommend using Latex)
-and send it to us via
+You should lock your paper and the topic of your project by Sunday, 9th of
+November. Write an abstract briefly presenting your project, and indicate the
+full reference of your paper of choice in a PDF (we recommend using Latex) and
+send it to us via
 [moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1227669).
 
 
@@ -55,5 +55,5 @@ content. In particular, if you use "Body" as the title of your sections, you
 will lose points.
 
 Your Background Paper Review will also need to be submitted on
-[moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1104628) before Friday,
-7th of November (03:59).
+[moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1104628) before Sunday,
+16th of November.
