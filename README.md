@@ -91,9 +91,9 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 | -    | Thu | 23.10.2025 | ...45 | 15:15 |        | Holidays | |
 |      |     |            |       | 17:15 |        | Holidays | |
 |      | Fri | 24.10.2025 | ...45 | 13:15 |        | Holidays | |
-| 7    | Thu | 30.10.2025 | ...45 | 15:15 | GRA330 | Lecture 9: [1](https://mediaspace.epfl.ch/media/12-01%2C+Abstract+Interpretation+Idea/0_5ijgftx3/30542), [2](https://mediaspace.epfl.ch/media/12-02-Live2%2C+Lattices+for+Abstract+Interpretation/0_1v7ouncc/30542), [3](https://mediaspace.epfl.ch/media/13-01-Live1%2C+From+Lattice+Products+to+Tarski%27s+Fixedpoint+Theorem/0_v8qt2p9s/30542), [3b](https://mediaspace.epfl.ch/media/Omega+Continuity%2C+Galois+Connection%2C+and+AI+Recipe/0_0rxm5t2s/30542) [PDF](lectures/lec09-ai-fixpoint.pdf) | Abstract Interpretation. Lattices. Tarski's fixpoint theorem |
+| 7    | Thu | 30.10.2025 | ...45 | 15:15 | GRA330 | Lecture 9: [1](https://mediaspace.epfl.ch/media/12-01%2C+Abstract+Interpretation+Idea/0_5ijgftx3/30542), [2](https://mediaspace.epfl.ch/media/12-02-Live2%2C+Lattices+for+Abstract+Interpretation/0_1v7ouncc/30542), [3](https://mediaspace.epfl.ch/media/13-01-Live1%2C+From+Lattice+Products+to+Tarski%27s+Fixedpoint+Theorem/0_v8qt2p9s/30542), [PDF](lectures/lec09-ai-fixpoint.pdf) | Abstract Interpretation. Lattices |
 |      |     |            | ...4. | 17:15 | GRA330 | [Lab 5](labs/lab5) | Finish the common labs. [Think about your project topic and Background Paper](project/README.md) |
-|      | Fri | 31.10.2025 | ....5 | 13:15 | DIA 004 | [Lecture 10](lectures/lecture10.pdf), [Exercises 6](exercises/Exercises6) | Complete lattices. Fixed points. Galois connection |
+|      | Fri | 31.10.2025 | ....5 | 13:15 | DIA 004 | [Lecture 10]( [3b](https://mediaspace.epfl.ch/media/Omega+Continuity%2C+Galois+Connection%2C+and+AI+Recipe/0_0rxm5t2s/30542), [Slides](lectures/lecture10.pdf), [Exercises 6](exercises/Exercises6) | Complete lattices. Fixed points. Galois connection. |
 <!--
 | 8    | Thu | 06.11.2025 | ....5 | 15:15 | GRA330 | Lecture 10 [PDF](lectures/lec10-lattices-predicates.pdf) | Fixed Points. Predicates |
 |      |     |            | ....5 | 17:15 | GRA330 | Labs | |
