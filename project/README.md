@@ -56,4 +56,4 @@ will lose points.
 
 Your Background Paper Review will also need to be submitted on
 [moodle](https://moodle.epfl.ch/mod/assign/view.php?id=1104628) before Sunday,
-16th of November.
+23rd of November.
