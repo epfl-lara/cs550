@@ -98,7 +98,7 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 |      |     |            | ....5 | 17:15 | GRA330 | Labs | |
 |      |     |            |       |       |        | |  |
 |      | Fri | 07.11.2025 | ....5 | 13:15 | DIA 004 | [Exercises 7](exercises/Exercises7/) |  |
-| 9    | Thu | 13.11.2025 | ....5 | 15:15 | GRA330 | Lecture 12: [1](https://mediaspace.epfl.ch/media/09-01%2C+Monotonicity+and+Semantics+of+Local+Variables/0_uqnv7pkj/30542), [2](https://mediaspace.epfl.ch/media/09-02%2C+Relational+Semantics+of+Loops/0_iy1fbb8t/30542), [3](https://mediaspace.epfl.ch/media/10-03%2C+Recursion+2/0_w0rgyean/30542) [PDF](lectures/lec11-recursion.pdf) | Finish [Recursion](lectures/lec11-recursion.pdf), AI Recipe, [Loop Semantics](lectures/lec12-loop.pdf) |
+| 9    | Thu | 13.11.2025 | ....5 | 15:15 | GRA330 | Lecture 12: [1](https://mediaspace.epfl.ch/media/09-01%2C+Monotonicity+and+Semantics+of+Local+Variables/0_uqnv7pkj/30542), [2](https://mediaspace.epfl.ch/media/09-02%2C+Relational+Semantics+of+Loops/0_iy1fbb8t/30542), [3](https://mediaspace.epfl.ch/media/10-03%2C+Recursion+2/0_w0rgyean/30542) [PDF](lectures/lec11-recursion.pdf) | Finish [Recursion](lectures/lec11-recursion.pdf), [AI Recipe](lectures/lec12-ai-recipe.pdf), [Loop Semantics](lectures/lec12-loop.pdf) |
 <!--
 |      |     |            |       | 17:15 | GRA330 | | |
 |      | Fri | 14.11.2025 | ....5 | 13:15 | DIA 004 | [Exercises 8](exercises/Exercises8/) | |
