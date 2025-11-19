@@ -92,19 +92,19 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 |      |     |            |       | 17:15 |        | Holidays | |
 |      | Fri | 24.10.2025 | ...45 | 13:15 |        | Holidays | |
 | 7    | Thu | 30.10.2025 | ...45 | 15:15 | GRA330 | Lecture 9: [1](https://mediaspace.epfl.ch/media/12-01%2C+Abstract+Interpretation+Idea/0_5ijgftx3/30542), [2](https://mediaspace.epfl.ch/media/12-02-Live2%2C+Lattices+for+Abstract+Interpretation/0_1v7ouncc/30542), [3](https://mediaspace.epfl.ch/media/13-01-Live1%2C+From+Lattice+Products+to+Tarski%27s+Fixedpoint+Theorem/0_v8qt2p9s/30542), [PDF](lectures/lec09-ai-fixpoint.pdf) | Abstract Interpretation. Lattices |
-|      |     |            | ...4. | 17:15 | GRA330 | [Lab 5](labs/lab5) | Finish the common labs. [Think about your project topic and Background Paper](project/README.md) |
+|      |     |            | ...45 | 17:15 | GRA330 | [Lab 5](labs/lab5) | Finish the common labs. [Think about your project topic and Background Paper](project/README.md) |
 |      | Fri | 31.10.2025 | ....5 | 13:15 | DIA 004 | [Lecture 10](https://mediaspace.epfl.ch/media/Omega+Continuity%2C+Galois+Connection%2C+and+AI+Recipe/0_0rxm5t2s/30542) [Slides](lectures/lecture10.pdf), [Exercises 6](exercises/Exercises6) | Complete lattices. Fixed points. Galois connection. |
 | 8    | Thu | 06.11.2025 | ....5 | 15:15 | GRA330 | Lecture 11 | [Predicate Abstraction](lectures/lec11-predicates.pdf) and [Recursion](lectures/lec11-recursion.pdf) |
 |      |     |            | ....5 | 17:15 | GRA330 | Labs | |
 |      |     |            |       |       |        | |  |
 |      | Fri | 07.11.2025 | ....5 | 13:15 | DIA 004 | [Exercises 7](exercises/Exercises7/) |  |
 | 9    | Thu | 13.11.2025 | ....5 | 15:15 | GRA330 | Lecture 12: [1](https://mediaspace.epfl.ch/media/09-01%2C+Monotonicity+and+Semantics+of+Local+Variables/0_uqnv7pkj/30542), [2](https://mediaspace.epfl.ch/media/09-02%2C+Relational+Semantics+of+Loops/0_iy1fbb8t/30542), [3](https://mediaspace.epfl.ch/media/10-03%2C+Recursion+2/0_w0rgyean/30542) [PDF](lectures/lec11-recursion.pdf) | Finish [Recursion](lectures/lec11-recursion.pdf), [AI Recipe](lectures/lec12-ai-recipe.pdf), [Loop Semantics](lectures/lec12-loop.pdf) |
+|      |     |            |       | 17:15 | GRA330 | Labs | |
+|      | Fri | 14.11.2025 | ..... | 13:15 | DIA 004 | [Exercises 8](exercises/Exercises8/) | |
+| 10   | Thu | 20.11.2025 | ..... | 15:15 | GRA330 | Exercises | [Solve Past Exams](past-exams/README.md) |
+|      |     |            | ..... | 17:15 | GRA330 | Labs | Work on your project |
+|      | Fri | 21.11.2025 | ..... | 13:15 | DIA 004 | Lecture | Counter-Example Driven Abstraction Refinement |
 <!--
-|      |     |            |       | 17:15 | GRA330 | | |
-|      | Fri | 14.11.2025 | ....5 | 13:15 | DIA 004 | [Exercises 8](exercises/Exercises8/) | |
-| 10   | Thu | 20.11.2025 | ..... | 15:15 | GRA330 | Lecture 12 |  |
-|      |     |            | ..... | 17:15 | GRA330 | | |
-|      | Fri | 21.11.2025 | ..... | 13:15 | DIA 004 | Q&A session | |
 | 11   | Thu | 27.11.2025 | ..... | 15:15 | **GRA330**, **AAC114** | **Midterm**, until 18:00 | [Seat Plan](seatplan.pdf). [Solutions](past-exams/solutions2024.pdf) |
 |      | Fri | 28.11.2025 | ..... | 13:15 | DIA 004 | Labs | Work on final course project |
 | 12   | Thu | 04.12.2025 | ..... | 15:15 | GRA330 | Lecture 13 | [Concurrency](lectures/lec13-concurrency.pdf), [Termination](lectures/lec12-termination.pdf), finish [SMT Solvers](lectures/lec12-smt.pdf) |
