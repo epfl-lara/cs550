@@ -104,9 +104,9 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 | 10   | Thu | 20.11.2025 | ..... | 15:15 | GRA330 | Exercises | [Solve Past Exams](past-exams/README.md) |
 |      |     |            | ..... | 17:15 | GRA330 | Labs | Work on your project |
 |      | Fri | 21.11.2025 | ..... | 13:15 | DIA 004 | Lecture | Counter-Example Driven Abstraction Refinement |
-<!--
-| 11   | Thu | 27.11.2025 | ..... | 15:15 | **GRA330**, **AAC114** | **Midterm**, until 18:00 | [Seat Plan](seatplan.pdf). [Solutions](past-exams/solutions2024.pdf) |
+| 11   | Thu | 27.11.2025 | ..... | 15:15 | **GR A3 30**, **MED 0 1618** | **Midterm**, until 18:00 | [Seat Plan](https://moodle.epfl.ch/mod/page/view.php?id=1354141) |
 |      | Fri | 28.11.2025 | ..... | 13:15 | DIA 004 | Labs | Work on final course project |
+<!--
 | 12   | Thu | 04.12.2025 | ..... | 15:15 | GRA330 | Lecture 13 | [Concurrency](lectures/lec13-concurrency.pdf), [Termination](lectures/lec12-termination.pdf), finish [SMT Solvers](lectures/lec12-smt.pdf) |
 |      |     |            | ..... | 17:15 | GRA330 | Labs | |
 |      | Fri | 05.12.2025 | ..... | 13:15 | DIA 004 | Guest Lecture, Labs | The first part: lecture by Samuel Chassot on [Verified Hash Table](https://link.springer.com/chapter/10.1007/978-3-031-63498-7_18) and related case studies in Stainless. Second part: labs |
