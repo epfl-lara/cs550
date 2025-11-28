@@ -1,9 +1,10 @@
 # Past Exams for Formal Verification
 
-  * 2024: [exam](exam2024.pdf), [solutions](solutions2024.pdf)
-  * 2023: [exam](exam2023.pdf), [solutions](solutions2023.pdf)
-  * 2022: [exam](exam2022.pdf), [solutions](solutions2022.pdf)
+  * 2025: [exam](2025/exam2025.pdf), solutions (soon)
+  * 2024: [exam](2024/exam2024.pdf), [solutions](2024/solutions2024.pdf)
+  * 2023: [exam](2023/exam2023.pdf), [solutions](2023/solutions2023.pdf)
+  * 2022: [exam](2022/exam2022.pdf), [solutions](2022/solutions2022.pdf)
 
 # Older Exams for a Related Course
 
-[2019](quiz2019.pdf), [2017](quiz2017.pdf), [2015](quiz2015.pdf)
+[2019](2019), [2017](2017) (no solutions), [2015](2015)
