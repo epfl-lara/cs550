@@ -112,5 +112,5 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 | 13   | Thu | 11.12.2025 | ..... | 15:15 | GRA330 | Labs | Work on final course project. |
 |      | Fri | 12.12.2025 | ..... | 13:15 | DIA 004 | Labs | Work on final course project. |
 | 14   | Thu | 18.12.2025 | ..... | 15:15 | GRA330 | Project Presentations | [Schedule on Moodle](https://moodle.epfl.ch/mod/page/view.php?id=1357333). [Advice for Presentations](labs/presentation.md) |
-|      | Fri | 12.12.2025 | ..... | 13:15 | DIA 004 | Project Presentations | [Schedule on Moodle](https://moodle.epfl.ch/mod/page/view.php?id=1357333). [Advice for Presentations](labs/presentation.md) |
+|      | Fri | 19.12.2025 | ..... | 13:15 | DIA 004 | Project Presentations | [Schedule on Moodle](https://moodle.epfl.ch/mod/page/view.php?id=1357333). [Advice for Presentations](labs/presentation.md) |
 
