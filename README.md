@@ -109,10 +109,8 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 | 12   | Thu | 04.12.2025 | ..... | 15:15 | GRA330 | Lecture 14 | [SMT Solvers](lectures/lec12-smt.pdf) (see also [Directions to and for Verified Software](https://slideshot.epfl.ch/play/kYmvaDF6Z6jI)), [Concurrency](lectures/lec13-concurrency.pdf) (see also [Machines Reasoning about Machines](https://slideshot.epfl.ch/play/suri_moore)), [Termination](lectures/lec12-termination.pdf)  | 
 |      |     |            | ..... | 17:15 | GRA330 | Labs | Work on final course project. [Advice for Presentations](labs/presentation.md) |
 |      | Fri | 05.11.2025 | ..... | 13:15 | DIA 004 | Labs | Work on final course project. [Advice for Presentations](labs/presentation.md) |
-<!--
-| 12   | Thu | 04.12.2025 | ..... | 15:15 | GRA330 | Lecture 13 | [Concurrency](lectures/lec13-concurrency.pdf), [Termination](lectures/lec12-termination.pdf), finish [SMT Solvers](lectures/lec12-smt.pdf) |
-|      |     |            | ..... | 17:15 | GRA330 | Labs | |
-|      | Fri | 05.12.2025 | ..... | 13:15 | DIA 004 | Guest Lecture, Labs | The first part: lecture by Samuel Chassot on [Verified Hash Table](https://link.springer.com/chapter/10.1007/978-3-031-63498-7_18) and related case studies in Stainless. Second part: labs |
-| 13   | Thu | 11.12.2025 | ..... | 15:15 | GRA330 | Labs | Work on the project. [Advice for Presentations](labs/presentation.md) |
-|      |     |            | ..... | 17:15 | GRA330 | Labs | Work on the project | 
--->
+| 13   | Thu | 11.12.2025 | ..... | 15:15 | GRA330 | Labs | Work on final course project. |
+|      | Fri | 12.12.2025 | ..... | 13:15 | DIA 004 | Labs | Work on final course project. |
+| 14   | Thu | 18.12.2025 | ..... | 15:15 | GRA330 | Project Presentations | [Schedule on Moodle](https://moodle.epfl.ch/mod/page/view.php?id=1357333). [Advice for Presentations](labs/presentation.md) |
+|      | Fri | 12.12.2025 | ..... | 13:15 | DIA 004 | Project Presentations | [Schedule on Moodle](https://moodle.epfl.ch/mod/page/view.php?id=1357333). [Advice for Presentations](labs/presentation.md) |
+
