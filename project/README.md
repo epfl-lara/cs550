@@ -100,7 +100,7 @@ Your project report and slides need to be submitted on
 To monitor fair division of work in your groups, we ask that each of you submit
 a teamwork statement on Moodle. 
 
-The email should contain an estimate how much you and your teammates contributed
+The statement should contain an estimate how much you and your teammates contributed
 to each of the labs and to the final project, with * next to your name, in the
 form of a table with percentages rounded down, e.g., with a perfect split: 
 
