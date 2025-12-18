@@ -34,6 +34,8 @@ The midterm exam will be held on Thursday 27/11/2025, during the 15h-19h slot fo
 
 The course project can be a case study in developing a verified piece of software, an implementation of verification tool functionality, or a theoretical result about verification, constraint solving or theorem proving. The projects must be presented with a written report as well as a live presentation of project results, answering our questions.
 
+General guidelines and steps for the project are described in [project/README.md](project/README.md).
+
 # Content
 
 In this course, we introduce formal verification as a principled approach for developing systems that do what they are expected to.
@@ -102,15 +104,15 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 |      |     |            |       | 17:15 | GRA330 | Labs | |
 |      | Fri | 14.11.2025 | ..... | 13:15 | DIA 004 | [Exercises 8](exercises/Exercises8/) | |
 | 10   | Thu | 20.11.2025 | ..... | 15:15 | GRA330 | Exercises | [Solve Past Exams](past-exams/README.md) |
-|      |     |            | ..... | 17:15 | GRA330 | Labs | Work on your project |
+|      |     |            | ..... | 17:15 | GRA330 | Labs | [Work on final course project.](project/README.md) |
 |      | Fri | 21.11.2025 | ..... | 13:15 | DIA 004 | Lecture 13 | [Counter-Example Guided Abstraction Refinement](lectures/SankalpGambhir-CEGAR.pdf) |
 | 11   | Thu | 27.11.2025 | ..... | 15:15 | **GR A3 30**, **MED 0 1618** | **Midterm**, until 18:00 | [Seat Plan](https://moodle.epfl.ch/mod/page/view.php?id=1354141), [Exam PDF](past-exams/2025/exam2025.pdf), [Solutions](past-exams/2025/solutions2025.pdf) |
 |      | Fri | 28.11.2025 | ..... | 13:15 | DIA 004 | Labs | Work on final course project |
 | 12   | Thu | 04.12.2025 | ..... | 15:15 | GRA330 | Lecture 14 | [SMT Solvers](lectures/lec12-smt.pdf) (see also [Directions to and for Verified Software](https://slideshot.epfl.ch/play/kYmvaDF6Z6jI)), [Concurrency](lectures/lec13-concurrency.pdf) (see also [Machines Reasoning about Machines](https://slideshot.epfl.ch/play/suri_moore)), [Termination](lectures/lec12-termination.pdf)  | 
-|      |     |            | ..... | 17:15 | GRA330 | Labs | Work on final course project. [Advice for Presentations](labs/presentation.md) |
-|      | Fri | 05.11.2025 | ..... | 13:15 | DIA 004 | Labs | Work on final course project. [Advice for Presentations](labs/presentation.md) |
-| 13   | Thu | 11.12.2025 | ..... | 15:15 | GRA330 | Labs | Work on final course project. |
-|      | Fri | 12.12.2025 | ..... | 13:15 | DIA 004 | Labs | Work on final course project. |
+|      |     |            | ..... | 17:15 | GRA330 | Labs | [Work on final course project.](project/README.md) [Advice for Presentations](labs/presentation.md) |
+|      | Fri | 05.11.2025 | ..... | 13:15 | DIA 004 | Labs | [Work on final course project.](project/README.md) [Advice for Presentations](labs/presentation.md) |
+| 13   | Thu | 11.12.2025 | ..... | 15:15 | GRA330 | Labs | [Work on final course project.](project/README.md) |
+|      | Fri | 12.12.2025 | ..... | 13:15 | DIA 004 | Labs | [Work on final course project.](project/README.md) |
 | 14   | Thu | 18.12.2025 | ..... | 15:15 | GRA330 | Project Presentations | [Schedule on Moodle](https://moodle.epfl.ch/mod/page/view.php?id=1357333). [Advice for Presentations](labs/presentation.md) |
 |      | Fri | 19.12.2025 | ..... | 13:15 | DIA 004 | Project Presentations | [Schedule on Moodle](https://moodle.epfl.ch/mod/page/view.php?id=1357333). [Advice for Presentations](labs/presentation.md) |
 
