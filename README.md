@@ -2,7 +2,7 @@
 
 [Moodle](https://moodle.epfl.ch/course/view.php?id=13051), [Coursebook](https://edu.epfl.ch/coursebook/en/formal-verification-CS-550?cb_cycle=bama_cyclemaster&cb_section=in)
 
-This repository is the homepage of the course Formal Verification and hosts the material necessary for the labs.
+This repository is the homepage of the course Formal Verification. It contains essential materials and links about course organization and learning.
 
 ### Staff
 
