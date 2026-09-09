@@ -16,6 +16,13 @@ The grade is based primarily on computer-based and paper-based exams done in cla
 
 **Passing the course requires being present in several examinations throughout the semester.**
 
+Grade breakdown:
+  * 5% first lab (using [Stainless](https://github.com/epfl-lara/stainless)), submitted on Moodle
+  * 5% second lab (using [Lean](https://lean-lang.org/)), submitted on Moodle
+  * 30% **in-class exam** solving problems in Lean on computers
+  * 40% **in-class final paper exam**
+  * 20% **projects and their presentations in class**
+
 # Content
 
 In this course, we introduce formal verification as a principled approach for developing systems that do what they are expected to.
