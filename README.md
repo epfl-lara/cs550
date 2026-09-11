@@ -23,7 +23,11 @@ Grade breakdown:
   * 40% **in-class paper exam** (November)
   * 20% **final group projects and their presentations in class** (last weeks of the semester)
 
-The use of LLMs is allowed for final group projects, but you need to document how you use them. You are also welcome to use search and AI tools to clarify your understanding of the material outside of the exams, including EPFL-hosted open-weight models available at https://chat.rcp.epfl.ch/ from within EPFL network.
+### AI Policy
+
+The use of LLMs is allowed for final group projects, but you need to document how you use them. You are also welcome to use search and AI tools to clarify your understanding of the material outside of the exams. Aside from commercial providers, note that you can use EPFL-hosted open-weight models available at https://chat.rcp.epfl.ch/ from within EPFL network.
+
+<img src="images/cute-ai-slop.png" alt="A mascot in the shape of a universal quantifier inspecting a trivial Lean program using a magnifying glass." title="Does the program always work?" width="500">
 
 # Content
 
