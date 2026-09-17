@@ -240,6 +240,3 @@ bloop.rifle.FailedToStartServerExitCodeException: Server failed with exit code
 $ eval "$(cs java --env --jvm temurin:17)"
 ```
 
-# TODO
-clarify stuff on arithmetic
-port lab2
