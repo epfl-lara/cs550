@@ -56,9 +56,13 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 |      |     |            |       |       |        | Reading:                       | HandMC-Ch.10  |
 |      |     |            |       |       |        | Follow:                        | [Stainless Tutorial Videos](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_t2ld6vzn/0_azxgetu9) and [materials](https://epfl-lara.github.io/asplos2022tutorial/)  |
 |      | Fri | 11.09.2025 | ..... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | [Lecture 3] (PDF: [A](lectures/lecture03a.pdf), [B](lectures/lecture03b.pdf)) [(playlist)](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_thr9uebs/0_tv48ew7w)                       | [What is a Formal Proof?](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_thr9uebs/0_tv48ew7w) and [Propositional Resolution](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_thr9uebs/0_lovmc46b) |
-| 2    | Thu | 17.09.2025 | ..... | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | Lab 1 | Stainless |
-|      |     |            | ..... | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | Lab 1 | Stainless |
-|      | Fri | 18.09.2025 | ..... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Exercises 1 | Propositional logic, Transition Systems |
+| 2    | Thu | 17.09.2025 | 1.... | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | Lab 1 | Stainless |
+|      |     |            | 1.... | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | Lab 1 | Stainless |
+|      | Fri | 18.09.2025 | 1.... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Exercises 1 | Propositional logic, Transition Systems |
+| 3    | Thu | 24.09.2025 | 1.... | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | finish [Lecture 3](lectures/lecture03b.pdf) | [Propositional Resolution](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_thr9uebs/0_lovmc46b) |
+|      |     |            | 1.... | 16:15 | [BC420](https://plan.epfl.ch/?room==BC%20420) | Guest Lecture | [IC Colloquium: Abstract Interpretation on irregular programming environments](https://memento.epfl.ch/event/ic-colloquium-abstract-interpretation-on-irregul-2/). Background: [Abstract Interpretation in a Nutshell](https://www.di.ens.fr/~cousot/AI/IntroAbsInt.html) |
+|      |     |            | 1.... | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | Lab 1 | Stainless |
+|      | Fri | 25.09.2025 | ..... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture | Proof Systems for First-Order Logic |
 
 ### Books
 
