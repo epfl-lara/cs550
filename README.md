@@ -67,7 +67,7 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 | 3    | Thu | 24.09.2025 | 1.... | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | finish [Lecture 3](lectures/lecture03b.pdf) | [Propositional Resolution](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_thr9uebs/0_lovmc46b) |
 |      |     |            | 1.... | 16:15 | [BC420](https://plan.epfl.ch/?room==BC%20420) | Guest Lecture | [IC Colloquium: Abstract Interpretation on irregular programming environments](https://memento.epfl.ch/event/ic-colloquium-abstract-interpretation-on-irregul-2/). Background: [Abstract Interpretation in a Nutshell](https://www.di.ens.fr/~cousot/AI/IntroAbsInt.html) |
 |      |     |            | 1.... | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | [Lab 1](labs/lab1/README.md) | Stainless |
-|      | Fri | 25.09.2025 | ..... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture | Proof Systems for First-Order Logic |
+|      | Fri | 25.09.2025 | ..... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | [Lecture 4](lectures/lecture04.pdf) | [Automating First-Order Logic Proofs Using Resolution ](https://mediaspace.epfl.ch/media/06-01%2C%20Automating%20First-Order%20Logic%20Proofs%20Using%20Resolution/0_hmbkv363) |
 
 ### Books
 
