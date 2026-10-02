@@ -71,6 +71,9 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 | 4    | Thu | 01.10.2026 | 1.... | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | [Lecture 5](lectures/lecture05/README.md) | Lean introduction |
 |      |     |            | 1.... | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | [Lab 1](labs/lab1/README.md) | Stainless |
 |      | Fri | 02.09.2026 | 1.... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | [Lecture 6](lectures/lecture06/README.md) | Propositions as Types. Syntax and Semantics of Propositional Logic in Lean |
+| 5    | Thu | 08.10.2026 | .2... | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | [Lecture 7](lectures/lecture06/) [PDF](lectures/lecture06/slides.pdf) | [Quantifier Elimination](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_0uec4oov/0_z0hn64mj) |
+|      |     |            | .2... | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | Start on Lab2 | Propositional Logic Syntax and Transformations |
+|      | Fri | 09.09.2026 | .2... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Exercises | Quantifier Elimination |
 
 ### Books
 
