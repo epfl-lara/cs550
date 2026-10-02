@@ -14,7 +14,7 @@ partial def gcd1 (a b : Nat) : Nat :=
 
 -- Indeed, we could even define
 partial def f (x: Nat) : Nat :=
-  f x + 1
+  (f x) + 1
 
 -- don't try this at home:
 -- #eval (f 0)
@@ -39,7 +39,7 @@ def gcd2 (a b : Nat) : Nat :=
 termination_by a
 decreasing_by
   have aPos: 0 < a := Nat.pos_of_ne_zero isZero
-  exact Nat.mod_lt b aPos
+  exact Nat.mod_lt (x := b) aPos
 -- ignore the linter bug: https://github.com/leanprover/lean4/issues/2920
 
 -- thanks to termination, we get a definitional equation:
@@ -49,8 +49,8 @@ decreasing_by
 theorem modLess {a b : Nat} (h : a < b) : a % b = a := Nat.mod_eq_of_lt h
 
 -- when a<b small, then it's the remainder
-theorem gcdSym2_swap (a: Nat) (b: Nat) (h: a < b) : gcd2 a b = gcd2 b a := by
-  grind [gcd2.eq_def, modLess h]
+theorem gcdSym2_swap (a b : Nat) (h: a < b) : gcd2 a b = gcd2 b a := by
+  grind [gcd2, modLess h]
 -- grind is one of automated provers, good for prop equalities and linear equations.
 
 -- Theorem: the order of args does not matter. Showcases proof by cases.
@@ -66,7 +66,8 @@ theorem gcdSym2 (a: Nat) (b: Nat) : gcd2 a b = gcd2 b a := by
     grind [gcdSym2_swap b a h]
 
 -- A lemma, we take it from the library
-theorem divisionLemma {k m n : Nat} (h : k ∣ n) : k ∣ m % n ↔ k ∣ m := Nat.dvd_mod_iff h
+theorem divisionLemma {k m n : Nat} (h : k ∣ n) :
+   k ∣ m % n ↔ k ∣ m  := Nat.dvd_mod_iff h
 
 /- Theorem: gcd divides each argument: showcases proof by stong induction.
    To type divisibility ∣ , write backslash and vertical bar together (not just |).
@@ -81,21 +82,21 @@ theorem gcdDivides (a: Nat): ∀ (b : Nat), gcd2 a b ∣ a ∧ gcd2 a b ∣ b :=
   induction a using Nat.strongRecOn with
   | ind a ih =>
     have IH: ∀ (m : Nat), m < a → ∀ (b : Nat), gcd2 m b ∣ m ∧ gcd2 m b ∣ b := ih --restate for readiability
-    intro b
+    intro (b : Nat)
     by_cases isZero : a = 0 -- proof of this case can be made in one line, this just for explanation:
     · have h : a = 0 := by assumption
       subst a
       suffices gcd2 0 b ∣ 0 ∧ gcd2 0 b ∣ b from by assumption
       have dvdzero: ∀ (x : Nat), x ∣ 0 := by simp -- the name of this fact is hidden but simp knows it
       have first:    gcd2 0 b ∣ 0 := dvdzero (gcd2 0 b) -- for illustration only; could have just done simp
-      have second1: gcd2 0 b = b := by simp [gcd2] -- gcd2 was not marked for auto-simplification, so must be given
+      have second1: gcd2 0 b = b := by grind [gcd2] -- gcd2 was not marked for auto-simplification, so must be given
       have second2: b ∣ b := by simp
       have second:  gcd2 0 b ∣ b := by grind -- grind picks up assumptions, like second1 and second2
       exact ⟨first, second⟩ -- proof for a conjunction is a pair of proofs for each conjunct
       -- let's move to the more interesting case now:
     · have h : a ≠ 0 := by assumption
       let r := b % a
-      have s: gcd2 a b = gcd2 r a := by grind [gcd2.eq_def]
+      have s: gcd2 a b = gcd2 r a := by grind [gcd2]
       suffices gcd2 r a ∣ a  ∧  gcd2 r a ∣ b from by grind
       have remainderLess : r < a := Nat.mod_lt b (Nat.pos_of_ne_zero h) -- combining lemmas in an expression tree
       -- passing some of the arguments by name to IH instead of by position. We get two individual assumptions
