@@ -70,7 +70,7 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 |      | Fri | 25.09.2026 | 1.... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | [Lecture 4](lectures/lecture04.pdf) | [Automating First-Order Logic Proofs Using Resolution ](https://mediaspace.epfl.ch/media/06-01%2C%20Automating%20First-Order%20Logic%20Proofs%20Using%20Resolution/0_hmbkv363) |
 | 4    | Thu | 01.10.2026 | 1.... | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | [Lecture 5](lectures/lecture05/README.md) | Lean introduction |
 |      |     |            | 1.... | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | [Lab 1](labs/lab1/README.md) | Stainless |
-|      | Fri | 02.09.2026 | 1.... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Logic with Lean |
+|      | Fri | 02.09.2026 | 1.... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | [Lecture 6](lectures/lecture06/README.md) | Propositions as Types. Syntax and Semantics of Propositional Logic in Lean |
 
 ### Books
 
