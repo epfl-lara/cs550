@@ -90,7 +90,8 @@ def updatedV (e : Valuation) (x : Variable) (b : Bool) : Valuation :=
   fun (v : Variable) => if v = x then b else e v
 
 theorem subst_lemma (f : Formula) (x : Variable) (t : Formula) (e : Valuation) :
-    eval (subst f x t) e = eval f (updatedV e x (eval t e)) := by
+    eval (subst f x t) e =
+    eval f (updatedV e x (eval t e)) := by
   match f with
   | Fvar s => grind [subst, updatedV, eval]
   | Fconst _ => grind [subst, updatedV, eval]

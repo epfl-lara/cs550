@@ -54,15 +54,17 @@ theorem example4 {p q r: Prop}: (p → q) → ((p → (q → r)) → (p → r)) 
 
 -- a proof for an implication is a function, so the proof for above is:
 theorem example5 {p q r: Prop}: (p → q) → ((p → (q → r)) → (p → r)) :=
-  λ pq_holds: p → q ↦
+  fun pq_holds: p → q =>
     fun pqr_holds : (p → (q → r)) =>
-      (fun p_holds : p => (pqr_holds p_holds ) (pq_holds p_holds))
+      (λ p_holds : p => (pqr_holds p_holds ) (pq_holds p_holds))
 
 theorem K (p q: Prop): p → (q → p) :=
-  fun pp: p => fun _: q => pp
+  λ pp: p => λ _: q => pp
 
 theorem I (p: Prop): p → p :=
-  fun pp: p => pp
+  λ pp: p => pp
+
+#check And
 
 -- A proof for a conjunction is just an angle bracket pair of proofs:
 theorem example6 {p q: Prop} (p_holds: p) (q_holds: q): p ∧ q :=
@@ -84,11 +86,34 @@ theorem example7 {p q: Prop}: p ∧ q → q ∧ p := by
   let ⟨p_holds, q_holds⟩ := pq_holds  -- deconstruct pair, get proofs for p and for q
   exact ⟨q_holds, p_holds⟩
 
+theorem example7b {p q: Prop}: p ∧ q → q ∧ p :=
+  fun (pq_holds : p ∧ q) =>
+    let ⟨p_holds, q_holds⟩ := pq_holds
+    ⟨q_holds, p_holds⟩
+
+#check Or
 /-
 inductive Or (a b : Prop) : Prop where
   | inl (h : a) : Or a b
   | inr (h : b) : Or a b
 -/
+
+theorem or_commutes1 {a b: Prop}: (a ∨ b) → (b ∨ a) :=
+  λ (h : a ∨ b) =>
+  match h with
+  | .inl ap => Or.inr ap
+  | .inr bp => Or.inl bp
+
+-- to analyze a hypothesis that is a disjunction, we can use rcases
+theorem or_commutes2 {a b: Prop}: (a ∨ b) → (b ∨ a) := by
+  intros aOrb
+  rcases aOrb with aHolds | bHolds -- names of assumptions in different cases
+  · right
+    assumption
+  · left
+    assumption
+
+
 
 -- disjunction is a tagged union. `left` says we will prove left disjunct
 theorem hamlet {b: Prop}: (b ∨ ¬ b) := by
@@ -108,14 +133,6 @@ theorem hamlet_in_logic {b: Prop}: (b ∨ ¬ b) :=
   let : Decidable b := Classical.propDecidable b
   if bTruth: b then Or.inl bTruth else Or.inr bTruth
 
--- to analyze a hypothesis that is a disjunction, we can use rcases
-theorem or_commutes {a b: Prop}: (a ∨ b) → (b ∨ a) := by
-  intros aOrb
-  rcases aOrb with aHolds | bHolds -- names of assumptions in different cases
-  · right
-    assumption
-  · left
-    assumption
 
 /- False and Negation:
   False → p   for any p, proof is False.elim

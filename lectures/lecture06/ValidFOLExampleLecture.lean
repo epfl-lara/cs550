@@ -7,16 +7,16 @@ theorem runningExample {A: Type} -- domain
     (remains: ∀ x y, R x y → ∀ z, R x (f y z))
     (oneOf:   ∀ x, P x ∨ P (f x a)):
     -- theorem conclusion:
-    ∀ x, ∃ y, R x y ∧ P y := by
-  intros x
+    ∀ x, ∃ y, R x y ∧ P y :=
+  fun x =>
   let exy1: ∃ y, R x y := more x
   let ⟨y1, Rxy1⟩ := exy1
   let y2 := f y1 a
   match (oneOf y1) with
   | .inl (Py1 : P y1) =>
-    suffices g1: R x y1 ∧ P y1 by exact ⟨y1,g1⟩
-    exact ⟨Rxy1, Py1⟩
+    (fun g1: R x y1 ∧ P y1 => ⟨y1,g1⟩) -- if we had g1, we would get the goal
+      ⟨Rxy1, Py1⟩
   | .inr (Py2: P y2) =>
-    suffices g2: R x y2 ∧ P y2 by exact ⟨y2,g2⟩
+    suffices g2: R x y2 ∧ P y2 from ⟨y2,g2⟩ -- suffices: syntax for 'if we had'
     let Rxy2: R x (f y1 a) := remains x y1 Rxy1 (z:= a)
-    exact ⟨Rxy2, Py2⟩
+    ⟨Rxy2, Py2⟩
