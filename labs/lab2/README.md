@@ -4,8 +4,12 @@
 
 The first part of Lab 2 is available in
 [`part1/QBFSyntaxSemantics.lean`](part1/QBFSyntaxSemantics.lean).
-You will prove properties of simplification, negation normal form, and
-substitution for quantified Boolean formulas (QBF).
+Quantified Boolean formulas (QBF) extend propositional logic with quantifiers
+over Boolean variables. You will prove correctness and size bounds for formula
+transformations, and handle variable binding in substitution.
+
+Optional reading: the
+[Lecture 6 example on propositional syntax and semantics](../../lectures/lecture06/PropositionalSyntaxSemantics.lean).
 
 All parts of Lab 2 are **group work**, using the same group registered for Lab 1.
 If your group changes, email the TAs.
