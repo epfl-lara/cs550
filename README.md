@@ -21,7 +21,7 @@ The grade is based primarily on computer-based and paper-based exams done in cla
 | Percentage | Work Description | Group/Individual | Submission | Date/Deadline |
 | :--        | :--              | :--              | :--        | :--           |
 | 5%         | first lab (using [Stainless](https://github.com/epfl-lara/stainless)) | group | Moodle | 2 October 20:00 |
-| 5%         | second lab (using [Lean](https://lean-lang.org/))                   | group | Moodle | 27 October 20:00 |
+| 5%         | second lab (using [Lean](https://lean-lang.org/))                   | **alone** | Moodle | 27 October 20:00 |
 | 30%        | **in-class exam** solving problems in Lean on computers             | **alone** | **live** | 29 October 15:00-19:00 |
 | 40%        | **in-class paper written exam**                                     | **alone** | **live** | November |
 | 20%        | **final group projects and their presentations in class**            | group | **live** | last weeks of the semester |

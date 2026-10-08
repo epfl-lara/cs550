@@ -1,67 +1,76 @@
 # Lab 2: Working with Lean
 
-## Part 1 — Syntax and semantics of quantified Boolean formulas
+The second lab will help you discover and learn the ins and outs of the Lean
+interactive theorem prover. This lab will, again, be comprised of multiple
+parts, to be released progressively over the course of the coming weeks. 
 
-The first part of Lab 2 is available in
-[`part1/QBFSyntaxSemantics.lean`](part1/QBFSyntaxSemantics.lean).
-Quantified Boolean formulas (QBF) extend propositional logic with quantifiers
-over Boolean variables. You will prove correctness and size bounds for formula
-transformations, and handle variable binding in substitution.
+---
 
-Optional reading: the
-[Lecture 6 example on propositional syntax and semantics](../../lectures/lecture06/PropositionalSyntaxSemantics.lean).
+## Setup
 
-All parts of Lab 2 are **group work**, using the same group registered for Lab 1.
-If your group changes, email the TAs.
+Installing Lean is a piece of cake: simply use the Lean extension for the editor
+of your choosing ([VSCode/VSCodium][vsc], [Neovim][nvim], and others)! It will
+read the Lean version for this project from the [`lean-toolchain`][ltc] file we
+provide, and install it. This lab will require **Lean 4.34.1**, as well as some
+optional dependencies that will be setup for each part.
 
-## Setup and checking your file
+[vsc]: https://github.com/leanprover/vscode-lean4
+[nvim]: https://github.com/Julian/lean.nvim
+[ltc]: ./lean-toolchain
 
-Use **Lean 4.34.1** with the Lean 4 extension in your editor.
-**Mathlib is not required for this part.**
-Open `part1/QBFSyntaxSemantics.lean` and check the Lean messages.
+## To work!
 
-You can also check the file from a terminal. From the repository root, run:
+Your task will be to complete the following parts. This list is inexhaustive for
+now, as more parts will be released soon, but they will be either disjoint or
+linearly dependent, so you can start working as soon as you wish to.
+
+- [Part 1](./part1/): Working with QBF formulas, and proving your work.
+- And more!
+
+### Resources
+
+- Last week's lecture slots introduced Lean and interactive theorem proving! You
+  can find the related material [here][l5] and [here][l6].
+- You can find a wealth of [material about learning Lean][refs] online, but
+  other than the [language reference][langref], they might be too in-depth. The
+  reference entry on [tactics][tac] might be interesting when in doubt about
+  what a tactic can (and can't!) do.
+- If you want to play around on simple definitions, you can create (but not
+  submit!) your own `.lean` file, and your editor should check it as normal. You
+  can use `#check` and `#eval` directives to inspect your definitions.
+- As always, if you have any questions, feel free to ask us during the exercise
+  slots, or on Edstem!
+
+[refs]: https://lean-lang.org/learn
+[langref]: https://lean-lang.org/doc/reference/latest
+[tac]: https://lean-lang.org/doc/reference/latest/Tactic-Proofs/Tactic-Reference
+[l5]: ../../lectures/lecture05/README.md
+[l6]: ../../lectures/lecture06/README.md
+
+## Checking progress
+
+The Lean theorem prover enjoys great editor support for the most common setups.
+If you are using the suggested extensions, simply open the files you are working
+on and you should see yellow markings for `sorry`-ed definitions, and blue
+checkmarks or other completion indicators for theorems you've proven.
+
+If you prefer to use the command line, you can run the following commands from
+the root of the course repository:
 
 ```shell
 cd labs/lab2
 lean --version
-lean part1/QBFSyntaxSemantics.lean
+lean path/to/file.lean
 ```
 
-The starting file should have **no errors** and seven expected
-`declaration uses sorry` warnings. After completing the exercises, the file
-should check with no errors and no `sorry` warnings.
-
-## Exercises
-
-Complete the seven `sorry` placeholders, working through the file in order:
-
-| Declaration | Task |
-| :-- | :-- |
-| `simp_eval` | Prove that simplification preserves the value of a formula. |
-| `simp_size` | Prove that simplification does not increase its size. |
-| `nnfw_eval` | Prove correctness of negation normal form for either polarity. |
-| `nnf_eval` | Deduce that `nnf` preserves the value of a formula. |
-| `blowUpConst` | Choose a fixed natural-number bound on the size growth of `nnf`. |
-| `nnf_size` | Prove the size bound using your chosen constant. |
-| `subst_lemma` | Prove correctness of substitution under the `freeFor` condition. |
-
-Keep the provided definitions and theorem statements unchanged, apart from
-completing `blowUpConst`. You may add helper lemmas.
-
-Start by understanding `Formula`, `size`, `updatedV`, and `eval`.
-For recursive proofs, use the structure of the formula and consider which
-parameters must vary in the induction hypothesis. The completed proofs in the
-file and the lecture examples illustrate how to combine case analysis with
-`grind`.
-
-In the substitution section, read the supplied counterexample carefully.
-The `freeFor` hypothesis prevents variable capture; it is part of the theorem.
-You may need a helper lemma about evaluation when updating a variable that does
-not occur free in a formula.
+The starting file should have **no errors**, but expected warnings of 
+`decalaration uses sorry`. After completing the exercises, the files should
+check without errors and without `sorry` warnings.
 
 ## Submission
 
-Submission instructions will be released on
-[Moodle](https://moodle.epfl.ch/course/view.php?id=13051) soon.
-We also plan to provide an automatic grader to help you check your work.
+As previously announced, this lab is to be completed **alone**. Instructions for
+the submission will be made available on [Moodle][mood] in due time, along with an
+automatic grading setup to help you check your work.
+
+[mood]: https://moodle.epfl.ch/course/view.php?id=13051
