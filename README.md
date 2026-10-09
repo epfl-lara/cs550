@@ -63,7 +63,7 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 |      | Fri | 11.09.2026 | ..... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | [Lecture 3] (PDF: [A](lectures/lecture03a.pdf), [B](lectures/lecture03b.pdf)) [(playlist)](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_thr9uebs/0_tv48ew7w)                       | [What is a Formal Proof?](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_thr9uebs/0_tv48ew7w) and [Propositional Resolution](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_thr9uebs/0_lovmc46b) |
 | 2    | Thu | 17.09.2026 | 1.... | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | [Lab 1](labs/lab1/README.md) | Stainless |
 |      |     |            | 1.... | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | [Lab 1](labs/lab1/README.md) | Stainless |
-|      | Fri | 18.09.2026 | 1.... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Exercises 1 | Propositional logic, Transition Systems |
+|      | Fri | 18.09.2026 | 1.... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | [Exercises 1](exercises/ex1.pdf) [Solutions 1](exercises/solutions1.pdf) | Propositional logic, Transition Systems |
 | 3    | Thu | 24.09.2026 | 1.... | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | finish [Lecture 3](lectures/lecture03b.pdf) | [Propositional Resolution](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_thr9uebs/0_lovmc46b) |
 |      |     |            | 1.... | 16:15 | [BC420](https://plan.epfl.ch/?room==BC%20420) | Guest Lecture | [IC Colloquium: Abstract Interpretation on irregular programming environments](https://memento.epfl.ch/event/ic-colloquium-abstract-interpretation-on-irregul-2/). Background: [Abstract Interpretation in a Nutshell](https://www.di.ens.fr/~cousot/AI/IntroAbsInt.html) |
 |      |     |            | 1.... | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | [Lab 1](labs/lab1/README.md) | Stainless |
@@ -73,7 +73,7 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 |      | Fri | 02.09.2026 | 1.... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | [Lecture 6](lectures/lecture06/README.md) | Propositions as Types. Syntax and Semantics of Propositional Logic in Lean |
 | 5    | Thu | 08.10.2026 | .2... | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | [Lecture 7](lectures/lecture06/) [PDF](lectures/lecture06/slides.pdf) | [Quantifier Elimination](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_0uec4oov/0_z0hn64mj) |
 |      |     |            | .2... | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | [Lab 2, Part 1](labs/lab2/README.md) | Quantified Boolean Formulas in Lean |
-|      | Fri | 09.09.2026 | .2... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Exercises | Quantifier Elimination |
+|      | Fri | 09.09.2026 | .2... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | [Exercises 2](exercises/Exercises2-QE.pdf) | Quantifier Elimination |
 
 ### Books
 
