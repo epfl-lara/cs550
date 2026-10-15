@@ -25,6 +25,7 @@ now, as more parts will be released soon, but they will be either disjoint or
 linearly dependent, so you can start working as soon as you wish to.
 
 - [Part 1](./part1/): Working with QBF formulas, and proving your work.
+- [Part 2](./part2/): Specifying and verifying a system: Dispenser.
 - And more!
 
 ### Resources
