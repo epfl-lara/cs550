@@ -74,6 +74,9 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 | 5    | Thu | 08.10.2026 | .2... | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | [Lecture 7](lectures/lecture06/) [PDF](lectures/lecture06/slides.pdf) | [Quantifier Elimination](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_0uec4oov/0_z0hn64mj) |
 |      |     |            | .2... | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | [Lab 2, Part 1](labs/lab2/README.md) | Quantified Boolean Formulas in Lean |
 |      | Fri | 09.09.2026 | .2... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | [Exercises 2](exercises/Exercises2-QE.pdf) | Quantifier Elimination |
+| 6    | Thu | 09.10.2025 | .23.. | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | [Lecture 8](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_i70unjji/): [vcgen.pdf](lectures/lecture08a.pdf) [Hoare.pdf](lectures/lecture08b.pdf) | [Converting Imperative Programs to Formulas](https://mediaspace.epfl.ch/media/07-01%2C+Converting+Imperative+Programs+to+Formulas/0_a525ptjc), [Hoare Logic, Strongest Postcondition, Weakest Precondition](https://mediaspace.epfl.ch/media/08-01%2C+Hoare+Logic%2C+Strongest+Postcondition%2C+Weakest+Precondition/0_8ebxh5n4) | 
+|      |     |            | 1.... | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | Finish [Lab 2, Part 1](labs/lab2/README.md) | Additional parts released really soon |
+
 
 ### Books
 
