@@ -3,7 +3,7 @@
 
 
 You can find the first task for this lab in the file
-[`part1/QBFSyntaxSemantics.lean`](part1/QBFSyntaxSemantics.lean).
+[`QBFSyntaxSemantics.lean`](QBFSyntaxSemantics.lean).
 
 As you've seen in the [course][cours], Quantified Boolean formulas (QBF) are
 formulas in an extension of propositional logic that allows quantifiers over
