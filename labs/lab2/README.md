@@ -18,19 +18,17 @@ optional dependencies that will be setup for each part.
 [nvim]: https://github.com/Julian/lean.nvim
 [ltc]: ./lean-toolchain
 
-## To work!
+## Tasks
 
-Your task will be to complete the following parts. This list is inexhaustive for
-now, as more parts will be released soon, but they will be either disjoint or
-linearly dependent, so you can start working as soon as you wish to.
+You need to complete the following three tasks:
 
 - [Part 1](./part1/): Working with QBF formulas, and proving your work.
 - [Part 2](./part2/): Specifying and verifying a system: Dispenser.
-- And more!
+- [Part 3](./part3/): Arithmetic formulas and programs.
 
 ### Resources
 
-- Last week's lecture slots introduced Lean and interactive theorem proving! You
+- Lectures 5 and 6 introduced Lean and interactive theorem proving! You
   can find the related material [here][l5] and [here][l6].
 - You can find a wealth of [material about learning Lean][refs] online, but
   other than the [language reference][langref], they might be too in-depth. The
