@@ -77,9 +77,8 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 | 6    | Thu | 09.10.2025 | .2... | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | [Lecture 8](https://mediaspace.epfl.ch/playlist/dedicated/30542/0_i70unjji/): [vcgen.pdf](lectures/lecture08a.pdf) [Hoare.pdf](lectures/lecture08b.pdf) | [Converting Imperative Programs to Formulas](https://mediaspace.epfl.ch/media/07-01%2C+Converting+Imperative+Programs+to+Formulas/0_a525ptjc), [Hoare Logic, Strongest Postcondition, Weakest Precondition](https://mediaspace.epfl.ch/media/08-01%2C+Hoare+Logic%2C+Strongest+Postcondition%2C+Weakest+Precondition/0_8ebxh5n4) | 
 |      |     |            | .2... | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | Continue [Lab 2](labs/lab2/README.md) | Part 2 of Lab 2 is also released |
 |      | Fri | 16.09.2026 | .2... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | [Exercises 3](exercises/Exercises3/Exercises3.pdf) | Verification Conditions, Guarded Commands, Weakest Preconditions |
-
-
-| 7    | Fri | 30.10.2026 | ..... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture 9: [1](https://mediaspace.epfl.ch/media/12-01%2C+Abstract+Interpretation+Idea/0_5ijgftx3/30542), [2](https://mediaspace.epfl.ch/media/12-02-Live2%2C+Lattices+for+Abstract+Interpretation/0_1v7ouncc/30542), [3](https://mediaspace.epfl.ch/media/13-01-Live1%2C+From+Lattice+Products+to+Tarski%27s+Fixedpoint+Theorem/0_v8qt2p9s/30542), [PDF](lectures/lecture09.pdf) | Abstract Interpretation. Lattices |
+| 7    | Thu | 09.10.2025 | .2... | 15:15 | CO021, CO023 | Lean Exam | Details were on Ed forum | 
+|      | Fri | 30.10.2026 | ..... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture 9: [1](https://mediaspace.epfl.ch/media/12-01%2C+Abstract+Interpretation+Idea/0_5ijgftx3/30542), [2](https://mediaspace.epfl.ch/media/12-02-Live2%2C+Lattices+for+Abstract+Interpretation/0_1v7ouncc/30542), [3](https://mediaspace.epfl.ch/media/13-01-Live1%2C+From+Lattice+Products+to+Tarski%27s+Fixedpoint+Theorem/0_v8qt2p9s/30542), [PDF](lectures/lecture09.pdf) | Abstract Interpretation. Lattices |
 
 
 ### Books
