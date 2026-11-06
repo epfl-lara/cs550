@@ -83,14 +83,14 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 | Break! |    |           | .2... |       |   |       |      |
 | 7    | Thu | 30.10.2026 | .2... | 15:15 | CO021, CO023 | Lean Exam | Details on Ed forum |
 |      | Fri | 31.10.2026 | ..... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture 9: [1](https://mediaspace.epfl.ch/media/12-01%2C+Abstract+Interpretation+Idea/0_5ijgftx3/30542), [2](https://mediaspace.epfl.ch/media/12-02-Live2%2C+Lattices+for+Abstract+Interpretation/0_1v7ouncc/30542), [PDF](lectures/lecture09.pdf) | Abstract Interpretation. Lattices |
+| 8    | Thu | 05.11.2026 | ..... | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | Lecture 10: [1](https://mediaspace.epfl.ch/media/13-01-Live1%2C+From+Lattice+Products+to+Tarski%27s+Fixedpoint+Theorem/0_v8qt2p9s/30542), [2](https://mediaspace.epfl.ch/media/Omega+Continuity%2C+Galois+Connection%2C+and+AI+Recipe/0_0rxm5t2s/30542), [PDF](lectures/lecture10.pdf) | Products of Lattices (finish from last time). Tarski's and other Fixedpoint Theorems |
+|      | Thu | 05.11.2026 | ..... | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)     | [Exercises 4](exercises/Exercises4/Exercises4.pdf)  | Lattices and Galois Connection  | 
 
 ### PLAN
 
 | Week | Day | Date       | Labs Active | Time  | Room                                            | Topic                              | Videos & Slides              |
 | :--  | :-- | :--        | :--         | :--   | :--                                             | :--                                | :--                          |
-| 8    | Thu | 05.11.2026 | ..... | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | Lecture 10: [1](https://mediaspace.epfl.ch/media/13-01-Live1%2C+From+Lattice+Products+to+Tarski%27s+Fixedpoint+Theorem/0_v8qt2p9s/30542), [2](https://mediaspace.epfl.ch/media/Omega+Continuity%2C+Galois+Connection%2C+and+AI+Recipe/0_0rxm5t2s/30542), [PDF](lectures/lecture10.pdf) | Products of Lattices (finish from last time). Tarski's and other Fixedpoint Theorems |
-|      | Thu | 05.11.2026 | ..... | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)     | [Exercises 4](exercises/Exercises4/Exercises4.pdf)  | Lattices and Galois Connection  | 
-|      | Fri | 06.11.2026 | ..... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) |   |   |
+|      | Fri | 06.11.2026 | ..... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture 11  | [Abstract Intepretation Recipe PDF](lectures/lecture11a.pdf), [Predicate Abstraction PDF](lectures/lecture11b.pdf)  |
 | 9    | Thu | 12.11.2026 | .....       | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)     |                                    |                              |
 |      | Thu | 12.11.2026 | .....       | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)     |                                    |                              |
 |      | Fri | 13.11.2026 | .....       | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) |                                    |                              |
