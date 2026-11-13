@@ -100,6 +100,15 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 | 11   | Thu | 26.11.2026 | .....       | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) + TBC | **WRITTEN EXAM**                 |                              |
 |      | Thu | 26.11.2026 | .....       | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) + TBC | **WRITTEN EXAM**                 |                              |
 |      | Fri | 27.11.2026 | .....       | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) |                                    |                              |
+| 12   | Thu | 03.12.2026 | .....       | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)  |                |                              |
+|      | Thu | 03.12.2026 | .....       | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)  |   |
+|      | Fri | 04.12.2026 | .....       | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) |                                    |                              |
+| 13   | Thu | 10.12.2026 | .....       | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)  |                | Project Presentations  |
+|      | Thu | 10.12.2026 | .....       | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)  |   | Project Presentations |
+|      | Fri | 11.12.2026 | .....       | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) |                                    | Project Presentations  |
+| 14   | Thu | 17.12.2026 | .....       | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)                 |   | Project Presentations  |
+|      | Thu | 17.12.2026 | .....       | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)  |   | Project Presentations |
+|      | Fri | 18.12.2026 | .....       | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) |                                    | Project Presentations                             |
 
 
 ### Books
