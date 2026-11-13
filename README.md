@@ -86,14 +86,14 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 | 8    | Thu | 05.11.2026 | ..... | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) | Lecture 10: [1](https://mediaspace.epfl.ch/media/13-01-Live1%2C+From+Lattice+Products+to+Tarski%27s+Fixedpoint+Theorem/0_v8qt2p9s/30542), [2](https://mediaspace.epfl.ch/media/Omega+Continuity%2C+Galois+Connection%2C+and+AI+Recipe/0_0rxm5t2s/30542), [PDF](lectures/lecture10.pdf) | Products of Lattices (finish from last time). Tarski's and other Fixedpoint Theorems |
 |      | Thu | 05.11.2026 | ..... | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)     | [Exercises 4](exercises/Exercises4/Exercises4.pdf)  | Lattices and Galois Connection  | 
 |      | Fri | 06.11.2026 | ..... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture 11  | [Abstract Intepretation Recipe PDF](lectures/lecture11a.pdf), [Predicate Abstraction PDF](lectures/lecture11b.pdf)  |
+| 9    | Thu | 12.11.2026 | .....       | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)     | Lecture 12: [1](https://mediaspace.epfl.ch/media/09-01%2C+Monotonicity+and+Semantics+of+Local+Variables/0_uqnv7pkj/30542), [2](https://mediaspace.epfl.ch/media/09-02%2C+Relational+Semantics+of+Loops/0_iy1fbb8t/30542), [3](https://mediaspace.epfl.ch/media/10-03%2C+Recursion+2/0_w0rgyean/30542)                                    | [Recursion PDF](lectures/lecture12a.pdf), [Loops PDF](lecture12b.pdf)  |
+|      | Thu | 12.11.2026 | .....       | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)     | [Exercises 5](exercises/Exercises5/Exercises5.pdf)  | [Solutions 5](exercises/Exercises5/Solutions5.pdf)                                   |
 
 ### PLAN
 
 | Week | Day | Date       | Labs Active | Time  | Room                                            | Topic                              | Videos & Slides              |
 | :--  | :-- | :--        | :--         | :--   | :--                                             | :--                                | :--                          |
-| 9    | Thu | 12.11.2026 | .....       | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)     | Lecture 12: [1](https://mediaspace.epfl.ch/media/09-01%2C+Monotonicity+and+Semantics+of+Local+Variables/0_uqnv7pkj/30542), [2](https://mediaspace.epfl.ch/media/09-02%2C+Relational+Semantics+of+Loops/0_iy1fbb8t/30542), [3](https://mediaspace.epfl.ch/media/10-03%2C+Recursion+2/0_w0rgyean/30542)                                    | [Recursion PDF](lectures/lecture12a.pdf), [Loops PDF](lecture12b.pdf)  |
-|      | Thu | 12.11.2026 | .....       | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)     |                                    |                              |
-|      | Fri | 13.11.2026 | .....       | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) |                                    |                              |
+|      | Fri | 13.11.2026 | .....       | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture 13 |  Finish [Loops (PDF)](lecture12b.pdf) |
 | 10   | Thu | 19.11.2026 | .....       | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)     |                                    |                              |
 |      | Thu | 19.11.2026 | .....       | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)     |                                    |                              |
 |      | Fri | 20.11.2026 | .....       | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) |                                    |                              |
