@@ -93,7 +93,7 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 
 | Week | Day | Date       | Labs Active | Time  | Room                                            | Topic                              | Videos & Slides              |
 | :--  | :-- | :--        | :--         | :--   | :--                                             | :--                                | :--                          |
-|      | Fri | 13.11.2026 | .....       | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture 13 |  Finish [Loops (PDF)](lecture12b.pdf) |
+|      | Fri | 13.11.2026 | .....       | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture 13 | [SMT Solvers](lectures/lecture13-smt.pdf), Finish [Loops (PDF)](lecture12b.pdf) |
 | 10   | Thu | 19.11.2026 | .....       | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)     |                                    |                              |
 |      | Thu | 19.11.2026 | .....       | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)     |                                    |                              |
 |      | Fri | 20.11.2026 | .....       | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) |                                    |                              |
