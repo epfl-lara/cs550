@@ -26,7 +26,7 @@ The grade is based primarily on computer-based and paper-based exams done in cla
 | 5%         | first lab (using [Stainless](https://github.com/epfl-lara/stainless)) | group | Moodle | 2 October 20:00 |
 | 5%         | second lab (using [Lean](https://lean-lang.org/))                   | **alone** | Moodle | 27 October 20:00 |
 | 30%        | **in-class exam** solving problems in Lean on computers             | **alone** | **live** | 29 October 15:00-19:00 |
-| 40%        | **in-class paper written exam**                                     | **alone** | **live** | 26 November (TBC!) | 15:00-19:00 |
+| 40%        | **in-class paper written exam**                                     | **alone** | **live** | 26 November, [ELA2](https://plan.epfl.ch/?room==ELA%202) + [AAC014](https://plan.epfl.ch/?room==AAC%200%2014) | 15:00-19:00 |
 | 20%        | **final group projects and their presentations in class**            | group | **live** | last weeks of the semester |
 
 ### AI Policy
@@ -88,17 +88,16 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 |      | Fri | 06.11.2026 | ..... | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture 11  | [Abstract Intepretation Recipe PDF](lectures/lecture11a.pdf), [Predicate Abstraction PDF](lectures/lecture11b.pdf)  |
 | 9    | Thu | 12.11.2026 | .....       | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)     | Lecture 12: [1](https://mediaspace.epfl.ch/media/09-01%2C+Monotonicity+and+Semantics+of+Local+Variables/0_uqnv7pkj/30542), [2](https://mediaspace.epfl.ch/media/09-02%2C+Relational+Semantics+of+Loops/0_iy1fbb8t/30542), [3](https://mediaspace.epfl.ch/media/10-03%2C+Recursion+2/0_w0rgyean/30542)                                    | [Recursion PDF](lectures/lecture12a.pdf), [Loops PDF](lecture12b.pdf)  |
 |      | Thu | 12.11.2026 | .....       | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)     | [Exercises 5](exercises/Exercises5/Exercises5.pdf)  | [Solutions 5](exercises/Exercises5/Solutions5.pdf)                                   |
+|      | Fri | 13.11.2026 | .....       | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture 13 | [SMT Solvers](lectures/lecture13-smt.pdf), Finish [Loops (PDF)](lecture12b.pdf) |
 
 ### PLAN
 
 | Week | Day | Date       | Labs Active | Time  | Room                                            | Topic                              | Videos & Slides              |
 | :--  | :-- | :--        | :--         | :--   | :--                                             | :--                                | :--                          |
-|      | Fri | 13.11.2026 | .....       | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) | Lecture 13 | [SMT Solvers](lectures/lecture13-smt.pdf), Finish [Loops (PDF)](lecture12b.pdf) |
 | 10   | Thu | 19.11.2026 | .....       | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)     |                                    |                              |
 |      | Thu | 19.11.2026 | .....       | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)     |                                    |                              |
 |      | Fri | 20.11.2026 | .....       | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) |                                    |                              |
-| 11   | Thu | 26.11.2026 | .....       | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) + TBC | **WRITTEN EXAM**                 |                              |
-|      | Thu | 26.11.2026 | .....       | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202) + TBC | **WRITTEN EXAM**                 |                              |
+| 11   | Thu | 26.11.2026 | .....       | 15:00-19:00 | [ELA2](https://plan.epfl.ch/?room==ELA%202) + [AAC014](https://plan.epfl.ch/?room==AAC%200%2014) | **WRITTEN EXAM**                 |                              |
 |      | Fri | 27.11.2026 | .....       | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) |                                    |                              |
 | 12   | Thu | 03.12.2026 | .....       | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)  |                |                              |
 |      | Thu | 03.12.2026 | .....       | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)  |   |
