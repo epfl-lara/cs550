@@ -94,7 +94,7 @@ To see the material, please visit https://mediaspace.epfl.ch , log in with your 
 
 | Week | Day | Date       | Labs Active | Time  | Room                                            | Topic                              | Videos & Slides              |
 | :--  | :-- | :--        | :--         | :--   | :--                                             | :--                                | :--                          |
-| 10   | Thu | 19.11.2026 | .....       | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)     |                                    |                              |
+| 10   | Thu | 19.11.2026 | .....       | 15:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)     | [Past exams](past-exams/README.md)                                   |                              |
 |      | Thu | 19.11.2026 | .....       | 17:15 | [ELA2](https://plan.epfl.ch/?room==ELA%202)     |                                    |                              |
 |      | Fri | 20.11.2026 | .....       | 13:15 | [INR219](https://plan.epfl.ch/?room==INR%20219) |                                    |                              |
 | 11   | Thu | 26.11.2026 | .....       | 15:00-19:00 | [ELA2](https://plan.epfl.ch/?room==ELA%202) + [AAC014](https://plan.epfl.ch/?room==AAC%200%2014) | **WRITTEN EXAM**                 |                              |
